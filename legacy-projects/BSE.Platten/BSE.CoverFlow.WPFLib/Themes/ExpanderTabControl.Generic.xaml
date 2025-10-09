@@ -1,0 +1,89 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controls="clr-namespace:BSE.CoverFlow.WPFLib.Controls">
+
+        <ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary Source="/BSE.CoverFlow.WPFLib;component//Themes/Black.xaml" />
+        </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="{x:Type controls:ExpanderTabControl}" BasedOn="{StaticResource {x:Type TabControl}}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:ExpanderTabControl}">
+                    <Grid KeyboardNavigation.TabNavigation="Local">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition x:Name="Lower" Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Das TabPanel-Element ist ein Layoutcontainer, mit dem TabItem-Elemente umgebrochen und neu angeordnet werden können, wenn sie ausgewählt wurden.
+						Durch die Kennzeichnung "IsItemsHost" = "True" wird durch die Implementierung erkannt, dass dieses Steuerelement verwendet wird. -->
+                        <TabPanel Grid.Row="0" Margin="0,0,4,-1" x:Name="HeaderPanel" Background="Transparent" HorizontalAlignment="Right" IsItemsHost="True" Panel.ZIndex="1" KeyboardNavigation.TabIndex="1"/>
+
+                        <Border Grid.Row="1" x:Name="Border" KeyboardNavigation.DirectionalNavigation="Contained" KeyboardNavigation.TabNavigation="Local" KeyboardNavigation.TabIndex="2">
+
+                            <!-- Mit der Implementierung wird der Inhalt geändert. Dieses Steuerelement muss "PART_SelectedContentHost" genannt werden. -->
+                            <ContentPresenter Margin="4" x:Name="PART_SelectedContentHost" ContentSource="SelectedContent"/>
+
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+                        </Trigger>
+                        <Trigger Property="IsExpanded" Value="False">
+                            <Setter Property="Visibility" Value="Collapsed" TargetName="Border"/>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="Border" Storyboard.TargetProperty="Opacity"
+                                                         From="0.0" To="1.0" Duration="0:0:0.4"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style  TargetType="{x:Type controls:ExpandableTabItem}" BasedOn="{StaticResource {x:Type TabItem}}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:ExpandableTabItem}">
+                    <Grid>
+                        <Border Margin="0,0,-4,0" x:Name="Border">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              Margin="12,2,12,2"
+                                              x:Name="ContentSite"
+                                              VerticalAlignment="Center"
+                                              RecognizesAccessKey="True"
+                                              TextBlock.FontFamily="{StaticResource ControlTitleBigFontFamily}" TextBlock.FontSize="{StaticResource ControlTitleFontSize}" TextBlock.FontWeight="SemiBold"
+                                              TextBlock.Foreground="{StaticResource WhiteColorBrush}"
+                                              Opacity="0.4"
+                                              ContentSource="Header"/>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Opacity" Value="0.2" TargetName="ContentSite"/>
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Opacity" Value="1.0" TargetName="ContentSite"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Background" Value="{DynamicResource DisabledBackgroundBrush}" TargetName="Border"/>
+                            <Setter Property="BorderBrush" Value="{DynamicResource DisabledBorderBrush}" TargetName="Border"/>
+                            <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

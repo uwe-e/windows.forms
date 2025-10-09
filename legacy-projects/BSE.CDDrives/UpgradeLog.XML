@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BSE.CDDrives">
+</Property><Property Name="Solution File" Value="C:\VS2005\BSE.CDDrives\BSE.CDDrives.sln">
+</Property><Property Name="Date" Value="Montag, 26. Oktober 2009">
+</Property><Property Name="Time" Value="08:41">
+</Property></Properties><Event ErrorLevel="0" Project="BSE.CDDrives" Source="BSE.CDDrives\BSE.CDDrives.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BSE.CDDrives" Source="BSE.CDDrives\BSE.CDDrives.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="" Source="BSE.CDDrives.sln" Description="Solution file 'C:\VS2005\BSE.CDDrives\BSE.CDDrives.sln' cannot be converted because the solution cannot be checked out from source code control. To convert the solution, make sure the solution file can be checked out and re-open it.">
+</Event><Event ErrorLevel="3" Project="" Source="BSE.CDDrives.sln" Description="Not Converted">
+</Event></UpgradeLog>

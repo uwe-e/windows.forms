@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_NoPlayListNameException" xml:space="preserve">
+    <value>Bitte geben Sie Ihrer Wiedergabeliste einen Namen</value>
+  </data>
+  <data name="IDS_PlayListDeleteException" xml:space="preserve">
+    <value>Fehler beim löschen:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genre16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genre16.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TooltipPanelMinimize" xml:space="preserve">
+    <value>Ansicht reduzieren</value>
+  </data>
+  <data name="keinBild" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keinBild.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadPlaylists" xml:space="preserve">
+    <value>Lade Wiedergabelisten</value>
+  </data>
+  <data name="StopHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StopHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadFavorites" xml:space="preserve">
+    <value>Lade Favoriten</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitleRandom" xml:space="preserve">
+    <value>zufällige Wiedergabe:</value>
+  </data>
+  <data name="IDS_FilterYearColumnYearText" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
+  <data name="IDS_PlayListDeleteWarningException" xml:space="preserve">
+    <value>Achtung!
+Soll die Wiedergabeliste "{0}" wirklich gelöscht werden?</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadAlbums" xml:space="preserve">
+    <value>Lade Alben</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadHistory" xml:space="preserve">
+    <value>Lade Verlauf</value>
+  </data>
+  <data name="IDS_TunesLoadMessageCheckAudiodirectory" xml:space="preserve">
+    <value>Prüfe Audio Home- Verzeichnis</value>
+  </data>
+  <data name="IDS_TrackInfoInterpret" xml:space="preserve">
+    <value>Interpret: {0}</value>
+  </data>
+  <data name="IDS_TunesLoadMessageCheckDatabaseHost" xml:space="preserve">
+    <value>Prüfe Datenbankhost</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuPlay" xml:space="preserve">
+    <value>Wiedergabe</value>
+  </data>
+  <data name="PauseHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PauseHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Interpret16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Interpret16.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OptionsHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OptionsHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TrackInfoAlbum" xml:space="preserve">
+    <value>Album: {0}</value>
+  </data>
+  <data name="IDS_FilterGenreColumnGenreText" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadCovers" xml:space="preserve">
+    <value>Lade Covers</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuAddPlaylist" xml:space="preserve">
+    <value>neue Wiedergabeliste erstellen</value>
+  </data>
+  <data name="wiedergabe16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wiedergabe16.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shuffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shuffle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_FilterYearColumnCountText" xml:space="preserve">
+    <value>Anzahl Lieder</value>
+  </data>
+  <data name="NewPlaylist16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewPlaylist16.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coverflow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coverflow.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FindHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FindHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TunesLoadMessageStartPlayer" xml:space="preserve">
+    <value>Starte Player</value>
+  </data>
+  <data name="IDS_PlayListCaptionbarText" xml:space="preserve">
+    <value>Wiedergabeliste:</value>
+  </data>
+  <data name="IDS_TooltipPanelClose" xml:space="preserve">
+    <value>Ansicht schliessen</value>
+  </data>
+  <data name="IDS_PlayListSaveException" xml:space="preserve">
+    <value>Fehler beim speichern:</value>
+  </data>
+  <data name="RefreshDocViewHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RefreshDocViewHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="broadcast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\broadcast.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuDeletePlaylist" xml:space="preserve">
+    <value>Wiedergabeliste löschen</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadGenres" xml:space="preserve">
+    <value>Lade Genres</value>
+  </data>
+  <data name="IDS_FilterGenreColumnCountText" xml:space="preserve">
+    <value>Anzahl Lieder</value>
+  </data>
+  <data name="Album16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Album16.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_PlayListEmptyException" xml:space="preserve">
+    <value>Die Wiedergabeliste "{0}" ist leer!</value>
+  </data>
+  <data name="BSEAbout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BSEAbout.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splash1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_FilterActiceFilterGenreText" xml:space="preserve">
+    <value>Filter nach Genre</value>
+  </data>
+  <data name="IDS_FilterNoActiceFilterText" xml:space="preserve">
+    <value>kein Filter aktiv</value>
+  </data>
+  <data name="diskinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diskinfo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TrackInfoTrack" xml:space="preserve">
+    <value>Lied: {0}</value>
+  </data>
+  <data name="Shuffle_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shuffle_icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_PlayListLoadException" xml:space="preserve">
+    <value>Fehler beim laden der Wiedergabeliste:</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMySingleChartsText" xml:space="preserve">
+    <value>meine Single Charts</value>
+  </data>
+  <data name="song" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AudioFile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DataContainer_MoveNextHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DataContainer_MoveNextHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BSEtunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BSEtunes.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filter2HS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filter2HS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FolderOpen256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FolderOpen256.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrackInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrackInfo.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_FilterActiceFilterYearText" xml:space="preserve">
+    <value>Filter nach Veröffentlichungsjahr</value>
+  </data>
+  <data name="IDS_ArgumentNullException" xml:space="preserve">
+    <value>Argument {0} can't be null</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadYears" xml:space="preserve">
+    <value>Lade Jahr</value>
+  </data>
+  <data name="IDS_TooltipPanelMaximize" xml:space="preserve">
+    <value>Ansicht erweitern</value>
+  </data>
+  <data name="IDS_PlayListAlreadyExistsExceptionMessage" xml:space="preserve">
+    <value>Der Name "{0}" für die Wiedergabeliste ist bereits vorhanden.
+Bitte wählen Sie einen anderen Namen für Ihre Wiedergabeliste aus!</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitleAlbum" xml:space="preserve">
+    <value>Album:</value>
+  </data>
+  <data name="IDS_AlbumPropertiesPanelText" xml:space="preserve">
+    <value>Eigenschaften Album: {0} - {1}</value>
+  </data>
+  <data name="AutoList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AutoList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitlePlaylist" xml:space="preserve">
+    <value>Wiedergabeliste:</value>
+  </data>
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitleSong" xml:space="preserve">
+    <value>Lied:</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadFilters" xml:space="preserve">
+    <value>Lade Filter</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuPlayRandom" xml:space="preserve">
+    <value>zufällige Wiedergabe</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMyPlaylistsText" xml:space="preserve">
+    <value>meine Wiedergabelisten</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadSystemsettings" xml:space="preserve">
+    <value>Lade Systemsettings</value>
+  </data>
+  <data name="IDS_TunesLoadMessageCheckDatabaseConnection" xml:space="preserve">
+    <value>Prüfe Datenbankverbindung</value>
+  </data>
+  <data name="BSE_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BSE_16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMyAlbumChartsText" xml:space="preserve">
+    <value>meine Album Charts</value>
+  </data>
+  <data name="Removabledrive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Removabledrive.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IDS_TunesLoadMessageDeleteHistory" xml:space="preserve">
+    <value>Lösche Verlauf</value>
+  </data>
+  <data name="IDS_PlayListCaptionbarTextNoPlaylistSelected" xml:space="preserve">
+    <value>keine Playliste ausgewählt</value>
+  </data>
+  <data name="TaskHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="saveHS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\saveHS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cd_hoeren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AudioCD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="playlist1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playlist1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

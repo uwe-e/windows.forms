@@ -1,0 +1,90 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BSE.CoverFlow.WPFLib.PlayerPanel.PlayerButtonPanel"
+    xmlns:player="clr-namespace:BSE.CoverFlow.WPFLib.PlayerPanel"
+    xmlns:controls="clr-namespace:BSE.CoverFlow.WPFLib.Controls"
+	Height="54" Width="192">
+
+    <Grid>
+        <Grid Margin="0" Width="192">
+            <Path Data="M117.92601,0 C124.44987,3.8146973E-06 130.43332,2.3137822 135.10052,6.1654924 L135.48669,6.5000054 146.68697,6.5000054 180.62503,6.5000026 180.83051,6.6654906 C186.83119,11.617687 190.65601,19.112176 190.65601,27.500001 190.65601,35.887826 186.83119,43.382318 180.83051,48.334516 L180.62504,48.500001 176.75,48.500001 146.68697,48.500001 134.25367,48.500001 134.08054,48.636056 C129.57579,52.004957 123.98388,54.000001 117.92601,54.000001 111.86814,54.000001 106.27623,52.004957 101.77147,48.636056 L101.59834,48.500001 43.96904,48.500001 15.000008,48.500001 10.030975,48.500001 9.8255005,48.334516 C3.8248291,43.382318 0,35.887826 0,27.500001 0,19.112176 3.8248291,11.617687 9.8255005,6.6654906 L10.030975,6.5000026 43.969032,6.5000026 100.36532,6.5000054 100.7515,6.1654924 C105.41869,2.3137822 111.40214,3.8146973E-06 117.92601,0 z" Height="54" Margin="0,0,1.344,0" Stretch="Fill" StrokeLineJoin="Round" VerticalAlignment="Center">
+                <Path.Stroke>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF252A3A" Offset="0"/>
+                        <GradientStop Color="#FF676f8c" Offset="1"/>
+                    </LinearGradientBrush>
+                </Path.Stroke>
+            </Path>
+            <controls:PlayerButton x:Name="BtnStop" 
+                    Command="{Binding DataContext.PlayerStopCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type player:Player}}}"
+                    Margin="4.25,8,0,8" Height="34" HorizontalAlignment="Left">
+                <Image Width="20" Height="20" Source="/BSE.CoverFlow.WPFLib;component/Images/stop.png" Margin="-5,0,0,0"/>
+            </controls:PlayerButton>
+            <controls:PlayerButton x:Name="BtnPrevious"
+                    Command="{Binding DataContext.PreviousTrackCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type player:Player}}}"
+                    Margin="49.25,8,0,8"
+                    Height="34">
+                <Image Width="20" Height="20" HorizontalAlignment="Center">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/BSE.CoverFlow.WPFLib;component/Images/previous_disabled.png" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=BtnPrevious, Path=IsEnabled}" Value="True">
+                                    <Setter Property="Source" Value="/BSE.CoverFlow.WPFLib;component/Images/previous.png" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </controls:PlayerButton>
+            <controls:TwoStateButton x:Name="BtnPlay"
+                                     Command="{Binding DataContext.PlayerPlayCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type player:Player}}}"
+                                     IsPlaying="{Binding DataContext.IsPlaying, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type player:Player}}}"
+                                     Margin="92.917,2.5,0,2.5"
+                                     Background="#FF0000FF"
+                                     Foreground="White"
+                                     Height="50"
+                                     Width="50"
+                                     Panel.ZIndex="1"
+                                     HorizontalAlignment="Left"
+                                     VerticalAlignment="Center">
+                <Image Width="35"
+                       Height="35"
+                       Margin="8,8,0,0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                       SnapsToDevicePixels="True">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/BSE.CoverFlow.WPFLib;component/Images/PlayButton.png" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=BtnPlay, Path=IsPlaying}" Value="True">
+                                    <Setter Property="Source" Value="/BSE.CoverFlow.WPFLib;component/Images/pause.png" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            
+            </controls:TwoStateButton>
+            <controls:PlayerButton x:Name="BtnNext"
+                    Command="{Binding DataContext.NextTrackCommand, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type player:Player}}}"
+                                   Height="34" Margin="136.501,8,0,8"
+                                 HorizontalOrientation="Right">
+                <Image Width="20" Height="20" HorizontalAlignment="Center">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Source" Value="/BSE.CoverFlow.WPFLib;component/Images/next_disabled.png" />
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=BtnNext, Path=IsEnabled}" Value="True">
+                                    <Setter Property="Source" Value="/BSE.CoverFlow.WPFLib;component/Images/next.png" />
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </controls:PlayerButton>
+        </Grid>
+    </Grid>
+</UserControl>

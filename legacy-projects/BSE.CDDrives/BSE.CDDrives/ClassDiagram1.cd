@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="BSE.CDDrives.CDBufferFiller" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDrive.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAgAAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.CDDrives.CDDrive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDrive.cs</FileName>
+      <HashCode>AAGiCICgASRyIABAJQAAAQISAWCIEhUAAGAAAgCgBAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSE.CDDrives.DataReadEventArgs" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAAABIAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.CDDrives.ReadProgressEventArgs">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAACAAAAEAAABACAAAAAAAAAABAAAQBAQAAAEAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.CDDrives.DeviceChangeEventArgs">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAABAAAEAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.CDDrives.DeviceChangeNotificationWindow">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>gAAQgIAAAJAIAoAAAAABAIgCIACACUBAQAICQBgAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.CDDrives.W32.Win32Functions">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Win32Functions.cs</FileName>
+      <HashCode>AAQBAAgABAAACCAAgCYAgCkIIQAgAAAAAAAJACAQBAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="BSE.CDDrives.W32.Win32Functions.DriveTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="BSE.CDDrives.W32.Win32Functions.TRACK_DATA" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="BSE.CDDrives.W32.Win32Functions.TrackDataList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BSE.CDDrives.W32.Win32Functions.CDROM_TOC" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="BSE.CDDrives.W32.Win32Functions.PREVENT_MEDIA_REMOVAL" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Enum Name="BSE.CDDrives.W32.Win32Functions.TRACK_MODE_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="BSE.CDDrives.W32.Win32Functions.RAW_READ_INFO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Win32Functions.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Class Name="BSE.CDDrives.W32.Win32">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Win32Functions.cs</FileName>
+      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BSE.CDDrives.DEV_BROADCAST_HDR">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BSE.CDDrives.DEV_BROADCAST_VOLUME">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAIgAAAAAAAAAAAAAAAAkAgAAAAAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="BSE.CDDrives.DeviceChangeEventType">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BSE.CDDrives.DeviceType">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIACEAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BSE.CDDrives.VolumeChangeFlags">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BSE.CDDrives.W32.BeepType">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Win32Functions.cs</FileName>
+      <HashCode>QAAAAAAAAAAAAAAAACAAIAEAAAAAEAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="BSE.CDDrives.CdDataReadEventHandler">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="BSE.CDDrives.CdReadProgressEventHandler">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="BSE.CDDrives.DeviceChangeEventHandler">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CDDriveEvents.cs</FileName>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

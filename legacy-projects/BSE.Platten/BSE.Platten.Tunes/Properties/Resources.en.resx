@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_AlbumPropertiesPanelText" xml:space="preserve">
+    <value>Properties Album: {0} - {1}</value>
+  </data>
+  <data name="IDS_ArgumentNullException" xml:space="preserve">
+    <value>Argument {0} can't be null</value>
+  </data>
+  <data name="IDS_FilterActiceFilterGenreText" xml:space="preserve">
+    <value>Filter By Genre</value>
+  </data>
+  <data name="IDS_FilterActiceFilterYearText" xml:space="preserve">
+    <value>Filter By Publishing Year</value>
+  </data>
+  <data name="IDS_FilterGenreColumnCountText" xml:space="preserve">
+    <value>Count Tracks</value>
+  </data>
+  <data name="IDS_FilterGenreColumnGenreText" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="IDS_FilterNoActiceFilterText" xml:space="preserve">
+    <value>No Activated Filter</value>
+  </data>
+  <data name="IDS_FilterYearColumnCountText" xml:space="preserve">
+    <value>Count Tracks</value>
+  </data>
+  <data name="IDS_FilterYearColumnYearText" xml:space="preserve">
+    <value>Publishing Year</value>
+  </data>
+  <data name="IDS_NoPlayListNameException" xml:space="preserve">
+    <value>Please entitle your playlist</value>
+  </data>
+  <data name="IDS_PlayListAlreadyExistsExceptionMessage" xml:space="preserve">
+    <value>The name "{0}" for the playlist already exists.
+Please choose a different name for your playlist!</value>
+  </data>
+  <data name="IDS_PlayListCaptionbarText" xml:space="preserve">
+    <value>Playlist:</value>
+  </data>
+  <data name="IDS_PlayListCaptionbarTextNoPlaylistSelected" xml:space="preserve">
+    <value>No Playlist Selected</value>
+  </data>
+  <data name="IDS_PlayListDeleteException" xml:space="preserve">
+    <value>Error while deleting the playlist:</value>
+  </data>
+  <data name="IDS_PlayListDeleteWarningException" xml:space="preserve">
+    <value>Would you really delete the playlist "{0}"?</value>
+  </data>
+  <data name="IDS_PlayListEmptyException" xml:space="preserve">
+    <value>The Playlist "{0}" is empty!</value>
+  </data>
+  <data name="IDS_PlayListLoadException" xml:space="preserve">
+    <value>Error while loading the playlist:</value>
+  </data>
+  <data name="IDS_PlayListSaveException" xml:space="preserve">
+    <value>Error while saving the playlist:</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitleAlbum" xml:space="preserve">
+    <value>Album:</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitlePlaylist" xml:space="preserve">
+    <value>Playlist:</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitleRandom" xml:space="preserve">
+    <value>Random Playback:</value>
+  </data>
+  <data name="IDS_StatusStripLabelPlayerTitleSong" xml:space="preserve">
+    <value>Track:</value>
+  </data>
+  <data name="IDS_TooltipPanelClose" xml:space="preserve">
+    <value>Close View</value>
+  </data>
+  <data name="IDS_TooltipPanelMaximize" xml:space="preserve">
+    <value>Maximize View</value>
+  </data>
+  <data name="IDS_TooltipPanelMinimize" xml:space="preserve">
+    <value>Reduce View</value>
+  </data>
+  <data name="IDS_TrackInfoAlbum" xml:space="preserve">
+    <value>Album: {0}</value>
+  </data>
+  <data name="IDS_TrackInfoInterpret" xml:space="preserve">
+    <value>Artist: {0}</value>
+  </data>
+  <data name="IDS_TrackInfoTrack" xml:space="preserve">
+    <value>Track: {0}</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuAddPlaylist" xml:space="preserve">
+    <value>Create A New Playlist</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuDeletePlaylist" xml:space="preserve">
+    <value>Remove Playlist</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuPlay" xml:space="preserve">
+    <value>Playback</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMenuPlayRandom" xml:space="preserve">
+    <value>Random Playback</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMyAlbumChartsText" xml:space="preserve">
+    <value>My Album Charts</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMyPlaylistsText" xml:space="preserve">
+    <value>My Playlists</value>
+  </data>
+  <data name="IDS_TreeViewFavoritesMySingleChartsText" xml:space="preserve">
+    <value>My Single Charts</value>
+  </data>
+  <data name="IDS_TunesLoadMessageCheckAudiodirectory" xml:space="preserve">
+    <value>Check Audio Root Directory</value>
+  </data>
+  <data name="IDS_TunesLoadMessageCheckDatabaseConnection" xml:space="preserve">
+    <value>Check Database Connection</value>
+  </data>
+  <data name="IDS_TunesLoadMessageCheckDatabaseHost" xml:space="preserve">
+    <value>Check Database Host</value>
+  </data>
+  <data name="IDS_TunesLoadMessageDeleteHistory" xml:space="preserve">
+    <value>Delete History</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadAlbums" xml:space="preserve">
+    <value>Load Albums</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadCovers" xml:space="preserve">
+    <value>Load Covers</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadFavorites" xml:space="preserve">
+    <value>Load Favorites</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadFilters" xml:space="preserve">
+    <value>Load Filters</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadGenres" xml:space="preserve">
+    <value>Load Genres</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadHistory" xml:space="preserve">
+    <value>Load History</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadPlaylists" xml:space="preserve">
+    <value>Load Playlists</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadSystemsettings" xml:space="preserve">
+    <value>Load System settings</value>
+  </data>
+  <data name="IDS_TunesLoadMessageLoadYears" xml:space="preserve">
+    <value>Load Publishing Years</value>
+  </data>
+  <data name="IDS_TunesLoadMessageStartPlayer" xml:space="preserve">
+    <value>Start Player</value>
+  </data>
+</root>

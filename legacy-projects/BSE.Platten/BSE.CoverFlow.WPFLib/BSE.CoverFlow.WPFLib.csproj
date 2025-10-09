@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EDD9D96-5F1F-453F-A856-74ED18612D5E}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BSE.CoverFlow.WPFLib</RootNamespace>
+    <AssemblyName>BSE.CoverFlow.WPFLib</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>CODE_ANALYSIS;DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisLogFile>bin\Debug\BSE.CoverFlow.WPFLib.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\BSE.CoverFlow.WPFLib.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BSE.Shell, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\BSE.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Wpf.RemovableDrives">
+      <HintPath>..\Assemblies\BSE.Wpf.RemovableDrives.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Wpf.Windows.Controls">
+      <HintPath>..\Assemblies\BSE.Wpf.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="GongSolutions.Wpf.DragDrop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\GongSolutions.Wpf.DragDrop.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlbumEventArgs.cs" />
+    <Compile Include="AlbumPanel\PropertiesPanel.xaml.cs">
+      <DependentUpon>PropertiesPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Animation\GridLengthAnimationTimeline.cs" />
+    <Compile Include="ArtistPanel\ArtistTree.xaml.cs">
+      <DependentUpon>ArtistTree.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Caption\TunesCaption.xaml.cs">
+      <DependentUpon>TunesCaption.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClipboardPanel\Clipboard.xaml.cs">
+      <DependentUpon>Clipboard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Controls\Behaviors\TreeViewItemBehavior.cs" />
+    <Compile Include="Controls\Dialog.cs" />
+    <Compile Include="Controls\DialogButton.cs" />
+    <Compile Include="Controls\DialogManager.cs" />
+    <Compile Include="Controls\DialogResult.cs" />
+    <Compile Include="Controls\ExpandableTabItem.cs" />
+    <Compile Include="Controls\ExpanderTabControl.cs" />
+    <Compile Include="Controls\FormExtension.cs" />
+    <Compile Include="Controls\GroupedTreeViewExpander.cs" />
+    <Compile Include="Controls\HorizontalOrientation.cs" />
+    <Compile Include="Controls\MessageWindow.cs" />
+    <Compile Include="Controls\NavigateableControl.cs" />
+    <Compile Include="Controls\PageTabControl.cs" />
+    <Compile Include="Controls\PlayerButton.cs" />
+    <Compile Include="Controls\PlayerInfoPanel.cs" />
+    <Compile Include="Controls\Slider.cs" />
+    <Compile Include="Controls\TilePanel.cs" />
+    <Compile Include="Controls\TwoStateButton.cs" />
+    <Compile Include="Controls\InfoPanelViewMode.cs" />
+    <Compile Include="Data\BindingBaseExtensionBase.cs" />
+    <Compile Include="Data\BindingExtensionBase.cs" />
+    <Compile Include="Data\DelayBindingController.cs" />
+    <Compile Include="Data\DelayBindingExtension.cs" />
+    <Compile Include="Data\DelayBindingManager.cs" />
+    <Compile Include="Desktop\Desktop.xaml.cs">
+      <DependentUpon>Desktop.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Extension\ItemsExtensions.cs" />
+    <Compile Include="Input\RelayCommand.cs" />
+    <Compile Include="Mediator\Mediator.cs" />
+    <Compile Include="Mediator\MediatorMessageSinkAttribute.cs" />
+    <Compile Include="Mediator\MessageToActionsMap.cs" />
+    <Compile Include="Mediator\WeakAction.cs" />
+    <Compile Include="Pages\PageCollection.xaml.cs">
+      <DependentUpon>PageCollection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageQuickplay.xaml.cs">
+      <DependentUpon>PageQuickplay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPanel\PlayModePlaylistToBooleanConverter.cs" />
+    <Compile Include="PlayerPanel\PlayModeSongToBooleanConverter.cs" />
+    <Compile Include="PlayerPanel\PlayModeCdToBooleanConverter.cs" />
+    <Compile Include="PlayerPanel\Player.xaml.cs">
+      <DependentUpon>Player.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPanel\PlayerButtonPanel.xaml.cs">
+      <DependentUpon>PlayerButtonPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPanel\PlayerInfoPanel.xaml.cs">
+      <DependentUpon>PlayerInfoPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPanel\PlayModeRandomToBooleanConverter.cs" />
+    <Compile Include="PlaylistPanel\DeletePlaylistDialog.xaml.cs">
+      <DependentUpon>DeletePlaylistDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistPanel\NewPlaylistDialog.xaml.cs">
+      <DependentUpon>NewPlaylistDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistPanel\Playlist.xaml.cs">
+      <DependentUpon>Playlist.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\DialogService.cs" />
+    <Compile Include="Services\IDialogService.cs" />
+    <Compile Include="Services\ServiceLocator.cs" />
+    <Compile Include="Themes\Black\ScrollChrome.cs" />
+    <Compile Include="Themes\Black\ScrollGlyph.cs" />
+    <Compile Include="Themes\Black\SrollButton.cs" />
+    <Compile Include="TrackEventArgs.cs" />
+    <Compile Include="DisplayState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageFlowPanel\ImageFlowItemFromDatabase.cs" />
+    <Compile Include="ImageFlowPanel\PanelSizeState.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ImageFlowPanel\ScrollableImageFlowPanel.xaml.cs">
+      <DependentUpon>ScrollableImageFlowPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\AlbumPanelViewModel.cs" />
+    <Compile Include="ViewModel\AlbumViewModel.cs" />
+    <Compile Include="ViewModel\ArtistTreeViewModel.cs" />
+    <Compile Include="ViewModel\ArtistViewModel.cs" />
+    <Compile Include="ViewModel\BaseDialogViewModel.cs" />
+    <Compile Include="ViewModel\CaptionMenuViewModel.cs" />
+    <Compile Include="ViewModel\ClipboardViewModel.cs" />
+    <Compile Include="ViewModel\DeletePlaylistViewModel.cs" />
+    <Compile Include="ViewModel\DesktopViewModel.cs" />
+    <Compile Include="ViewModel\EnvironmentViewModel.cs" />
+    <Compile Include="ViewModel\HistoryViewModel.cs" />
+    <Compile Include="ViewModel\IDialogModel.cs" />
+    <Compile Include="ViewModel\ListViewModelBase.cs" />
+    <Compile Include="ViewModel\MediatorMessages.cs" />
+    <Compile Include="ViewModel\NewAlbumsViewModel.cs" />
+    <Compile Include="ViewModel\NewPlaylistDialogViewModel.cs" />
+    <Compile Include="ViewModel\PageCollectionViewModel.cs" />
+    <Compile Include="ViewModel\PageQuickplayViewModel.cs" />
+    <Compile Include="ViewModel\PageViewModel.cs" />
+    <Compile Include="ViewModel\PlayerManagerViewModel.cs" />
+    <Compile Include="ViewModel\PlaylistViewModel.cs" />
+    <Compile Include="ViewModel\TreeViewItemViewModel.cs" />
+    <Compile Include="ViewModel\UpdateHistoryViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="Widgets\History.xaml.cs">
+      <DependentUpon>History.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Widgets\NewAlbums.xaml.cs">
+      <DependentUpon>NewAlbums.xaml</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="AlbumPanel\PropertiesPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ArtistPanel\ArtistTree.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Caption\TunesCaption.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ClipboardPanel\Clipboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Desktop\Desktop.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\PageCollection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\PageQuickplay.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlayerPanel\Player.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlayerPanel\PlayerButtonPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlayerPanel\PlayerInfoPanel.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlaylistPanel\DeletePlaylistDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlaylistPanel\NewPlaylistDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PlaylistPanel\Playlist.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Dialog.Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\PlayerButtons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\PlayerInfoPanelButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ImageFlowPanel\ScrollableImageFlowPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Black.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Brushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Colors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\ExpanderTabControl.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Fonts.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\MessageWindow.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\NavigateableControl.Generics.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\PageTabControl.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\PlayerButton.Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\PlayerInfoPanel.Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Slider.Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\TilePanel.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\TwoStateButton.Generic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Widgets\History.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Widgets\NewAlbums.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSE.Platten.Audio\BSE.Platten.Audio.csproj">
+      <Project>{73896F5A-9DE7-442D-9812-D9A74677391A}</Project>
+      <Name>BSE.Platten.Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.BO\BSE.Platten.BO.csproj">
+      <Project>{9A2EF2C2-186E-4487-AC7B-9DBC52F65970}</Project>
+      <Name>BSE.Platten.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Common\BSE.Platten.Common.csproj">
+      <Project>{F9359F19-566A-4296-ABCC-6F327077E890}</Project>
+      <Name>BSE.Platten.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Note.jpg" />
+    <Resource Include="Images\pause.png" />
+    <Resource Include="Images\PlayButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\next_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\previous_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\usb_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\usb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\network_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\artist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\artist_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\random.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\random_disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\artist1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\radio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\playlist1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\playlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\artist2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\song.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\document_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\playlist_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\playlist_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\random1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

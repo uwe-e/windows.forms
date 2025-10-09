@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{465D47B8-87D6-4E37-994A-63F5263179BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BSE.Windows.Forms</RootNamespace>
+    <AssemblyName>BSE.Windows.Forms</AssemblyName>
+    <SccProjectName>"%24/VS2005/BSE.Windows", GLEAAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\BSE.Windows.Forms.XML</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Naming#CA1704;-Microsoft.Naming#CA1725</CodeAnalysisRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About\About.designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Caption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\MetroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\NativeMethods.cs" />
+    <Compile Include="ListView\BaselListViewItemSorter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\CDataObject.cs" />
+    <Compile Include="ListView\CDragEventArgs.cs" />
+    <Compile Include="ListView\CDraggedListViewObjects.cs" />
+    <Compile Include="ListView\ColumnHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\ColumnHeaderCollection.cs" />
+    <Compile Include="ListView\EmbeddedControlType.cs" />
+    <Compile Include="ListView\FilesAndFoldersListViewItemSorter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\IListViewItemSorter.cs" />
+    <Compile Include="ListView\ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\ListViewComparer.cs" />
+    <Compile Include="ListView\ListViewItemSorter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListView\SubItemEndEditingEventArgs.cs" />
+    <Compile Include="ListView\SubItemEventArgs.cs" />
+    <Compile Include="NotesPanel\NotesPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NotesPanel\NotesPanel.Designer.cs">
+      <DependentUpon>NotesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\ProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProgressBar\ProgressBar.Designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar\ToolStripProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Renderer\BseColorTable.cs" />
+    <Compile Include="Renderer\ColorTableBlack.cs" />
+    <Compile Include="Renderer\BseRenderer.cs" />
+    <Compile Include="Renderer\ColorTableBlue.cs" />
+    <Compile Include="Renderer\ColorTableMetroLight.cs" />
+    <Compile Include="Renderer\MetroRenderer.cs" />
+    <Compile Include="Renderer\Office2007BlackColorTable.cs" />
+    <Compile Include="Renderer\Office2007SilverColorTable.cs" />
+    <Compile Include="Renderer\OfficeColorTable.cs" />
+    <Compile Include="Renderer\ProfessionalColorTable.cs" />
+    <Compile Include="Renderer\Office2007BlueColorTable.cs" />
+    <Compile Include="Renderer\Office2007Renderer.cs" />
+    <Compile Include="Splitter\Splitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splitter\Splitter.Designer.cs">
+      <DependentUpon>Splitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\LayoutUtils.cs" />
+    <Compile Include="XPander\BasePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPander\PanelColorsMetroLight.cs" />
+    <Compile Include="XPander\CustomColors.cs" />
+    <Compile Include="XPander\CustomPanelColors.cs" />
+    <Compile Include="XPander\CustomXPanderPanelColors.cs" />
+    <Compile Include="XPander\HoverStateChangeEventArgs.cs" />
+    <Compile Include="XPander\ImageScaling.cs" />
+    <Compile Include="XPander\PanelColorsBse.cs" />
+    <Compile Include="XPander\HoverState.cs" />
+    <Compile Include="XPander\CaptionStyle.cs" />
+    <Compile Include="XPander\ColorScheme.cs" />
+    <Compile Include="XPander\ColorSchemeChangeEventArgs.cs" />
+    <Compile Include="XPander\Constants.cs" />
+    <Compile Include="XPander\PanelColorsBlue.cs" />
+    <Compile Include="XPander\IIndex.cs" />
+    <Compile Include="XPander\IPanel.cs" />
+    <Compile Include="XPander\Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPander\Panel.Designer.cs">
+      <DependentUpon>Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XPander\PanelColors.cs" />
+    <Compile Include="XPander\PanelColorsBlack.cs" />
+    <Compile Include="XPander\PanelColorsOffice.cs" />
+    <Compile Include="XPander\PanelColorsOffice2007Blue.cs" />
+    <Compile Include="XPander\PanelColorsOffice2007Black.cs" />
+    <Compile Include="XPander\PanelColorsOffice2007Silver.cs" />
+    <Compile Include="XPander\PanelSettingsManager.cs" />
+    <Compile Include="XPander\PanelStyle.cs" />
+    <Compile Include="XPander\PanelStyleChangeEventArgs.cs" />
+    <Compile Include="XPander\UseAntiAlias.cs" />
+    <Compile Include="XPander\UseClearTypeGridFit.cs" />
+    <Compile Include="XPander\XPander.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPander\XPander.Designer.cs">
+      <DependentUpon>XPander.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XPander\XPanderList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPander\XPanderList.Designer.cs">
+      <DependentUpon>XPanderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XPander\XPanderPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPander\XPanderPanel.Designer.cs">
+      <DependentUpon>XPanderPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XPander\XPanderPanelList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPander\XPanderPanelList.Designer.cs">
+      <DependentUpon>XPanderPanelList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XPander\XPanderStateChangeEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ListView\ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPander\Panel.resx">
+      <DependentUpon>Panel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPander\XPanderPanel.resx">
+      <DependentUpon>XPanderPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPander\XPanderPanelList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>XPanderPanelList.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChevronUp.png" />
+    <None Include="Resources\ChevronDown.png" />
+    <None Include="Resources\closePanel.png" />
+    <None Include="Resources\ChevronRight.png" />
+    <None Include="Resources\ChevronLeft.png" />
+    <EmbeddedResource Include="About\About.de.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de.resx" />
+    <EmbeddedResource Include="Resources\ListViewItemSorter.bmp" />
+    <EmbeddedResource Include="ListViewItemSorter.bmp" />
+    <Content Include="XPander.bmp" />
+    <Content Include="XPanderPanel.bmp" />
+    <EmbeddedResource Include="About\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\chevron_down.png" />
+    <EmbeddedResource Include="Resources\chevron_up.png" />
+    <EmbeddedResource Include="Resources\Collapse.jpg" />
+    <EmbeddedResource Include="Resources\Collapse_h.jpg" />
+    <EmbeddedResource Include="Resources\Expand.jpg" />
+    <EmbeddedResource Include="Resources\Expand_h.jpg" />
+    <EmbeddedResource Include="XPander\XPander.resx">
+      <DependentUpon>XPander.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPander\XPanderList.resx">
+      <DependentUpon>XPanderList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if $(ConfigurationName) == Release xcopy “$(ProjectDir)\bin\Release\*.*” "C:\VS2005\BSE.Platten\Assemblies\" /E /Y /C</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_chrtTitelGroupByMedium.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_chrtTitelGroupByMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="m_chrtTitelGroupByMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>362, 370</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_chrtTitelGroupByMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_chrtTitelGroupByMedium.Text" xml:space="preserve">
+    <value>chart1</value>
+  </data>
+  <data name="&gt;&gt;m_chrtTitelGroupByMedium.Name" xml:space="preserve">
+    <value>m_chrtTitelGroupByMedium</value>
+  </data>
+  <data name="&gt;&gt;m_chrtTitelGroupByMedium.Type" xml:space="preserve">
+    <value>BSE.Charts.Chart, BSE.Charts, Version=1.0.0.2, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_chrtTitelGroupByMedium.Parent" xml:space="preserve">
+    <value>notesPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_chrtTitelGroupByMedium.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.Name" xml:space="preserve">
+    <value>m_lblTitle</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.Parent" xml:space="preserve">
+    <value>notesPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="notesPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="notesPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="notesPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="notesPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 380</value>
+  </data>
+  <data name="notesPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="notesPanel1.Text" xml:space="preserve">
+    <value>notesPanel1</value>
+  </data>
+  <data name="&gt;&gt;notesPanel1.Name" xml:space="preserve">
+    <value>notesPanel1</value>
+  </data>
+  <data name="&gt;&gt;notesPanel1.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.NotesPanel, BSE.Windows.Forms, Version=1.0.1.24, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;notesPanel1.Parent" xml:space="preserve">
+    <value>m_pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;notesPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_lblTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="m_lblTitle.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 0, 0</value>
+  </data>
+  <data name="m_lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 19</value>
+  </data>
+  <data name="m_lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblTitle.Text" xml:space="preserve">
+    <value>Platten nach Datenträger gruppiert</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.Name" xml:space="preserve">
+    <value>m_lblTitle</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.Parent" xml:space="preserve">
+    <value>notesPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationUnitDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemDurationUnitDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationUnitDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 99</value>
+  </data>
+  <data name="m_lblSystemDurationUnitDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="m_lblSystemDurationUnitDay.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemDurationUnitDay.Text" xml:space="preserve">
+    <value>Tage</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitDay.Name" xml:space="preserve">
+    <value>m_lblSystemDurationUnitDay</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitDay.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitDay.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitDay.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationUnitHour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemDurationUnitHour.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationUnitHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 86</value>
+  </data>
+  <data name="m_lblSystemDurationUnitHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="m_lblSystemDurationUnitHour.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemDurationUnitHour.Text" xml:space="preserve">
+    <value>Stunden</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitHour.Name" xml:space="preserve">
+    <value>m_lblSystemDurationUnitHour</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitHour.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitHour.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitHour.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemDurationUnitMinute.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemDurationUnitMinute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationUnitMinute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 73</value>
+  </data>
+  <data name="m_lblSystemDurationUnitMinute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="m_lblSystemDurationUnitMinute.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemDurationUnitMinute.Text" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitMinute.Name" xml:space="preserve">
+    <value>m_lblSystemDurationUnitMinute</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitMinute.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitMinute.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitMinute.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemDurationUnitSecond.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemDurationUnitSecond.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationUnitSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 60</value>
+  </data>
+  <data name="m_lblSystemDurationUnitSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="m_lblSystemDurationUnitSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemDurationUnitSecond.Text" xml:space="preserve">
+    <value>Sekunden</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitSecond.Name" xml:space="preserve">
+    <value>m_lblSystemDurationUnitSecond</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitSecond.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitSecond.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationUnitSecond.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_lblSystemInfo3Right.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemInfo3Right.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemInfo3Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 35</value>
+  </data>
+  <data name="m_lblSystemInfo3Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="m_lblSystemInfo3Right.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemInfo3Right.Text" xml:space="preserve">
+    <value>Lieder</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Right.Name" xml:space="preserve">
+    <value>m_lblSystemInfo3Right</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Right.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Right.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Right.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_lblSystemInfo2Right.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemInfo2Right.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemInfo2Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 22</value>
+  </data>
+  <data name="m_lblSystemInfo2Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="m_lblSystemInfo2Right.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemInfo2Right.Text" xml:space="preserve">
+    <value>aufgenommen</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Right.Name" xml:space="preserve">
+    <value>m_lblSystemInfo2Right</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Right.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Right.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Right.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_lblSystemInfo1Right.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemInfo1Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 9</value>
+  </data>
+  <data name="m_lblSystemInfo1Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="m_lblSystemInfo1Right.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_lblSystemInfo1Right.Text" xml:space="preserve">
+    <value>Alben</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Right.Name" xml:space="preserve">
+    <value>m_lblSystemInfo1Right</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Right.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Right.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Right.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_lblSystemDurationValueDay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationValueDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 99</value>
+  </data>
+  <data name="m_lblSystemDurationValueDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="m_lblSystemDurationValueDay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemDurationValueDay.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationValueDay.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueDay.Name" xml:space="preserve">
+    <value>m_lblSystemDurationValueDay</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueDay.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueDay.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueDay.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_lblSystemDurationValueHour.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationValueHour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 86</value>
+  </data>
+  <data name="m_lblSystemDurationValueHour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="m_lblSystemDurationValueHour.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemDurationValueHour.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationValueHour.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueHour.Name" xml:space="preserve">
+    <value>m_lblSystemDurationValueHour</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueHour.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueHour.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueHour.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_lblSystemDurationValueMinute.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationValueMinute.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 73</value>
+  </data>
+  <data name="m_lblSystemDurationValueMinute.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="m_lblSystemDurationValueMinute.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemDurationValueMinute.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationValueMinute.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueMinute.Name" xml:space="preserve">
+    <value>m_lblSystemDurationValueMinute</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueMinute.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueMinute.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueMinute.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_lblSystemDurationValueSecond.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationValueSecond.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 60</value>
+  </data>
+  <data name="m_lblSystemDurationValueSecond.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="m_lblSystemDurationValueSecond.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemDurationValueSecond.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationValueSecond.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueSecond.Name" xml:space="preserve">
+    <value>m_lblSystemDurationValueSecond</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueSecond.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueSecond.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationValueSecond.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_lblSystemInfo3Value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemInfo3Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 35</value>
+  </data>
+  <data name="m_lblSystemInfo3Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 13</value>
+  </data>
+  <data name="m_lblSystemInfo3Value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemInfo3Value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemInfo3Value.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Value.Name" xml:space="preserve">
+    <value>m_lblSystemInfo3Value</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Value.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Value.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Value.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_lblSystemInfo2Value.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemInfo2Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 22</value>
+  </data>
+  <data name="m_lblSystemInfo2Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="m_lblSystemInfo2Value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemInfo2Value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemInfo2Value.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Value.Name" xml:space="preserve">
+    <value>m_lblSystemInfo2Value</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Value.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Value.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Value.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_lblSystemInfo1Value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 9</value>
+  </data>
+  <data name="m_lblSystemInfo1Value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 13</value>
+  </data>
+  <data name="m_lblSystemInfo1Value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_lblSystemInfo1Value.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemInfo1Value.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Value.Name" xml:space="preserve">
+    <value>m_lblSystemInfo1Value</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Value.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Value.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Value.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="m_lblSystemDurationLeft.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemDurationLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemDurationLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 60</value>
+  </data>
+  <data name="m_lblSystemDurationLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="m_lblSystemDurationLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemDurationLeft.Text" xml:space="preserve">
+    <value>Die Spielzeit beträgt</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationLeft.Name" xml:space="preserve">
+    <value>m_lblSystemDurationLeft</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationLeft.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationLeft.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemDurationLeft.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="m_lblSystemInfo3Left.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemInfo3Left.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemInfo3Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 35</value>
+  </data>
+  <data name="m_lblSystemInfo3Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="m_lblSystemInfo3Left.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemInfo3Left.Text" xml:space="preserve">
+    <value>das sind</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Left.Name" xml:space="preserve">
+    <value>m_lblSystemInfo3Left</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Left.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Left.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo3Left.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="m_lblSystemInfo2Left.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemInfo2Left.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_lblSystemInfo2Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 22</value>
+  </data>
+  <data name="m_lblSystemInfo2Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="m_lblSystemInfo2Left.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemInfo2Left.Text" xml:space="preserve">
+    <value>davon sind</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Left.Name" xml:space="preserve">
+    <value>m_lblSystemInfo2Left</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Left.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Left.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo2Left.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="m_lblSystemInfo1Left.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblSystemInfo1Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 9</value>
+  </data>
+  <data name="m_lblSystemInfo1Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="m_lblSystemInfo1Left.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblSystemInfo1Left.Text" xml:space="preserve">
+    <value>Im System befinden sich</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Left.Name" xml:space="preserve">
+    <value>m_lblSystemInfo1Left</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Left.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Left.Parent" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;m_lblSystemInfo1Left.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="notesPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="notesPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="notesPanel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="notesPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 127</value>
+  </data>
+  <data name="notesPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="notesPanel2.Text" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;notesPanel2.Name" xml:space="preserve">
+    <value>notesPanel2</value>
+  </data>
+  <data name="&gt;&gt;notesPanel2.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.NotesPanel, BSE.Windows.Forms, Version=1.0.1.24, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;notesPanel2.Parent" xml:space="preserve">
+    <value>m_pnlTop</value>
+  </data>
+  <data name="&gt;&gt;notesPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="m_pnlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_pnlTop.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 0</value>
+  </data>
+  <data name="m_pnlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 133</value>
+  </data>
+  <data name="m_pnlTop.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;m_pnlTop.Name" xml:space="preserve">
+    <value>m_pnlTop</value>
+  </data>
+  <data name="&gt;&gt;m_pnlTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_pnlTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_pnlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pnlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 133</value>
+  </data>
+  <data name="m_pnlBottom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="m_pnlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 392</value>
+  </data>
+  <data name="m_pnlBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBottom.Name" xml:space="preserve">
+    <value>m_pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBottom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="m_backgroundWorkerStatistic.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 525</value>
+  </data>
+  <data name="&gt;&gt;m_backgroundWorkerStatistic.Name" xml:space="preserve">
+    <value>m_backgroundWorkerStatistic</value>
+  </data>
+  <data name="&gt;&gt;m_backgroundWorkerStatistic.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Statistic</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

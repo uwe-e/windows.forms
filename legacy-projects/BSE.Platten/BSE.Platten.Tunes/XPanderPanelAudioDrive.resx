@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="m_trvDirectories.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_trvDirectories.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_trvDirectories.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="m_imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <data name="m_imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAu
+        CAAAAk1TRnQBSQFMAgEBAwEAAQQBAAEEAQABEAEAARABAAT/ARkBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEYBgABDP8ACQABMwFmAZkBMwFmAZkBMwFmAZkBMwFmAZkBMwFmAZkBMwFmAZkBMwFm
+        AZkBMwFmAZkBMwFmAZkBMwFmAZkBMwFmAZkBMwFmAZkBMwFmAZmWAAEzAZkBzAEzAZkBzAEzAZkBzAEz
+        AZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEz
+        AZkBzAEzAWYBmQYAATMBZgGZATMBZgGZATMBZgGZATMBZgGZATMBZgGZATMBZgGZATMBZgGZATMBZgGZ
+        ATMBZgGZATMBZgGZbAABMwGZAcwBZgHMAf8BMwGZAcwBmQL/AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/
+        AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/ATMCzAGZAv8BMwGZAcwBMwFmAZkDAAEzAZkBzAEzAZkBzAEz
+        AZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAWYBmU4A
+        DHcPAAEzAZkBzAFmAcwB/wEzAZkBzAGZAv8BZgHMAf8BZgHMAf8BZgHMAf8BZgHMAf8BZgHMAf8BZgHM
+        Af8BZgHMAf8BZgHMAf8BMwLMAZkC/wEzAZkBzAEzAWYBmQEzAZkBzAEzAZkBzAGZAv8BZgHMAf8BZgHM
+        Af8BZgHMAf8BZgHMAf8BZgHMAf8BZgHMAf8BZgHMAf8BZgHMAf8BZgHMAf8BMwGZAcwBAAFmAZlFAAN3
+        A4YGXwZVBncJAAEzAZkBzAFmAcwB/wEzAZkBzAGZAv8BmQHMAf8BmQHMAf8BmQHMAf8BmQHMAf8BmQHM
+        Af8BmQHMAf8BmQHMAf8BmQL/ATMCzAGZAv8BMwGZAcwBMwFmAZkBMwGZAcwBMwGZAcwBZgHMAf8BmQL/
+        AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/AWYBzAH/ATMCzAEAAWYBmT8A
+        BncDhgMAA2YDTQZfA2YDVQZ3AwABMwGZAcwBZgHMAf8BMwGZAcwBmQL/AZkC/wGZAv8BmQL/AZkC/wGZ
+        Av8BmQL/AZkC/wGZAv8BZgLMAZkC/wEzAZkBzAEzAWYBmQEzAZkBzAEzAZkBzAEzAswBmQL/AZkC/wGZ
+        Av8BmQL/AZkC/wGZAv8BmQL/AZkC/wGZAcwB/wEzAcwB/wEAAWYBmTkABoYDsgMABoYDZgwzA1UDdwNf
+        A3cBMwGZAcwBZgHMAf8BMwGZAcwBmQL/AZkC/wGZAv8BmQL/AZkC/wGZAv8BmQL/AZkC/wGZAv8BZgHM
+        Af8BmQL/ATMBmQHMATMBZgGZATMBmQHMATMCzAEzAZkBzAGZAv8BmQL/AZkC/wGZAv8BmQL/AZkC/wGZ
+        Av8BmQL/AZkC/wFmAswBZgLMAQABZgGZMwADhgMAAaQCoAaWA7IDzAOyA4YDdwNmA0IGMwOGA3cBMwGZ
+        AcwBZgHMAf8BMwGZAcwD/wHwAfsB/wHwAfsB/wHwAfsB/wHwAfsB/wHwAfsK/wGZAcwB/wHwAfsB/wEz
+        AZkBzAEzAWYBmQEzAZkBzAFmAcwB/wEzAZkBzAGZAv8BmQL/AZkC/wGZAv8BmQL/AZkC/wGZAv8BmQL/
+        AZkC/wFmAcwB/wGZAv8BAAFmAZkzAAOGA5kDsgMAA90J4wPdA9cGzAOyBmYDhgEzAZkBzAGZAv8BmQHM
+        Af8BMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwBMwGZ
+        AcwBMwGZAcwBMwGZAcwDAAEzAZkBzAGZAcwB/wEzAZkBzAFmAswG/wHwAfsQ/wGZAcwE/wEAAWYBmTMA
+        A4YD1xjjDN0DAAOGATMBmQHMAZkC/wGZAv8BmQL/AZkC/wGZAv8BmRH/AQABZgGZCQABMwGZAcwBmQL/
+        ATMCzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEzAZkBzAEz
+        AZkBzAEzAZkBzAEAAWYBmTwAGOMPAAEzAZkBzAP/AZkC/wGZAv8BmQL/AZkF/wEzAZkBzAEzAZkBzAEz
+        AZkBzAEzAZkBzAEzAZkBzAEAAWYBmQkAATMBmQHMAZkC/wGZAv8BmQL/AZkC/wGZAv8BmRH/ATMBmQHM
+        ATMBZgGZaQABMwGZAcwJ/wHwAfsB/wEzAZkBzBsAATMBmQHMA/8BmQL/AZkC/wGZAv8BmQX/ATMBmQHM
+        ATMBmQHMATMBmQHMATMBmQHMATMBmQHMATMBmQHMbwABMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcwhAAEz
+        AZkBzAz/ATMBmQHMsQABMwGZAcwBMwGZAcwBMwGZAcwBMwGZAcz/AA8AAUIBTQE+BwABPgMAASgDAAFA
+        AwABEAMAAQEBAAEBBQABgBcAA/8BAAb/AgAC/wHAAQEC/wIAAv8BgAEAAcABDwIAAv8CAAGAAQcCAAH+
+        AR8DAAEDAgAB+AEHAwABAwIAAeIBAQMAAQMCAAGIBAABAQIAAUAEAAEBAgABEAIAAQEBAAEBAwABAgEA
+        AQcBAAEBAgAB4AEfAQABBwEAAQMCAAL/AYEB/wEAAQcCAAL/AcMB/wGBAf8CAAT/AcMB/wIABv8CAAs=
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_trvDirectories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 50</value>
+  </data>
+  <data name="m_trvDirectories.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_trvDirectories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 100</value>
+  </data>
+  <data name="m_trvDirectories.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_trvDirectories.Name" xml:space="preserve">
+    <value>m_trvDirectories</value>
+  </data>
+  <data name="&gt;&gt;m_trvDirectories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_trvDirectories.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_trvDirectories.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="m_splLeft.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <data name="m_splLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 50</value>
+  </data>
+  <data name="m_splLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3, 100</value>
+  </data>
+  <data name="m_splLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_splLeft.Name" xml:space="preserve">
+    <value>m_splLeft</value>
+  </data>
+  <data name="&gt;&gt;m_splLeft.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_splLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_splLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="m_lstvDirectoriesAndFiles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <data name="m_clmnFileFullName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="m_clmnFileFullName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="m_clmnTrackNumber.Text" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="m_clmnInterpret.Text" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="m_clmnInterpret.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="m_clmnAlbum.Text" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="m_clmnAlbum.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="m_clmnTitle.Text" xml:space="preserve">
+    <value>Lied</value>
+  </data>
+  <data name="m_clmnTitle.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="m_clmnDuration.Text" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="m_clmnDuration.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="m_clmnGenre.Text" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="m_clmnGenre.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="m_clmnYear.Text" xml:space="preserve">
+    <value>Jahr</value>
+  </data>
+  <data name="m_clmnYear.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="m_lstvDirectoriesAndFiles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <metadata name="m_filesAndFoldersListViewItemSorter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 290</value>
+  </metadata>
+  <data name="m_lstvDirectoriesAndFiles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 50</value>
+  </data>
+  <data name="m_lstvDirectoriesAndFiles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 100</value>
+  </data>
+  <data name="m_lstvDirectoriesAndFiles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_lstvDirectoriesAndFiles.Name" xml:space="preserve">
+    <value>m_lstvDirectoriesAndFiles</value>
+  </data>
+  <data name="&gt;&gt;m_lstvDirectoriesAndFiles.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ListView, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lstvDirectoriesAndFiles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_lstvDirectoriesAndFiles.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="m_tsMediaPlayer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <data name="m_tsMediaPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 25</value>
+  </data>
+  <data name="m_tsMediaPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 25</value>
+  </data>
+  <data name="m_tsMediaPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_tsMediaPlayer.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;m_tsMediaPlayer.Name" xml:space="preserve">
+    <value>m_tsMediaPlayer</value>
+  </data>
+  <data name="&gt;&gt;m_tsMediaPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tsMediaPlayer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tsMediaPlayer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_lblProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
+  </data>
+  <data name="m_lblProgressBar.Text" xml:space="preserve">
+    <value>Belegter Speicher:</value>
+  </data>
+  <data name="m_progressBar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="m_progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <metadata name="m_backgroundWorkerDirectories.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 329</value>
+  </metadata>
+  <metadata name="m_fileSystemWatcherFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 368</value>
+  </metadata>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>493, 150</value>
+  </data>
+  <data name="&gt;&gt;m_imageList.Name" xml:space="preserve">
+    <value>m_imageList</value>
+  </data>
+  <data name="&gt;&gt;m_imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_clmnFileFullName.Name" xml:space="preserve">
+    <value>m_clmnFileFullName</value>
+  </data>
+  <data name="&gt;&gt;m_clmnFileFullName.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTrackNumber.Name" xml:space="preserve">
+    <value>m_clmnTrackNumber</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTrackNumber.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnInterpret.Name" xml:space="preserve">
+    <value>m_clmnInterpret</value>
+  </data>
+  <data name="&gt;&gt;m_clmnInterpret.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnAlbum.Name" xml:space="preserve">
+    <value>m_clmnAlbum</value>
+  </data>
+  <data name="&gt;&gt;m_clmnAlbum.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTitle.Name" xml:space="preserve">
+    <value>m_clmnTitle</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTitle.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnDuration.Name" xml:space="preserve">
+    <value>m_clmnDuration</value>
+  </data>
+  <data name="&gt;&gt;m_clmnDuration.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnGenre.Name" xml:space="preserve">
+    <value>m_clmnGenre</value>
+  </data>
+  <data name="&gt;&gt;m_clmnGenre.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnYear.Name" xml:space="preserve">
+    <value>m_clmnYear</value>
+  </data>
+  <data name="&gt;&gt;m_clmnYear.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_filesAndFoldersListViewItemSorter.Name" xml:space="preserve">
+    <value>m_filesAndFoldersListViewItemSorter</value>
+  </data>
+  <data name="&gt;&gt;m_filesAndFoldersListViewItemSorter.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.FilesAndFoldersListViewItemSorter, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblProgressBar.Name" xml:space="preserve">
+    <value>m_lblProgressBar</value>
+  </data>
+  <data name="&gt;&gt;m_lblProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_progressBar.Name" xml:space="preserve">
+    <value>m_progressBar</value>
+  </data>
+  <data name="&gt;&gt;m_progressBar.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ToolStripProgressBar, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_backgroundWorkerDirectories.Name" xml:space="preserve">
+    <value>m_backgroundWorkerDirectories</value>
+  </data>
+  <data name="&gt;&gt;m_backgroundWorkerDirectories.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_fileSystemWatcherFile.Name" xml:space="preserve">
+    <value>m_fileSystemWatcherFile</value>
+  </data>
+  <data name="&gt;&gt;m_fileSystemWatcherFile.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Name" xml:space="preserve">
+    <value>m_settings</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.22034, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_backgroundWorkerFiles.Name" xml:space="preserve">
+    <value>m_backgroundWorkerFiles</value>
+  </data>
+  <data name="&gt;&gt;m_backgroundWorkerFiles.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_fileSystemWatcherFolder.Name" xml:space="preserve">
+    <value>m_fileSystemWatcherFolder</value>
+  </data>
+  <data name="&gt;&gt;m_fileSystemWatcherFolder.Type" xml:space="preserve">
+    <value>System.IO.FileSystemWatcher, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>XPanderPanelAudioDrive</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.XPanderPanel, BSE.Windows.Forms, Version=1.0.1.23, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="m_settings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 407</value>
+  </metadata>
+  <metadata name="m_backgroundWorkerFiles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="m_fileSystemWatcherFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>185, 368</value>
+  </metadata>
+</root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BSE.Windows">
+</Property><Property Name="Solution File" Value="C:\VS2005\BSE.Windows\BSE.Windows.sln">
+</Property><Property Name="Date" Value="Montag, 23. Juni 2008">
+</Property><Property Name="Time" Value="17:47">
+</Property></Properties><Event ErrorLevel="0" Project="BSE.Windows.Forms" Source="BSE.Windows.Forms\BSE.Windows.Forms.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BSE.Windows.Forms" Source="BSE.Windows.Forms\BSE.Windows.Forms.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BSE.Windows.Test" Source="BSE.Windows.Test\BSE.Windows.Test.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BSE.Windows.Test" Source="BSE.Windows.Test\BSE.Windows.Test.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BSE.Windows.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BSE.Windows.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BSE.Windows.Forms" Source="BSE.Windows.Forms\BSE.Windows.Forms.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BSE.Windows.Test" Source="BSE.Windows.Test\BSE.Windows.Test.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

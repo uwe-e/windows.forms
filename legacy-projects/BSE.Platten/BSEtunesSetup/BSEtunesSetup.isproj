@@ -1,0 +1,64 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2012SpringLimited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\BSE.Platten.Admin\BSE.Platten.Admin.csproj">
+			<Name>BSE.Platten.Admin</Name>
+			<Project>{153EDB15-FB38-4BAD-9E7D-2B6D4A9D4ABD}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.Audio\BSE.Platten.Audio.csproj">
+			<Name>BSE.Platten.Audio</Name>
+			<Project>{73896F5A-9DE7-442D-9812-D9A74677391A}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.BO\BSE.Platten.BO.csproj">
+			<Name>BSE.Platten.BO</Name>
+			<Project>{9A2EF2C2-186E-4487-AC7B-9DBC52F65970}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.Common\BSE.Platten.Common.csproj">
+			<Name>BSE.Platten.Common</Name>
+			<Project>{F9359F19-566A-4296-ABCC-6F327077E890}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.FreeDb\BSE.Platten.FreeDb.csproj">
+			<Name>BSE.Platten.FreeDb</Name>
+			<Project>{C0054DDA-A712-495F-BCF6-B5EF6361B28D}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.Ripper\BSE.Platten.Ripper.csproj">
+			<Name>BSE.Platten.Ripper</Name>
+			<Project>{6CF7D670-DE52-4A99-97A6-93951130439E}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.Statistik\BSE.Platten.Statistik.csproj">
+			<Name>BSE.Platten.Statistik</Name>
+			<Project>{67E1F2F7-7D12-4A13-BC7A-7D412E104420}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\BSE.Platten.Tunes\BSE.Platten.Tunes.csproj">
+			<Name>BSE.Platten.Tunes</Name>
+			<Project>{E84C7C64-9053-49B9-9EDF-7119287724AA}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>

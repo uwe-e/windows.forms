@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_cboCDDrives.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 33</value>
+  </data>
+  <data name="m_pnlRipper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 198</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_lstvcolumnTracks.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnDuration.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>m_tscMain</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCopied.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lstvCopied.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ListView, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras.Name" xml:space="preserve">
+    <value>m_mnuExtras</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>m_tscMain</value>
+  </data>
+  <data name="m_lstvcolumnSize.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_btnOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras_Optionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_lstvcolumnType.Text" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 8, 6, 8</value>
+  </data>
+  <data name="m_lstvCopied.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_ssMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_clmnFileFullName.Width" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_Separator1.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten_Separator1</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyTracks.Text" xml:space="preserve">
+    <value>Tracks koperen</value>
+  </data>
+  <data name="&gt;&gt;m_btnBearbeiten_OpenDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyTracks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 30</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.TopToolStripPanel.Name" xml:space="preserve">
+    <value>m_tscMain.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 5</value>
+  </data>
+  <data name="m_lstvCopied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="ContentPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 8, 6, 8</value>
+  </data>
+  <data name="&gt;&gt;m_btnBrowseFreeDb.Name" xml:space="preserve">
+    <value>m_btnBrowseFreeDb</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.Name" xml:space="preserve">
+    <value>m_ssMain</value>
+  </data>
+  <data name="&gt;&gt;m_lblStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnSize.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_btnBearbeiten_OpenDrive.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.Parent" xml:space="preserve">
+    <value>m_tscMain.BottomToolStripPanel</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>948, 729</value>
+  </data>
+  <data name="m_pnlRipper.Text" xml:space="preserve">
+    <value>CD</value>
+  </data>
+  <data name="m_lblStartIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 30</value>
+  </data>
+  <data name="m_tscMain.ContentPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.Parent" xml:space="preserve">
+    <value>m_tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_pnlRipper.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_clmnTitle.Width" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.Parent" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BSEripper</value>
+  </data>
+  <data name="m_btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_lstvcolumnOutName.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnBrowseFreeDb.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="m_clmnTitle.Text" xml:space="preserve">
+    <value>Lied</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.35182, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_End.Name" xml:space="preserve">
+    <value>m_mnuDatei_End</value>
+  </data>
+  <data name="m_splListViews.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 202</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="m_btnOK.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_splListViews.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_CopyTracks.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten_CopyTracks</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuDatei_End.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lstvMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras_Optionen.Name" xml:space="preserve">
+    <value>m_mnuExtras_Optionen</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei.Name" xml:space="preserve">
+    <value>m_mnuDatei</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>m_tscMain</value>
+  </data>
+  <data name="&gt;&gt;m_clmnDuration.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_tscMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_mnuDatei_End.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="&gt;&gt;m_lstvCopied.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>m_tscMain.BottomToolStripPanel</value>
+  </data>
+  <data name="m_mnuBearbeiten_OpenDrive.Text" xml:space="preserve">
+    <value>Laufwerk öffnen</value>
+  </data>
+  <data name="m_mnuBearbeiten_Separator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 6</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuHelp_HelpContent.Text" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lstvMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="m_btnOK.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnType.Name" xml:space="preserve">
+    <value>m_lstvcolumnType</value>
+  </data>
+  <data name="m_clmnFileFullName.Text" xml:space="preserve">
+    <value>Datei(en) kopiert</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp.Name" xml:space="preserve">
+    <value>m_mnuHelp</value>
+  </data>
+  <data name="&gt;&gt;m_lstvMain.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ListView, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_clmnTrackNumber.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="m_mainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_pnlCopied.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 202</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.RightToolStripPanel.Name" xml:space="preserve">
+    <value>m_tscMain.RightToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuDatei.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 29</value>
+  </data>
+  <data name="m_ssMain.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="m_lstvCopied.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_tsMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;m_btnOK.Name" xml:space="preserve">
+    <value>m_btnOK</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyTracks.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F9</value>
+  </data>
+  <data name="m_mnuBearbeiten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 29</value>
+  </data>
+  <data name="m_mnuBearbeiten_OpenDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 30</value>
+  </data>
+  <data name="m_tscMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 696</value>
+  </data>
+  <data name="m_btnBrowseFreeDb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 30</value>
+  </data>
+  <data name="m_pnlCopied.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_mainMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_End.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;m_clmnFileFullName.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_CopyTracks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnTracks.Name" xml:space="preserve">
+    <value>m_lstvcolumnTracks</value>
+  </data>
+  <data name="m_btnCancel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lstvcolumnDuration.Text" xml:space="preserve">
+    <value>Spielzeit</value>
+  </data>
+  <data name="&gt;&gt;m_txtStartIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnTracks.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_tscMain.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuBearbeiten_OpenDrive.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F7</value>
+  </data>
+  <data name="&gt;&gt;m_configuration.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.35182, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tscMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTitle.Name" xml:space="preserve">
+    <value>m_clmnTitle</value>
+  </data>
+  <data name="m_splListViews.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 29</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.Parent" xml:space="preserve">
+    <value>m_tscMain.ContentPanel</value>
+  </data>
+  <data name="m_btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 5</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.Name" xml:space="preserve">
+    <value>m_splListViews</value>
+  </data>
+  <data name="&gt;&gt;m_clmnFileFullName.Name" xml:space="preserve">
+    <value>m_clmnFileFullName</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.Name" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <data name="&gt;&gt;m_btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuBearbeiten.Text" xml:space="preserve">
+    <value>&amp;Bearbeiten</value>
+  </data>
+  <data name="m_pnlAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 40</value>
+  </data>
+  <data name="m_tscMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnOutName.Name" xml:space="preserve">
+    <value>m_lstvcolumnOutName</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnType.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_ssMain.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_mnuHelp.Text" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="m_btnCancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="m_ssMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 22</value>
+  </data>
+  <data name="m_mnuDatei.Text" xml:space="preserve">
+    <value>&amp;Datei</value>
+  </data>
+  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="&gt;&gt;m_txtStartIndex.Name" xml:space="preserve">
+    <value>m_txtStartIndex</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnDuration.Name" xml:space="preserve">
+    <value>m_lstvcolumnDuration</value>
+  </data>
+  <data name="&gt;&gt;m_pnlRipper.Name" xml:space="preserve">
+    <value>m_pnlRipper</value>
+  </data>
+  <data name="m_txtStartIndex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 33</value>
+  </data>
+  <data name="&gt;&gt;m_btnBrowseFreeDb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuDatei_End.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 30</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_btnBearbeiten_OpenDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 30</value>
+  </data>
+  <data name="&gt;&gt;m_cboCDDrives.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlRipper.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_lstvMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCopied.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_btnBrowseFreeDb.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_tsMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_splListViews.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 3</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.Parent" xml:space="preserve">
+    <value>m_tscMain.TopToolStripPanel</value>
+  </data>
+  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 696</value>
+  </data>
+  <data name="m_mnuExtras_Optionen.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="m_lstvCopied.Size" type="System.Drawing.Size, System.Drawing">
+    <value>938, 366</value>
+  </data>
+  <data name="m_pnlAction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_mnuExtras_Optionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTrackNumber.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_cboCDDrives.Name" xml:space="preserve">
+    <value>m_cboCDDrives</value>
+  </data>
+  <data name="m_pnlCopied.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCopied.Name" xml:space="preserve">
+    <value>m_pnlCopied</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.BaseForm, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblStartIndex.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_OpenDrive.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten_OpenDrive</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Name" xml:space="preserve">
+    <value>m_settings</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlCopied.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 27</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>m_tscMain</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.ContentPanel.Name" xml:space="preserve">
+    <value>m_tscMain.ContentPanel</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lstvcolumnSize.Text" xml:space="preserve">
+    <value>Bytes</value>
+  </data>
+  <data name="m_pnlRipper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="m_mnuExtras.Text" xml:space="preserve">
+    <value>E&amp;xtras</value>
+  </data>
+  <data name="&gt;&gt;m_btnOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_tscMain.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 641</value>
+  </data>
+  <data name="m_pnlCopied.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 395</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCopied.Parent" xml:space="preserve">
+    <value>m_tscMain.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>m_tscMain.LeftToolStripPanel</value>
+  </data>
+  <data name="m_pnlCopied.Text" xml:space="preserve">
+    <value>Tracks kopiert</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_pnlRipper.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="m_mnuHelp_HelpContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="&gt;&gt;m_lblStartIndex.Name" xml:space="preserve">
+    <value>m_lblStartIndex</value>
+  </data>
+  <data name="&gt;&gt;m_lblStatus.Name" xml:space="preserve">
+    <value>m_lblStatus</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnOutName.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_pnlRipper.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 27</value>
+  </data>
+  <data name="m_lblStartIndex.Text" xml:space="preserve">
+    <value>Startindex der CD:</value>
+  </data>
+  <data name="m_tsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 33</value>
+  </data>
+  <data name="&gt;&gt;m_clmnDuration.Name" xml:space="preserve">
+    <value>m_clmnDuration</value>
+  </data>
+  <data name="m_lstvMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_OpenDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_lstvCopied.Parent" xml:space="preserve">
+    <value>m_pnlCopied</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.Name" xml:space="preserve">
+    <value>m_btnCancel</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten</value>
+  </data>
+  <data name="m_clmnDuration.Text" xml:space="preserve">
+    <value>Spielzeit</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp_HelpContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>948, 33</value>
+  </data>
+  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_configuration.Name" xml:space="preserve">
+    <value>m_configuration</value>
+  </data>
+  <data name="m_lstvcolumnOutName.Text" xml:space="preserve">
+    <value>Ausgabeverzeichnis</value>
+  </data>
+  <data name="&gt;&gt;m_btnBearbeiten_OpenDrive.Name" xml:space="preserve">
+    <value>m_btnBearbeiten_OpenDrive</value>
+  </data>
+  <data name="m_tsMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;m_btnOK.Parent" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <data name="m_pnlRipper.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.Name" xml:space="preserve">
+    <value>m_tsMain</value>
+  </data>
+  <data name="m_mnuHelp_HelpContent.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
+  </data>
+  <data name="m_lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="m_mnuExtras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 29</value>
+  </data>
+  <data name="&gt;&gt;m_lstvCopied.Name" xml:space="preserve">
+    <value>m_lstvCopied</value>
+  </data>
+  <data name="m_btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.Name" xml:space="preserve">
+    <value>m_mainMenu</value>
+  </data>
+  <data name="m_lstvMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>938, 169</value>
+  </data>
+  <data name="m_txtStartIndex.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_lstvMain.Parent" xml:space="preserve">
+    <value>m_pnlRipper</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTrackNumber.Name" xml:space="preserve">
+    <value>m_clmnTrackNumber</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.Name" xml:space="preserve">
+    <value>m_tscMain</value>
+  </data>
+  <data name="m_btnBearbeiten_OpenDrive.Text" xml:space="preserve">
+    <value>Laufwerk öffnen</value>
+  </data>
+  <data name="m_btnBrowseFreeDb.Text" xml:space="preserve">
+    <value>CD Informationen abrufen</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.ContentPanel.Parent" xml:space="preserve">
+    <value>m_tscMain</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp_HelpContent.Name" xml:space="preserve">
+    <value>m_mnuHelp_HelpContent</value>
+  </data>
+  <data name="&gt;&gt;m_lstvMain.Name" xml:space="preserve">
+    <value>m_lstvMain</value>
+  </data>
+  <data name="m_lstvcolumnTracks.Text" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_Separator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ssMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="m_pnlAction.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="m_clmnTrackNumber.Text" xml:space="preserve">
+    <value>Tracknummer</value>
+  </data>
+  <data name="&gt;&gt;m_lstvcolumnSize.Name" xml:space="preserve">
+    <value>m_lstvcolumnSize</value>
+  </data>
+  <data name="&gt;&gt;m_tscMain.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_pnlAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 597</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTitle.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.ColumnHeader, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.Parent" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <data name="&gt;&gt;m_pnlRipper.Parent" xml:space="preserve">
+    <value>m_tscMain.ContentPanel</value>
+  </data>
+  <metadata name="m_configuration.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="m_tsMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="m_mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="m_settings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>468, 17</value>
+  </metadata>
+  <metadata name="m_ssMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+</root>

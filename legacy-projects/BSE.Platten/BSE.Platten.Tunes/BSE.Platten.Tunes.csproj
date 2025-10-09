@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E84C7C64-9053-49B9-9EDF-7119287724AA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BSE.Platten.Tunes</RootNamespace>
+    <AssemblyName>BSEtunes</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>Resources\BSEtunes.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\BSEtunes.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\BSEtunes.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BSE.Charts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.Charts\BSE.Charts\bin\Release\BSE.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Configuration, Version=1.0.2292.30987, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.Configuration\BSE.Configuration\bin\Release\BSE.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.RemovableDrives, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.RemovableDrives\BSE.RemovableDrives\bin\Release\BSE.RemovableDrives.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Shell, Version=1.0.2939.31234, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.Shell\BSE.Shell\bin\Release\BSE.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.ThreadedShell, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.Shell\BSE.ThreadedShell\bin\Release\BSE.ThreadedShell.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Windows.Forms, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.Windows\BSE.Windows.Forms\bin\Release\BSE.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Wpf.RemovableDrives, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.RemovableDrives\BSE.Wpf.RemovableDrives\bin\Release\BSE.Wpf.RemovableDrives.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Wpf.Windows.Controls, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BSE.Wpf.Windows\BSE.Wpf.Windows.Controls\bin\Release\BSE.Wpf.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="GongSolutions.Wpf.DragDrop">
+      <HintPath>..\Assemblies\GongSolutions.Wpf.DragDrop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlbumEventArgs.cs" />
+    <Compile Include="AlbumProperties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlbumProperties.Designer.cs">
+      <DependentUpon>AlbumProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlbumSelectEventArgs.cs" />
+    <Compile Include="Cache\ImageFlowCache.cs" />
+    <Compile Include="ClipBoard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClipBoard.Designer.cs">
+      <DependentUpon>ClipBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tunes.viewmodel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IWPFHost.cs" />
+    <Compile Include="Filters\FilterNotificationEventArgs.cs" />
+    <Compile Include="Filters\FilterBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filters\FilterBase.Designer.cs">
+      <DependentUpon>FilterBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterCheckStateChangeEventArgs.cs" />
+    <Compile Include="Filters\FilterConfiguration.cs" />
+    <Compile Include="Filters\FilterChangedEventArgs.cs" />
+    <Compile Include="Filters\FilterGenre.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filters\FilterGenre.Designer.cs">
+      <DependentUpon>FilterGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filters\FilterMain.Designer.cs">
+      <DependentUpon>FilterMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\FilterYear.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Filters\FilterYear.Designer.cs">
+      <DependentUpon>FilterYear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filters\IFilterConfiguration.cs" />
+    <Compile Include="ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NewPlayList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPlayList.Designer.cs">
+      <DependentUpon>NewPlayList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayListDragDropData.cs" />
+    <Compile Include="PlayListEventArgs.cs" />
+    <Compile Include="History.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PlayList.Designer.cs">
+      <DependentUpon>PlayList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchExecuteEventArgs.cs" />
+    <Compile Include="SearchToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SearchToolStrip.Designer.cs">
+      <DependentUpon>SearchToolStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistics.Designer.cs">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StatusStrip.Designer.cs">
+      <DependentUpon>StatusStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeViewInterpretenTitel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TreeViewInterpretenTitel.Designer.cs">
+      <DependentUpon>TreeViewInterpretenTitel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tunes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tunes.Designer.cs">
+      <DependentUpon>Tunes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlbumProperties.en.resx">
+      <DependentUpon>AlbumProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlbumProperties.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AlbumProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClipBoard.en.resx">
+      <DependentUpon>ClipBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClipBoard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClipBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filters\FilterBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filters\FilterGenre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filters\FilterMain.en.resx">
+      <DependentUpon>FilterMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filters\FilterMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filters\FilterYear.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FilterYear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.en.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPlayList.en.resx">
+      <DependentUpon>NewPlayList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPlayList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewPlayList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.en.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayList.en.resx">
+      <DependentUpon>PlayList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlayList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx" />
+    <EmbeddedResource Include="Search.en.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchToolStrip.en.resx">
+      <DependentUpon>SearchToolStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchToolStrip.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchToolStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics.en.resx">
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistics.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusStrip.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatusStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeViewInterpretenTitel.en.resx">
+      <DependentUpon>TreeViewInterpretenTitel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeViewInterpretenTitel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TreeViewInterpretenTitel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tunes.en.resx">
+      <DependentUpon>Tunes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tunes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Tunes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPanderPanelAudioDrive.en.resx">
+      <DependentUpon>XPanderPanelAudioDrive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPanderPanelAudioDrive.resx">
+      <DependentUpon>XPanderPanelAudioDrive.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WorkingState.cs" />
+    <Compile Include="XPanderPanelAudioDrive.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPanderPanelAudioDrive.Designer.cs">
+      <DependentUpon>XPanderPanelAudioDrive.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PauseHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataContainer_MoveNextHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSE.CoverFlow.WPFLib\BSE.CoverFlow.WPFLib.csproj">
+      <Project>{9EDD9D96-5F1F-453F-A856-74ED18612D5E}</Project>
+      <Name>BSE.CoverFlow.WPFLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Admin\BSE.Platten.Admin.csproj">
+      <Project>{153EDB15-FB38-4BAD-9E7D-2B6D4A9D4ABD}</Project>
+      <Name>BSE.Platten.Admin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Audio\BSE.Platten.Audio.csproj">
+      <Project>{73896F5A-9DE7-442D-9812-D9A74677391A}</Project>
+      <Name>BSE.Platten.Audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.BO\BSE.Platten.BO.csproj">
+      <Project>{9A2EF2C2-186E-4487-AC7B-9DBC52F65970}</Project>
+      <Name>BSE.Platten.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Common\BSE.Platten.Common.csproj">
+      <Project>{F9359F19-566A-4296-ABCC-6F327077E890}</Project>
+      <Name>BSE.Platten.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Covers\BSE.Platten.Covers.csproj">
+      <Project>{4DE7859B-AA94-41BC-A516-6C2CA14F2806}</Project>
+      <Name>BSE.Platten.Covers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Statistik\BSE.Platten.Statistik.csproj">
+      <Project>{67E1F2F7-7D12-4A13-BC7A-7D412E104420}</Project>
+      <Name>BSE.Platten.Statistik</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OptionsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interpret16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Album16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Genre16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wiedergabe16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keinBild.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewPlaylist16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FindHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshDocViewHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filter2HS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd_hoeren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broadcast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diskinfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaskHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSEtunes.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BuildBSEtunes.bat" />
+    <None Include="Resources\BSE_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TrackInfo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\song.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shuffle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSEsplash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSEAbout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderOpen256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Removabledrive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudioFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AudioCD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shuffle_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AutoList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\coverflow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playlist1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>call "$(ProjectDir)BuildBSEtunes.bat"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

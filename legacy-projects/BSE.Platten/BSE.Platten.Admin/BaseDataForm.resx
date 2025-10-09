@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tspBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_ssBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1775, 28</value>
+  </data>
+  <data name="&gt;&gt;m_tsDataBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_btnPreviousRecord.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnDatensatz_Neu.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="m_btnNextRecord.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="m_ssBase.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;m_mnuSuchen_Neu.Name" xml:space="preserve">
+    <value>m_mnuSuchen_Neu</value>
+  </data>
+  <data name="&gt;&gt;m_btnDatensatz_Neu.Name" xml:space="preserve">
+    <value>m_btnDatensatz_Neu</value>
+  </data>
+  <data name="m_btnDatensatz_Speichern.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;m_tlbSep3.Name" xml:space="preserve">
+    <value>m_tlbSep3</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatensatz_Neu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tlbSep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuEdit_Undo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 30</value>
+  </data>
+  <data name="m_tslblNavigation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="m_btnFirstRecord.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="m_tslblNavigation.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_btnFirstRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei.Name" xml:space="preserve">
+    <value>m_mnuDatei</value>
+  </data>
+  <data name="m_msBase.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_btnDatensatz_Speichern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 53</value>
+  </data>
+  <data name="&gt;&gt;m_msBase.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;m_bindingSource.Name" xml:space="preserve">
+    <value>m_bindingSource</value>
+  </data>
+  <data name="m_tspBottom.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;m_tsDataBase.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_btnDatensatz_Speichern.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_mnuSuchen_Neu.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_btnLastRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tspRight.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnEdit_Undo.ToolTipText" xml:space="preserve">
+    <value>Rückgangig</value>
+  </data>
+  <data name="&gt;&gt;m_btnSuchen_Ausführen.Name" xml:space="preserve">
+    <value>m_btnSuchen_Ausführen</value>
+  </data>
+  <data name="&gt;&gt;m_errProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1775, 1038</value>
+  </data>
+  <data name="m_btnPreviousRecord.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_tspLeft.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_tspTop.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_msBase.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BSEadmin</value>
+  </data>
+  <data name="&gt;&gt;m_tlbSep2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tlbSep1.Name" xml:space="preserve">
+    <value>m_tlbSep1</value>
+  </data>
+  <data name="&gt;&gt;m_tsDataBase.Name" xml:space="preserve">
+    <value>m_tsDataBase</value>
+  </data>
+  <data name="&gt;&gt;m_btnDatensatz_Speichern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnSuchen_Ausführen.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="m_btnFirstRecord.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_tsDataBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>757, 56</value>
+  </data>
+  <data name="&gt;&gt;m_ssBase.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_btnPreviousRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="&gt;&gt;m_tsDataBase.Parent" xml:space="preserve">
+    <value>m_tspTop</value>
+  </data>
+  <data name="m_mnuEdit.Text" xml:space="preserve">
+    <value>&amp;Bearbeiten</value>
+  </data>
+  <data name="&gt;&gt;m_msBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnSuche_Neu.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_msBase.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_btnSuche_Neu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Name" xml:space="preserve">
+    <value>m_tspRight</value>
+  </data>
+  <data name="m_tspLeft.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_tslblComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1560, 23</value>
+  </data>
+  <data name="m_btnLastRecord.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnNextRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Name" xml:space="preserve">
+    <value>m_tspBottom</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuEdit_Undo.Name" xml:space="preserve">
+    <value>m_mnuEdit_Undo</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatensatz.Name" xml:space="preserve">
+    <value>m_mnuDatensatz</value>
+  </data>
+  <data name="&gt;&gt;m_mnuSuchen_Neu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnDatensatz_Neu.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Name" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <data name="m_tsDataBase.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_btnSuchen_Ausführen.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="m_mnuSuchen_Ausführen.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F4</value>
+  </data>
+  <data name="m_mnuDatensatz_Speichern.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_tlbSep2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="&gt;&gt;m_errProvider.Name" xml:space="preserve">
+    <value>m_errProvider</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatensatz_Neu.Name" xml:space="preserve">
+    <value>m_mnuDatensatz_Neu</value>
+  </data>
+  <data name="m_tspTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 33</value>
+  </data>
+  <data name="m_ssBase.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_mnuEdit_Undo.Text" xml:space="preserve">
+    <value>Rückgangig</value>
+  </data>
+  <data name="m_tspTop.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="m_btnNextRecord.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnLastRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="&gt;&gt;m_mnuEdit.Name" xml:space="preserve">
+    <value>m_mnuEdit</value>
+  </data>
+  <data name="m_ssBase.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_mnuDatei.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 29</value>
+  </data>
+  <data name="&gt;&gt;m_btnEdit_Undo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_toolstripContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 503</value>
+  </data>
+  <data name="m_mnuSuchen_Neu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="ContentPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_btnSuche_Neu.Name" xml:space="preserve">
+    <value>m_btnSuche_Neu</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_Beenden.Name" xml:space="preserve">
+    <value>m_mnuDatei_Beenden</value>
+  </data>
+  <data name="m_btnSuche_Neu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 53</value>
+  </data>
+  <data name="m_btnDatensatz_Neu.ToolTipText" xml:space="preserve">
+    <value>neuer Datensatz</value>
+  </data>
+  <data name="m_btnSuchen_Ausführen.Text" xml:space="preserve">
+    <value>Suche ausführen</value>
+  </data>
+  <data name="m_btnSuchen_Ausführen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 53</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BaseDataForm</value>
+  </data>
+  <data name="&gt;&gt;m_btnPreviousRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnEdit_Undo.Name" xml:space="preserve">
+    <value>m_btnEdit_Undo</value>
+  </data>
+  <data name="m_tspBottom.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_btnLastRecord.Name" xml:space="preserve">
+    <value>m_btnLastRecord</value>
+  </data>
+  <data name="m_btnSuche_Neu.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="m_tslblNavigation.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatensatz_Speichern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tspLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="m_btnFirstRecord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="&gt;&gt;m_btnPreviousRecord.Name" xml:space="preserve">
+    <value>m_btnPreviousRecord</value>
+  </data>
+  <data name="&gt;&gt;m_mnuEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnSuchen_Ausführen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tspTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1775, 56</value>
+  </data>
+  <data name="m_tspRight.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_btnEdit_Undo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_btnFirstRecord.Name" xml:space="preserve">
+    <value>m_btnFirstRecord</value>
+  </data>
+  <data name="m_btnDatensatz_Neu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 53</value>
+  </data>
+  <data name="m_toolstripContentPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_mnuDatensatz_Speichern.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F8</value>
+  </data>
+  <data name="m_mnuDatensatz_Speichern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 30</value>
+  </data>
+  <data name="m_mnuEdit_Undo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_mnuDatensatz_Neu.Text" xml:space="preserve">
+    <value>neuer Datensatz</value>
+  </data>
+  <data name="&gt;&gt;m_btnDatensatz_Speichern.Name" xml:space="preserve">
+    <value>m_btnDatensatz_Speichern</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Name" xml:space="preserve">
+    <value>m_tspLeft</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tsDataBase.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnDatensatz_Speichern.ToolTipText" xml:space="preserve">
+    <value>Datensatz speichern</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Parent" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="m_mnuEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 29</value>
+  </data>
+  <data name="m_btnLastRecord.ToolTipText" xml:space="preserve">
+    <value>letzter Datensatz</value>
+  </data>
+  <data name="m_btnEdit_Undo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_tspLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 33</value>
+  </data>
+  <data name="&gt;&gt;m_btnDatensatz_Neu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tspLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 977</value>
+  </data>
+  <data name="m_mnuDatensatz_Neu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ins</value>
+  </data>
+  <data name="m_btnDatensatz_Neu.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="m_btnEdit_Undo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_mnuSuchen_Ausführen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ssBase.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_mnuEdit_Undo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuDatensatz.Text" xml:space="preserve">
+    <value>D&amp;atensatz</value>
+  </data>
+  <data name="m_btnSuche_Neu.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_tspRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1775, 33</value>
+  </data>
+  <data name="m_mnuDatensatz.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 29</value>
+  </data>
+  <data name="m_tlbSep1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="m_btnDatensatz_Speichern.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="m_toolstripContentPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_mnuDatei_Beenden.Text" xml:space="preserve">
+    <value>&amp;Beenden</value>
+  </data>
+  <data name="m_tspRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="m_tspRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 977</value>
+  </data>
+  <data name="m_tspBottom.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="m_btnPreviousRecord.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_mnuDatensatz_Neu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 30</value>
+  </data>
+  <data name="m_btnNextRecord.ToolTipText" xml:space="preserve">
+    <value>nächster Datensatz</value>
+  </data>
+  <data name="m_msBase.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_mnuDatei.Text" xml:space="preserve">
+    <value>&amp;Datei</value>
+  </data>
+  <data name="m_tsDataBase.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="m_tsDataBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Name" xml:space="preserve">
+    <value>m_tspTop</value>
+  </data>
+  <data name="m_btnPreviousRecord.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_mnuSuchen_Ausführen.Name" xml:space="preserve">
+    <value>m_mnuSuchen_Ausführen</value>
+  </data>
+  <data name="m_mnuSuchen_Neu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F3</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_btnDatensatz_Speichern.Text" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1775, 921</value>
+  </data>
+  <data name="m_tslblComment.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="m_msBase.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_mnuSuchen_Ausführen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Platten.Admin.BaseForm, BSE.Platten.Admin, Version=1.0.0.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuSuchen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tsDataBase.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_bindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnLastRecord.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_tspBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1775, 0</value>
+  </data>
+  <data name="m_tspTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="m_tlbSep3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="&gt;&gt;m_msBase.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_btnSuche_Neu.ToolTipText" xml:space="preserve">
+    <value>neue Suche</value>
+  </data>
+  <data name="&gt;&gt;m_tslblNavigation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatensatz.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_msBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1775, 33</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_Beenden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuSuchen_Ausführen.Text" xml:space="preserve">
+    <value>Suche ausführen</value>
+  </data>
+  <data name="m_mnuSuchen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 29</value>
+  </data>
+  <data name="m_mnuDatei_Beenden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 30</value>
+  </data>
+  <data name="m_toolstripContentPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="m_btnPreviousRecord.ToolTipText" xml:space="preserve">
+    <value>vorheriger Datensatz</value>
+  </data>
+  <data name="ContentPanel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;m_btnNextRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnFirstRecord.ToolTipText" xml:space="preserve">
+    <value>erster Datensatz</value>
+  </data>
+  <data name="m_mnuDatensatz_Speichern.Text" xml:space="preserve">
+    <value>Datensatz speichern</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnNextRecord.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_btnSuchen_Ausführen.ToolTipText" xml:space="preserve">
+    <value>Suche ausführen</value>
+  </data>
+  <data name="&gt;&gt;m_mnuSuchen.Name" xml:space="preserve">
+    <value>m_mnuSuchen</value>
+  </data>
+  <data name="&gt;&gt;m_tlbSep3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ContentPanel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_ssBase.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatensatz_Speichern.Name" xml:space="preserve">
+    <value>m_mnuDatensatz_Speichern</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_toolstripContentPanel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="m_btnFirstRecord.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_mnuSuchen_Neu.Text" xml:space="preserve">
+    <value>Neue Suche</value>
+  </data>
+  <data name="m_ssBase.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_tspBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1010</value>
+  </data>
+  <data name="m_mnuSuchen.Text" xml:space="preserve">
+    <value>S&amp;uchen</value>
+  </data>
+  <data name="m_tspRight.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="m_tspTop.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;m_tlbSep2.Name" xml:space="preserve">
+    <value>m_tlbSep2</value>
+  </data>
+  <data name="&gt;&gt;m_tslblComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tsDataBase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_msBase.Name" xml:space="preserve">
+    <value>m_msBase</value>
+  </data>
+  <data name="m_btnSuche_Neu.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="m_tspLeft.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_tslblNavigation.Name" xml:space="preserve">
+    <value>m_tslblNavigation</value>
+  </data>
+  <data name="&gt;&gt;m_ssBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_ssBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1010</value>
+  </data>
+  <data name="&gt;&gt;m_ssBase.Name" xml:space="preserve">
+    <value>m_ssBase</value>
+  </data>
+  <data name="&gt;&gt;m_tslblComment.Name" xml:space="preserve">
+    <value>m_tslblComment</value>
+  </data>
+  <data name="&gt;&gt;m_btnNextRecord.Name" xml:space="preserve">
+    <value>m_btnNextRecord</value>
+  </data>
+  <data name="m_msBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="m_tsDataBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>3, 0</value>
+  </metadata>
+  <metadata name="m_msBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="m_errProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>595, 17</value>
+  </metadata>
+  <metadata name="m_ssBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 552</value>
+  </metadata>
+  <metadata name="m_bindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>457, 17</value>
+  </metadata>
+</root>

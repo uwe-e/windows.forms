@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="BSE.CoverFlow.WPFLib.Desktop.Desktop"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:viewmodels="clr-namespace:BSE.CoverFlow.WPFLib.ViewModel"
+             xmlns:pages="clr-namespace:BSE.CoverFlow.WPFLib.Pages"
+             xmlns:player="clr-namespace:BSE.CoverFlow.WPFLib.PlayerPanel"
+             xmlns:controls="clr-namespace:BSE.CoverFlow.WPFLib.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/BSE.CoverFlow.WPFLib;component/Themes/Black.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" Background="{StaticResource WindowBackgroundBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <!--<RowDefinition Height="Auto" />-->
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+            <!--<RowDefinition Height="400" />-->
+        </Grid.RowDefinitions>
+        <!--<Grid x:Name="DesktopHeader" Height="40" Margin="0,0,5,0" Grid.Column="0" Grid.Row="0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Stretch">
+                <Border Width="15">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFf10da1" Offset="0"/>
+                            <GradientStop Color="#FFe95214" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+                <ToggleButton x:Name="ButtonQuickplayView"
+                              IsChecked="{Binding IsQuickplayViewVisible}"
+                              IsEnabled="{Binding IsCollectionViewVisible}"
+                              VerticalAlignment="Stretch"
+                              Style="{StaticResource MetroToggleButtonStyle}"
+                              Margin="10,0,5,0"
+                              Command="{Binding SwitchToQuickplayCommand, Mode=Default}">
+                    <TextBlock Text="Quickplay" FontFamily="Segoe WP" FontSize="24" FontWeight="Light" Foreground="{StaticResource WhiteColorBrush}" VerticalAlignment="Stretch"></TextBlock>
+                </ToggleButton>
+                <ToggleButton x:Name="ButtonCollectionView"
+                              IsChecked="{Binding IsCollectionViewVisible}"
+                              IsEnabled="{Binding IsQuickplayViewVisible}"
+                              VerticalAlignment="Stretch"
+                              Style="{StaticResource MetroToggleButtonStyle}" Margin="5,0,0,0"
+                              Command="{Binding SwitchToCollectionCommand, Mode=Default}">
+                    <TextBlock Text="Collection" FontFamily="Segoe WP" FontSize="24" FontWeight="Light" Foreground="{StaticResource WhiteColorBrush}" VerticalAlignment="Stretch"></TextBlock>
+                </ToggleButton>
+            </StackPanel>
+        </Grid>-->
+
+        <!--<pages:PageQuickplay Grid.Column="0" Grid.Row="1" DataContext="{Binding QuickplayViewModel}"
+                             Visibility="{Binding IsVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+        <pages:PageCollection x:Name="CollectionView" Grid.Column="0" Grid.Row="1" DataContext="{Binding CollectionViewModel}"
+                              Visibility="{Binding IsVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>-->
+        <player:Player Grid.Column="0" Grid.Row="1" DataContext="{Binding PlayerManagerViewModel}"/>
+        <!--<ContentControl Content="{Binding Path=Pages}" Grid.Column="0" Grid.Row="3" ContentTemplate="{StaticResource WorkspacesTemplate}"/>-->
+
+        <Grid Grid.Column="0" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0">
+                <DockPanel>
+                    <Rectangle DockPanel.Dock="Left" Width="15" Height="50" Margin="0,0,0,-30">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFf10da1" Offset="0"/>
+                                <GradientStop Color="#FFe95214" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Button Content="Back" Width="25" Margin="12,2,12,2"
+                    Style="{StaticResource HistoryButtonStyle}"
+                    Command="{Binding HistoryBackCommand}" HorizontalAlignment="Left" />
+                </DockPanel>
+            </Border>
+
+            <controls:PageTabControl Grid.Row="1" ItemsSource="{Binding Pages}"
+                                     IsSynchronizedWithCurrentItem="true">
+                <controls:PageTabControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Header}"/>
+                    </DataTemplate>
+                </controls:PageTabControl.ItemTemplate>
+            </controls:PageTabControl>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_pnlMedium.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_lblMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 47</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.Parent" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="m_pnlBase.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_lblMediumDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;m_bindingSource.Name" xml:space="preserve">
+    <value>m_bindingSource</value>
+  </data>
+  <data name="m_txtMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 46</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_vsbPaging.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 186</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Parent" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="&gt;&gt;m_txtMedium.Name" xml:space="preserve">
+    <value>m_txtMedium</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_pnlMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>874, 215</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBase.Parent" xml:space="preserve">
+    <value>m_pnlMedium</value>
+  </data>
+  <data name="m_lblMediumDescription.Text" xml:space="preserve">
+    <value>Beschreibung:</value>
+  </data>
+  <data name="m_pnlMedium.Text" xml:space="preserve">
+    <value>Datenträger</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_vsbPaging.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Name" xml:space="preserve">
+    <value>m_tspRight</value>
+  </data>
+  <data name="m_txtMediumId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_txtMediumId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 12</value>
+  </data>
+  <data name="m_txtMediumId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Name" xml:space="preserve">
+    <value>m_tspBottom</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumDescription.Parent" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Name" xml:space="preserve">
+    <value>m_tspTop</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumDescription.Name" xml:space="preserve">
+    <value>m_txtMediumDescription</value>
+  </data>
+  <data name="&gt;&gt;m_bindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_lblMediumDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumDescription.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_pnlBase.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="m_lblMediumId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_pnlMedium.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 27</value>
+  </data>
+  <data name="m_tspBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 312</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>882, 340</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumId.Name" xml:space="preserve">
+    <value>m_lblMediumId</value>
+  </data>
+  <data name="m_vsbPaging.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 28</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumId.Name" xml:space="preserve">
+    <value>m_txtMediumId</value>
+  </data>
+  <data name="m_tspRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 279</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumId.Parent" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>882, 223</value>
+  </data>
+  <data name="&gt;&gt;m_pnlMedium.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_lblMedium.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="m_txtMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 26</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumId.Parent" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="&gt;&gt;m_pnlMedium.Parent" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <data name="m_toolstripContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>882, 223</value>
+  </data>
+  <data name="m_lblMediumId.Text" xml:space="preserve">
+    <value>Nummer:</value>
+  </data>
+  <data name="&gt;&gt;m_dataSetMedium.Type" xml:space="preserve">
+    <value>BSE.Platten.BO.CDataSetMedium, BSE.Platten.BO, Version=1.0.0.18, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_txtMediumDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>719, 26</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_pnlBase.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBase.Name" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="m_tspTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>882, 56</value>
+  </data>
+  <data name="&gt;&gt;m_txtMedium.Parent" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBase.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumId.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumDescription.Name" xml:space="preserve">
+    <value>m_lblMediumDescription</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumDescription.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.Name" xml:space="preserve">
+    <value>m_vsbPaging</value>
+  </data>
+  <data name="m_lblMediumDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 85</value>
+  </data>
+  <data name="&gt;&gt;m_pnlBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lblMediumId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_vsbPaging.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;m_pnlMedium.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumId.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.Parent" xml:space="preserve">
+    <value>m_pnlMedium</value>
+  </data>
+  <data name="m_txtMediumDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_lblMediumDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Platten.Admin.BaseDataForm, BSE.Platten.Admin, Version=1.0.0.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_lblMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_lblMediumId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="&gt;&gt;m_txtMediumDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_tspRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 33</value>
+  </data>
+  <data name="&gt;&gt;m_txtMedium.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumDescription.Parent" xml:space="preserve">
+    <value>m_pnlBase</value>
+  </data>
+  <data name="m_txtMediumDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lblMediumId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="m_lblMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;m_dataSetMedium.Name" xml:space="preserve">
+    <value>m_dataSetMedium</value>
+  </data>
+  <data name="&gt;&gt;m_txtMedium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_pnlBase.Size" type="System.Drawing.Size, System.Drawing">
+    <value>855, 186</value>
+  </data>
+  <data name="m_tspBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>882, 0</value>
+  </data>
+  <data name="m_pnlMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Datenträger</value>
+  </data>
+  <data name="&gt;&gt;m_lblMediumId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.Name" xml:space="preserve">
+    <value>m_lblMedium</value>
+  </data>
+  <data name="m_txtMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Datentraeger</value>
+  </data>
+  <data name="&gt;&gt;m_pnlMedium.Name" xml:space="preserve">
+    <value>m_pnlMedium</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Name" xml:space="preserve">
+    <value>m_tspLeft</value>
+  </data>
+  <data name="m_txtMediumDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 82</value>
+  </data>
+  <data name="m_lblMedium.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_tspLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 279</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Name" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="m_dataSetMedium.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>682, 17</value>
+  </metadata>
+  <metadata name="m_bindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>156, 17</value>
+  </metadata>
+</root>

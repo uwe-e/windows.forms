@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="BSE.Charts.Chart" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Chart.cs</FileName>
+      <HashCode>gBCAAAAQECBBEEQQ0ACAAAECEIAQlEAAAAAgIAAAIAg=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Class Name="BSE.Charts.Chart.ChartItemCollection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ChartItemCollection.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSE.Charts.ChartsDesigner" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Chart.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAQAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.Charts.ChartsDesignerActionList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Chart.cs</FileName>
+      <HashCode>AAAAAABAAAAJwEAQAAAAAAAAAIEAgAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSE.Charts.ChartItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ChartItem.cs</FileName>
+      <HashCode>ACCAgQAEAAAAAgIAAQAAQIAAAAAEAACAEgGgiIgBgBA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSE.Charts.ChartItemClickEventArgs" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ChartItemClickEventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.Charts.ChartItemCollectionEditor" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ChartItemCollectionEditor.cs</FileName>
+      <HashCode>AACABAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.Charts.ChartItemColors" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ChartItemColors.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAEgAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSE.Charts.DrawCharts">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DrawCharts.cs</FileName>
+      <HashCode>AAABAgAAAAAAAgAAAAAkAAAAAAACgACAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BSE.Charts.DrawPie" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DrawPie.cs</FileName>
+      <HashCode>AAABIgAAAAAAAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BSE.Charts.IDrawCharts" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IDrawCharts.cs</FileName>
+      <HashCode>AAABAgAAAAAAAgAAAAAkAAAAAAACAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BSE.Charts.IIndex" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IIndex.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="BSE.Charts.ChartItemClickEventHandler" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ChartItemClickEventArgs.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQAAAA=</HashCode>
+    </TypeIdentifier>
+  </Delegate>
+</ClassDiagram>

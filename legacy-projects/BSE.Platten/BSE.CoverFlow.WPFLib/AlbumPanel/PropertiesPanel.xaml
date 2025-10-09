@@ -1,0 +1,133 @@
+﻿<UserControl x:Class="BSE.CoverFlow.WPFLib.AlbumPanel.PropertiesPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:BSE_Wpf_Controls="clr-namespace:BSE.Wpf.Windows.Controls;assembly=BSE.Wpf.Windows.Controls"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/BSE.CoverFlow.WPFLib;component/Themes/Black.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate x:Key="albumDataTemplate">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Margin="5" BorderThickness="0">
+                        <Image Source="{Binding Path=CoverSource}" Stretch="Fill" Width="100" Height="100" />
+                    </Border>
+                    <StackPanel Grid.Column="1" Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType={x:Type Expander}}}" Content="Artist:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Interpret}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                        <Label Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType={x:Type Expander}}}" Content="Title:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Title, FallbackValue=Title}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType={x:Type Expander}}}" Content="Genre:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Genre, FallbackValue=Genre}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType={x:Type Expander}}}" Content="Publishing Year:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Year, FallbackValue=Year}" />
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </DataTemplate>
+
+            <DataTemplate x:Key="titleTemplate">
+                <TextBlock Text="{Binding Path=Title}" TextTrimming="CharacterEllipsis"/>
+            </DataTemplate>
+            
+            <ContextMenu x:Key="TrackListContextMenu">
+                <!--<MenuItem Header="Play Selected Tracks" Click="PlaySelectedTracksClick" />-->
+                <MenuItem Header="Play Selected Tracks" Command="{Binding DataContext.PlaySelectedTracksCommand, 
+                    RelativeSource={RelativeSource FindAncestor, 
+                    AncestorType={x:Type UserControl}}}"
+                          CommandParameter="{Binding SelectedItems, RelativeSource={RelativeSource FindAncestor, 
+                    AncestorType={x:Type ListView}}}" />
+            </ContextMenu>
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <DockPanel Margin="0" Name="dockPanel1" VerticalAlignment="Top" LastChildFill="True">
+            <Border CornerRadius="2"
+                    BorderThickness="0"
+                    DockPanel.Dock="Top"
+                    Margin="2"
+                    BorderBrush="{StaticResource DefaultBorderBrush}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="110"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Margin="5" BorderBrush="Transparent" BorderThickness="0">
+                        <Image Source="{Binding Path=Album.CoverSource}" Stretch="Uniform" Width="100" />
+                    </Border>
+                    <StackPanel Grid.Column="1" Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{StaticResource WindowForegroundBrush}" Content="Artist:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Album.Interpret}" TextTrimming="CharacterEllipsis" Foreground="{StaticResource WindowForegroundBrush}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{StaticResource WindowForegroundBrush}" Content="Title:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Album.Title}" TextTrimming="CharacterEllipsis" Foreground="{StaticResource WindowForegroundBrush}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{StaticResource WindowForegroundBrush}" Content="Genre:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Album.Genre}" TextTrimming="CharacterEllipsis" Foreground="{StaticResource WindowForegroundBrush}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Foreground="{StaticResource WindowForegroundBrush}" Content="Publishing Year:"/>
+                            <TextBlock VerticalAlignment="Center" Text="{Binding Path=Album.Year}" Foreground="{StaticResource WindowForegroundBrush}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <ListView Name="TrackView"
+                      ItemsSource="{Binding Path=Tracks}"
+                      Foreground="{StaticResource WindowForegroundBrush}"
+                      BorderThickness="0"
+                      ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                      dd:DragDrop.IsDragSource="True"
+                      BSE_Wpf_Controls:ListViewColumns.Stretch="True">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListViewItem}" BasedOn="{StaticResource {x:Type ListViewItem}}">
+                        <Setter Property="Height" Value="26" />
+                        <Setter Property="ContextMenu" Value="{StaticResource TrackListContextMenu}"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView>
+                        <GridView.ColumnHeaderContainerStyle>
+                            <Style TargetType="{x:Type GridViewColumnHeader}">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </Style>
+                        </GridView.ColumnHeaderContainerStyle>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=TrackNumber}" Width="40">
+                            <GridViewColumn.Header>
+                                <GridViewColumnHeader Content="Track No" HorizontalContentAlignment="Left"/>
+                            </GridViewColumn.Header>
+                        </GridViewColumn>
+                        <GridViewColumn CellTemplate="{StaticResource titleTemplate}" Width="Auto">
+                            <GridViewColumn.Header>
+                                <GridViewColumnHeader Content="Title" HorizontalContentAlignment="Left"/>
+                            </GridViewColumn.Header>
+                        </GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Path=Duration}" Width="60">
+                            <GridViewColumn.Header>
+                                <GridViewColumnHeader Content="Duration" HorizontalContentAlignment="Left"/>
+                            </GridViewColumn.Header>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </DockPanel>
+    </Grid>
+</UserControl>

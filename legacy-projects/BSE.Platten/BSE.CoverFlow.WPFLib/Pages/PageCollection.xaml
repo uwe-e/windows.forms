@@ -1,0 +1,48 @@
+﻿<controls:NavigateableControl x:Class="BSE.CoverFlow.WPFLib.Pages.PageCollection"
+                              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                              xmlns:artists="clr-namespace:BSE.CoverFlow.WPFLib.ArtistPanel"
+                              xmlns:album="clr-namespace:BSE.CoverFlow.WPFLib.AlbumPanel"
+                              xmlns:playlist="clr-namespace:BSE.CoverFlow.WPFLib.PlaylistPanel"
+                              xmlns:controls="clr-namespace:BSE.CoverFlow.WPFLib.Controls"
+                              xmlns:p="clr-namespace:BSE.CoverFlow.WPFLib.Properties"
+                              mc:Ignorable="d" d:DesignHeight="400" d:DesignWidth="600">
+    <controls:NavigateableControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/BSE.CoverFlow.WPFLib;component//Themes/Black.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </controls:NavigateableControl.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="300" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="0">
+            <!--<TextBlock FontFamily="{StaticResource ControlTitleBigFontFamily}"
+                       FontSize="{StaticResource ControlTitleFontSize}" 
+                       FontWeight="SemiBold"
+                       Foreground="{StaticResource WhiteColorBrush}"
+                       Text="{x:Static p:Resources.IDS_ArtistsPanelHeader}" 
+                       HorizontalAlignment="Left" 
+                       VerticalAlignment="Center" 
+                       IsHitTestVisible="False" DockPanel.Dock="Top" />-->
+            <artists:ArtistTree DataContext="{Binding ArtistTreeViewModel}"/>
+        </DockPanel>
+        <controls:TilePanel Grid.Column="1" IsExpanded="{Binding ElementName=ExpanderTabControl,Path=IsExpanded}">
+            <album:PropertiesPanel DataContext="{Binding AlbumPanelViewModel}"/>
+            <controls:TilePanel.ExpandableContent>
+                <controls:ExpanderTabControl x:Name="ExpanderTabControl">
+                    <controls:ExpandableTabItem Header="{Binding DataContext.TabItemHeaderPlaylists, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type controls:NavigateableControl}}}">
+                        <playlist:Playlist DataContext="{Binding DataContext.PlaylistViewModel, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type controls:NavigateableControl}}}"/>
+                    </controls:ExpandableTabItem>
+                </controls:ExpanderTabControl>
+            </controls:TilePanel.ExpandableContent>
+        </controls:TilePanel>
+    
+    </Grid>
+</controls:NavigateableControl>

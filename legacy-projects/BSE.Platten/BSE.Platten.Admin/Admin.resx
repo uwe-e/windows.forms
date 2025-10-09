@@ -1,0 +1,1644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_bindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="m_dataSetAlbum.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>204, 65</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Name" xml:space="preserve">
+    <value>m_tspLeft</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tspLeft.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_tspRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1912, 33</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Name" xml:space="preserve">
+    <value>m_tspRight</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tspRight.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_tsTools.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>845, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tsTools.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="m_btnToolsSep1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="m_btnTools_Bildimport.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_btnTools_Bildimport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="m_btnTools_Bildimport.ToolTipText" xml:space="preserve">
+    <value>Cover importieren</value>
+  </data>
+  <data name="m_btnTools_Bildexport.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_btnTools_Bildexport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="m_btnTools_Bildexport.ToolTipText" xml:space="preserve">
+    <value>Cover exportieren</value>
+  </data>
+  <data name="m_btnToolsSep2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="m_btnTools_RipCD.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_btnTools_RipCD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="m_btnTools_RipCD.ToolTipText" xml:space="preserve">
+    <value>CD rippen</value>
+  </data>
+  <data name="m_btnTools_AudioImport.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_btnTools_AudioImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="m_btnTools_AudioImport.ToolTipText" xml:space="preserve">
+    <value>Audio- Dateien importieren</value>
+  </data>
+  <data name="m_btnTools_WriteTags.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_btnTools_WriteTags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 53</value>
+  </data>
+  <data name="m_btnTools_WriteTags.ToolTipText" xml:space="preserve">
+    <value>ID3 Tags schreiben</value>
+  </data>
+  <data name="m_btnToolsSep3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="diskInformationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="diskInformationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Audio Disk</value>
+  </data>
+  <data name="systemStatisticToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="systemStatisticToolStripMenuItem.Text" xml:space="preserve">
+    <value>Statistik</value>
+  </data>
+  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 53</value>
+  </data>
+  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
+    <value>System Informationen</value>
+  </data>
+  <data name="toolStripDropDownButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageAboveText</value>
+  </data>
+  <data name="m_tsTools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 0</value>
+  </data>
+  <data name="m_tsTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 56</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tsTools.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_tsTools.Name" xml:space="preserve">
+    <value>m_tsTools</value>
+  </data>
+  <data name="&gt;&gt;m_tsTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tsTools.Parent" xml:space="preserve">
+    <value>m_tspTop</value>
+  </data>
+  <data name="&gt;&gt;m_tsTools.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_tspTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1912, 56</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Name" xml:space="preserve">
+    <value>m_tspTop</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tspTop.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_tspBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1912, 0</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Name" xml:space="preserve">
+    <value>m_tspBottom</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_tspBottom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_picCover.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_picCover.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1451, 84</value>
+  </data>
+  <data name="m_picCover.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 159</value>
+  </data>
+  <data name="m_picCover.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="m_picCover.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_picCover.Name" xml:space="preserve">
+    <value>m_picCover</value>
+  </data>
+  <data name="&gt;&gt;m_picCover.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_picCover.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_picCover.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_lblTitelId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblTitelId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="m_lblTitelId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="m_lblTitelId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblTitelId.Text" xml:space="preserve">
+    <value>Nummer:</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitelId.Name" xml:space="preserve">
+    <value>m_lblTitelId</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitelId.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitelId.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitelId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_tbcAlbum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="m_dgvColumnLiedID.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnLiedID.HeaderText" xml:space="preserve">
+    <value>LiedID</value>
+  </data>
+  <data name="m_dgvColumnLiedID.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_dgvColumnTitelId.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnTitelId.HeaderText" xml:space="preserve">
+    <value>TitelId</value>
+  </data>
+  <data name="m_dgvColumnTitelId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_dgvColumnTrack.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnTrack.HeaderText" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="m_dgvColumnTrack.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="m_dgvColumnLied.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnLied.HeaderText" xml:space="preserve">
+    <value>Lied</value>
+  </data>
+  <data name="m_dgvColumnLied.Width" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="m_dgvColumnDauer.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnDauer.HeaderText" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="m_dgvColumnDauer.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="m_dgvColumnLiedpfad.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnLiedpfad.HeaderText" xml:space="preserve">
+    <value>Liedpfad</value>
+  </data>
+  <data name="m_dgvColumnGuid.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnGuid.HeaderText" xml:space="preserve">
+    <value>Guid</value>
+  </data>
+  <data name="m_dgvColumnGuid.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_dgvColumnTimestamp.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_dgvColumnTimestamp.HeaderText" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
+  <data name="m_dgvColumnTimestamp.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_grdLieder.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_grdLieder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="m_grdLieder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1602, 591</value>
+  </data>
+  <data name="m_grdLieder.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;m_grdLieder.Name" xml:space="preserve">
+    <value>m_grdLieder</value>
+  </data>
+  <data name="&gt;&gt;m_grdLieder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_grdLieder.Parent" xml:space="preserve">
+    <value>m_tbpLieder</value>
+  </data>
+  <data name="&gt;&gt;m_grdLieder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tbpLieder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 29</value>
+  </data>
+  <data name="m_tbpLieder.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_tbpLieder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1608, 597</value>
+  </data>
+  <data name="m_tbpLieder.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_tbpLieder.Text" xml:space="preserve">
+    <value>Lieder</value>
+  </data>
+  <data name="&gt;&gt;m_tbpLieder.Name" xml:space="preserve">
+    <value>m_tbpLieder</value>
+  </data>
+  <data name="&gt;&gt;m_tbpLieder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbpLieder.Parent" xml:space="preserve">
+    <value>m_tbcAlbum</value>
+  </data>
+  <data name="&gt;&gt;m_tbpLieder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tbcAlbum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 247</value>
+  </data>
+  <data name="m_tbcAlbum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1616, 630</value>
+  </data>
+  <data name="m_tbcAlbum.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_tbcAlbum.Name" xml:space="preserve">
+    <value>m_tbcAlbum</value>
+  </data>
+  <data name="&gt;&gt;m_tbcAlbum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tbcAlbum.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_tbcAlbum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_txtTitelId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 8</value>
+  </data>
+  <data name="m_txtTitelId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 26</value>
+  </data>
+  <data name="m_txtTitelId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitelId.Name" xml:space="preserve">
+    <value>m_txtTitelId</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitelId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitelId.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitelId.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_txtErschDatum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 164</value>
+  </data>
+  <data name="m_txtErschDatum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 26</value>
+  </data>
+  <data name="m_txtErschDatum.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;m_txtErschDatum.Name" xml:space="preserve">
+    <value>m_txtErschDatum</value>
+  </data>
+  <data name="&gt;&gt;m_txtErschDatum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtErschDatum.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtErschDatum.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_lblInterpreten.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblInterpreten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 87</value>
+  </data>
+  <data name="m_lblInterpreten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="m_lblInterpreten.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblInterpreten.Text" xml:space="preserve">
+    <value>Interpreten:</value>
+  </data>
+  <data name="m_lblInterpreten.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpreten.Name" xml:space="preserve">
+    <value>m_lblInterpreten</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpreten.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpreten.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpreten.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_lblInterpret.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblInterpret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 47</value>
+  </data>
+  <data name="m_lblInterpret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="m_lblInterpret.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblInterpret.Text" xml:space="preserve">
+    <value>Interpret:</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpret.Name" xml:space="preserve">
+    <value>m_lblInterpret</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpret.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpret.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblInterpret.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_txtInterpret.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_txtInterpret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 46</value>
+  </data>
+  <data name="m_txtInterpret.MaxLength" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="m_txtInterpret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 26</value>
+  </data>
+  <data name="m_txtInterpret.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_txtInterpret.Name" xml:space="preserve">
+    <value>m_txtInterpret</value>
+  </data>
+  <data name="&gt;&gt;m_txtInterpret.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtInterpret.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtInterpret.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_vsbPaging.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="m_vsbPaging.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1624, 0</value>
+  </data>
+  <data name="m_vsbPaging.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 883</value>
+  </data>
+  <data name="m_vsbPaging.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.Name" xml:space="preserve">
+    <value>m_vsbPaging</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.Type" xml:space="preserve">
+    <value>System.Windows.Forms.VScrollBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_vsbPaging.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="m_cboInterpreten.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_cboInterpreten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 84</value>
+  </data>
+  <data name="m_cboInterpreten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 28</value>
+  </data>
+  <data name="m_cboInterpreten.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_cboInterpreten.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_cboInterpreten.Name" xml:space="preserve">
+    <value>m_cboInterpreten</value>
+  </data>
+  <data name="&gt;&gt;m_cboInterpreten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cboInterpreten.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_cboInterpreten.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_cboGenre.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_cboGenre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 124</value>
+  </data>
+  <data name="m_cboGenre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>923, 28</value>
+  </data>
+  <data name="m_cboGenre.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_cboGenre.Name" xml:space="preserve">
+    <value>m_cboGenre</value>
+  </data>
+  <data name="&gt;&gt;m_cboGenre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cboGenre.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_cboGenre.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_lblErschDatum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblErschDatum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 167</value>
+  </data>
+  <data name="m_lblErschDatum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="m_lblErschDatum.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblErschDatum.Text" xml:space="preserve">
+    <value>Erschienen:</value>
+  </data>
+  <data name="&gt;&gt;m_lblErschDatum.Name" xml:space="preserve">
+    <value>m_lblErschDatum</value>
+  </data>
+  <data name="&gt;&gt;m_lblErschDatum.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblErschDatum.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblErschDatum.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_lblTitel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblTitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 87</value>
+  </data>
+  <data name="m_lblTitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="m_lblTitel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblTitel.Text" xml:space="preserve">
+    <value>Album:</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitel.Name" xml:space="preserve">
+    <value>m_lblTitel</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitel.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitel.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblTitel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_cboMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 124</value>
+  </data>
+  <data name="m_cboMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 28</value>
+  </data>
+  <data name="m_cboMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_cboMedium.Name" xml:space="preserve">
+    <value>m_cboMedium</value>
+  </data>
+  <data name="&gt;&gt;m_cboMedium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_cboMedium.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_cboMedium.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="m_txtTitel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="m_txtTitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 84</value>
+  </data>
+  <data name="m_txtTitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 26</value>
+  </data>
+  <data name="m_txtTitel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitel.Name" xml:space="preserve">
+    <value>m_txtTitel</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitel.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtTitel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="m_lblGenre.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblGenre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 127</value>
+  </data>
+  <data name="m_lblGenre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="m_lblGenre.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblGenre.Text" xml:space="preserve">
+    <value>Genre:</value>
+  </data>
+  <data name="&gt;&gt;m_lblGenre.Name" xml:space="preserve">
+    <value>m_lblGenre</value>
+  </data>
+  <data name="&gt;&gt;m_lblGenre.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblGenre.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblGenre.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="m_lblMedium.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblMedium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 127</value>
+  </data>
+  <data name="m_lblMedium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 20</value>
+  </data>
+  <data name="m_lblMedium.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblMedium.Text" xml:space="preserve">
+    <value>Datenträger:</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.Name" xml:space="preserve">
+    <value>m_lblMedium</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblMedium.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="m_lblMutiert.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_lblMutiert.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblMutiert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1337, 47</value>
+  </data>
+  <data name="m_lblMutiert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="m_lblMutiert.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblMutiert.Text" xml:space="preserve">
+    <value>Geändert:</value>
+  </data>
+  <data name="&gt;&gt;m_lblMutiert.Name" xml:space="preserve">
+    <value>m_lblMutiert</value>
+  </data>
+  <data name="&gt;&gt;m_lblMutiert.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblMutiert.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblMutiert.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="m_txtMutationDurch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_txtMutationDurch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1556, 46</value>
+  </data>
+  <data name="m_txtMutationDurch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="m_txtMutationDurch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDurch.Name" xml:space="preserve">
+    <value>m_txtMutationDurch</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDurch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDurch.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDurch.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="m_btnEditImage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_btnEditImage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_btnEditImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1287, 82</value>
+  </data>
+  <data name="m_btnEditImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 30</value>
+  </data>
+  <data name="m_btnEditImage.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_btnEditImage.Text" xml:space="preserve">
+    <value>Cover bearbeiten</value>
+  </data>
+  <data name="m_btnEditImage.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="m_tltAdmin.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>988, 17</value>
+  </data>
+  <data name="m_btnEditImage.ToolTip" xml:space="preserve">
+    <value>Cover importieren</value>
+  </data>
+  <data name="&gt;&gt;m_btnEditImage.Name" xml:space="preserve">
+    <value>m_btnEditImage</value>
+  </data>
+  <data name="&gt;&gt;m_btnEditImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnEditImage.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_btnEditImage.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="m_btnShowInterprets.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_btnShowInterprets.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_btnShowInterprets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1192, 44</value>
+  </data>
+  <data name="m_btnShowInterprets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
+  <data name="m_btnShowInterprets.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_btnShowInterprets.ToolTip" xml:space="preserve">
+    <value>Interpret ändern</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowInterprets.Name" xml:space="preserve">
+    <value>m_btnShowInterprets</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowInterprets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowInterprets.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_btnShowInterprets.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="m_txtMutationDatum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_txtMutationDatum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1451, 46</value>
+  </data>
+  <data name="m_txtMutationDatum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 26</value>
+  </data>
+  <data name="m_txtMutationDatum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDatum.Name" xml:space="preserve">
+    <value>m_txtMutationDatum</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDatum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDatum.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtMutationDatum.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="m_txtErstDurch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_txtErstDurch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1556, 8</value>
+  </data>
+  <data name="m_txtErstDurch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 26</value>
+  </data>
+  <data name="m_txtErstDurch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDurch.Name" xml:space="preserve">
+    <value>m_txtErstDurch</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDurch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDurch.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDurch.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="m_txtErstDatum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_txtErstDatum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1451, 8</value>
+  </data>
+  <data name="m_txtErstDatum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 26</value>
+  </data>
+  <data name="m_txtErstDatum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDatum.Name" xml:space="preserve">
+    <value>m_txtErstDatum</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDatum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDatum.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_txtErstDatum.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="m_lblErstellt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="m_lblErstellt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_lblErstellt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1337, 11</value>
+  </data>
+  <data name="m_lblErstellt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
+  </data>
+  <data name="m_lblErstellt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lblErstellt.Text" xml:space="preserve">
+    <value>Erstellt:</value>
+  </data>
+  <data name="&gt;&gt;m_lblErstellt.Name" xml:space="preserve">
+    <value>m_lblErstellt</value>
+  </data>
+  <data name="&gt;&gt;m_lblErstellt.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.UnchangeableLabel, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lblErstellt.Parent" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_lblErstellt.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="m_pnlContent.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pnlContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="m_pnlContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1641, 883</value>
+  </data>
+  <data name="m_pnlContent.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;m_pnlContent.Name" xml:space="preserve">
+    <value>m_pnlContent</value>
+  </data>
+  <data name="&gt;&gt;m_pnlContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlContent.Parent" xml:space="preserve">
+    <value>m_pnlAlbum</value>
+  </data>
+  <data name="&gt;&gt;m_pnlContent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlAlbum.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pnlAlbum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 6</value>
+  </data>
+  <data name="m_pnlAlbum.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 27</value>
+  </data>
+  <data name="m_pnlAlbum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1643, 912</value>
+  </data>
+  <data name="m_pnlAlbum.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="m_pnlAlbum.Text" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAlbum.Name" xml:space="preserve">
+    <value>m_pnlAlbum</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAlbum.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAlbum.Parent" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAlbum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_sptLft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 6</value>
+  </data>
+  <data name="m_sptLft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3, 912</value>
+  </data>
+  <data name="m_sptLft.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;m_sptLft.Name" xml:space="preserve">
+    <value>m_sptLft</value>
+  </data>
+  <data name="&gt;&gt;m_sptLft.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_sptLft.Parent" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_sptLft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_Covers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_Covers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 31</value>
+  </data>
+  <data name="m_Covers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="m_Covers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 874</value>
+  </data>
+  <data name="m_Covers.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_Covers.Name" xml:space="preserve">
+    <value>m_Covers</value>
+  </data>
+  <data name="&gt;&gt;m_Covers.Type" xml:space="preserve">
+    <value>BSE.Platten.Covers.CoverPanel, BSE.Platten.Covers, Version=1.0.0.6, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_Covers.Parent" xml:space="preserve">
+    <value>m_pnlCovers</value>
+  </data>
+  <data name="&gt;&gt;m_Covers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlCovers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_pnlCovers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="m_pnlCovers.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>27, 27</value>
+  </data>
+  <data name="m_pnlCovers.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_pnlCovers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 909</value>
+  </data>
+  <data name="m_pnlCovers.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_pnlCovers.Text" xml:space="preserve">
+    <value>Meine neuesten Alben</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCovers.Name" xml:space="preserve">
+    <value>m_pnlCovers</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCovers.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCovers.Parent" xml:space="preserve">
+    <value>m_pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;m_pnlCovers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_sptAdminTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="m_sptAdminTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_sptAdminTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 3</value>
+  </data>
+  <data name="m_sptAdminTop.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_sptAdminTop.Name" xml:space="preserve">
+    <value>m_sptAdminTop</value>
+  </data>
+  <data name="&gt;&gt;m_sptAdminTop.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_sptAdminTop.Parent" xml:space="preserve">
+    <value>m_pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;m_sptAdminTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_pnlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="m_pnlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 6</value>
+  </data>
+  <data name="m_pnlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 912</value>
+  </data>
+  <data name="m_pnlLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;m_pnlLeft.Name" xml:space="preserve">
+    <value>m_pnlLeft</value>
+  </data>
+  <data name="&gt;&gt;m_pnlLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlLeft.Parent" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_pnlLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_toolstripContentPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 5, 5, 5</value>
+  </data>
+  <data name="m_toolstripContentPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 6, 7, 6</value>
+  </data>
+  <data name="m_toolstripContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1912, 924</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Name" xml:space="preserve">
+    <value>m_toolstripContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.Parent" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_toolstripContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1912, 924</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_msAdmin.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>682, 17</value>
+  </data>
+  <data name="m_msAdmin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="m_mnuTools_Bildimport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 30</value>
+  </data>
+  <data name="m_mnuTools_Bildimport.Text" xml:space="preserve">
+    <value>Cover importieren</value>
+  </data>
+  <data name="m_mnuTools_Bildexport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 30</value>
+  </data>
+  <data name="m_mnuTools_Bildexport.Text" xml:space="preserve">
+    <value>Cover exportieren</value>
+  </data>
+  <data name="m_mnuTools_Sep1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 6</value>
+  </data>
+  <data name="m_mnuTools_RipCD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 30</value>
+  </data>
+  <data name="m_mnuTools_RipCD.Text" xml:space="preserve">
+    <value>CD rippen</value>
+  </data>
+  <data name="m_mnuToolsSep2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 6</value>
+  </data>
+  <data name="m_mnuTools_AudioImport.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Shift+F7</value>
+  </data>
+  <data name="m_mnuTools_AudioImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 30</value>
+  </data>
+  <data name="m_mnuTools_AudioImport.Text" xml:space="preserve">
+    <value>Audio- Dateien importieren</value>
+  </data>
+  <data name="m_mnuToolsSep3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 6</value>
+  </data>
+  <data name="m_mnuTools_WriteTags.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 30</value>
+  </data>
+  <data name="m_mnuTools_WriteTags.Text" xml:space="preserve">
+    <value>ID3 Tags schreiben</value>
+  </data>
+  <data name="m_mnuTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="m_mnuTools.Text" xml:space="preserve">
+    <value>&amp;Werkzeuge</value>
+  </data>
+  <data name="m_mnuExtras_Optionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 30</value>
+  </data>
+  <data name="m_mnuExtras_Optionen.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="m_mnuExtras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 29</value>
+  </data>
+  <data name="m_mnuExtras.Text" xml:space="preserve">
+    <value>E&amp;xtras</value>
+  </data>
+  <data name="m_msAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_msAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 33</value>
+  </data>
+  <data name="m_msAdmin.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="m_msAdmin.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;m_msAdmin.Name" xml:space="preserve">
+    <value>m_msAdmin</value>
+  </data>
+  <data name="&gt;&gt;m_msAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_msAdmin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_msAdmin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_configuration.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 65</value>
+  </data>
+  <data name="m_sfdlgPictureExport.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>405, 65</value>
+  </data>
+  <data name="m_ofdlgPictureImport.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>639, 65</value>
+  </data>
+  <data name="m_ofdlgPictureImport.Filter" xml:space="preserve">
+    <value>Bild Dateien (*.bmp;*.jpg;*.jpeg;*.gif;*.png)|*.bmp;*.jpg;*.jpeg;*.gif;*.png</value>
+  </data>
+  <data name="m_cmnuMusic.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>1020, 65</value>
+  </data>
+  <data name="m_cmnuMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 4</value>
+  </data>
+  <data name="&gt;&gt;m_cmnuMusic.Name" xml:space="preserve">
+    <value>m_cmnuMusic</value>
+  </data>
+  <data name="&gt;&gt;m_cmnuMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_settings.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>879, 65</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1912, 1038</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 9, 10, 9</value>
+  </data>
+  <data name="&gt;&gt;m_bindingSource.Name" xml:space="preserve">
+    <value>m_bindingSource</value>
+  </data>
+  <data name="&gt;&gt;m_bindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools.Name" xml:space="preserve">
+    <value>m_mnuTools</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_Bildimport.Name" xml:space="preserve">
+    <value>m_mnuTools_Bildimport</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_Bildimport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_Bildexport.Name" xml:space="preserve">
+    <value>m_mnuTools_Bildexport</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_Bildexport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_Sep1.Name" xml:space="preserve">
+    <value>m_mnuTools_Sep1</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_Sep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_RipCD.Name" xml:space="preserve">
+    <value>m_mnuTools_RipCD</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_RipCD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuToolsSep2.Name" xml:space="preserve">
+    <value>m_mnuToolsSep2</value>
+  </data>
+  <data name="&gt;&gt;m_mnuToolsSep2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_AudioImport.Name" xml:space="preserve">
+    <value>m_mnuTools_AudioImport</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_AudioImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuToolsSep3.Name" xml:space="preserve">
+    <value>m_mnuToolsSep3</value>
+  </data>
+  <data name="&gt;&gt;m_mnuToolsSep3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_WriteTags.Name" xml:space="preserve">
+    <value>m_mnuTools_WriteTags</value>
+  </data>
+  <data name="&gt;&gt;m_mnuTools_WriteTags.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras.Name" xml:space="preserve">
+    <value>m_mnuExtras</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras_Optionen.Name" xml:space="preserve">
+    <value>m_mnuExtras_Optionen</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras_Optionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnLiedID.Name" xml:space="preserve">
+    <value>m_dgvColumnLiedID</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnLiedID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnTitelId.Name" xml:space="preserve">
+    <value>m_dgvColumnTitelId</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnTitelId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnTrack.Name" xml:space="preserve">
+    <value>m_dgvColumnTrack</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnTrack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnLied.Name" xml:space="preserve">
+    <value>m_dgvColumnLied</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnLied.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnDauer.Name" xml:space="preserve">
+    <value>m_dgvColumnDauer</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnDauer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnLiedpfad.Name" xml:space="preserve">
+    <value>m_dgvColumnLiedpfad</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnLiedpfad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnGuid.Name" xml:space="preserve">
+    <value>m_dgvColumnGuid</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnGuid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnTimestamp.Name" xml:space="preserve">
+    <value>m_dgvColumnTimestamp</value>
+  </data>
+  <data name="&gt;&gt;m_dgvColumnTimestamp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_dataSetAlbum.Name" xml:space="preserve">
+    <value>m_dataSetAlbum</value>
+  </data>
+  <data name="&gt;&gt;m_dataSetAlbum.Type" xml:space="preserve">
+    <value>BSE.Platten.BO.CDataSetAlbum, BSE.Platten.BO, Version=1.0.0.18, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_configuration.Name" xml:space="preserve">
+    <value>m_configuration</value>
+  </data>
+  <data name="&gt;&gt;m_configuration.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.35182, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_btnToolsSep1.Name" xml:space="preserve">
+    <value>m_btnToolsSep1</value>
+  </data>
+  <data name="&gt;&gt;m_btnToolsSep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_Bildimport.Name" xml:space="preserve">
+    <value>m_btnTools_Bildimport</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_Bildimport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_Bildexport.Name" xml:space="preserve">
+    <value>m_btnTools_Bildexport</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_Bildexport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnToolsSep2.Name" xml:space="preserve">
+    <value>m_btnToolsSep2</value>
+  </data>
+  <data name="&gt;&gt;m_btnToolsSep2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_RipCD.Name" xml:space="preserve">
+    <value>m_btnTools_RipCD</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_RipCD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_AudioImport.Name" xml:space="preserve">
+    <value>m_btnTools_AudioImport</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_AudioImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_WriteTags.Name" xml:space="preserve">
+    <value>m_btnTools_WriteTags</value>
+  </data>
+  <data name="&gt;&gt;m_btnTools_WriteTags.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnToolsSep3.Name" xml:space="preserve">
+    <value>m_btnToolsSep3</value>
+  </data>
+  <data name="&gt;&gt;m_btnToolsSep3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton1.Name" xml:space="preserve">
+    <value>toolStripDropDownButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diskInformationToolStripMenuItem.Name" xml:space="preserve">
+    <value>diskInformationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;diskInformationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;systemStatisticToolStripMenuItem.Name" xml:space="preserve">
+    <value>systemStatisticToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;systemStatisticToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_sfdlgPictureExport.Name" xml:space="preserve">
+    <value>m_sfdlgPictureExport</value>
+  </data>
+  <data name="&gt;&gt;m_sfdlgPictureExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ofdlgPictureImport.Name" xml:space="preserve">
+    <value>m_ofdlgPictureImport</value>
+  </data>
+  <data name="&gt;&gt;m_ofdlgPictureImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Name" xml:space="preserve">
+    <value>m_settings</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.35182, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_tltAdmin.Name" xml:space="preserve">
+    <value>m_tltAdmin</value>
+  </data>
+  <data name="&gt;&gt;m_tltAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Platten.Admin.BaseDataForm, BSE.Platten.Admin, Version=1.0.0.35, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

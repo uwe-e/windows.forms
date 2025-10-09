@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Shell", "BSE.Shell\BSE.Shell.csproj", "{18CB5EE7-00D5-41A1-87B7-09613AC04265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.ThreadedShell", "BSE.ThreadedShell\BSE.ThreadedShell.csproj", "{60D8B253-3AE0-4B46-B58F-E34D92517852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18CB5EE7-00D5-41A1-87B7-09613AC04265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CB5EE7-00D5-41A1-87B7-09613AC04265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CB5EE7-00D5-41A1-87B7-09613AC04265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CB5EE7-00D5-41A1-87B7-09613AC04265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D8B253-3AE0-4B46-B58F-E34D92517852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D8B253-3AE0-4B46-B58F-E34D92517852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D8B253-3AE0-4B46-B58F-E34D92517852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D8B253-3AE0-4B46-B58F-E34D92517852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectName0 = \u0022$/VS2005/BSE.Shell\u0022,\u0020ELEAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = BSE.Shell\\BSE.Shell.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = BSE.Shell\\
+		SccProjectUniqueName2 = BSE.ThreadedShell\\BSE.ThreadedShell.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = BSE.ThreadedShell\\
+	EndGlobalSection
+EndGlobal

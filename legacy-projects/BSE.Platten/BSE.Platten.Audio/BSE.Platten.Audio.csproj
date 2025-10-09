@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{73896F5A-9DE7-442D-9812-D9A74677391A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BSE.Platten.Audio</RootNamespace>
+    <AssemblyName>BSE.Platten.Audio</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\BSE.Platten.Audio.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\BSE.Platten.Audio.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BSE.Configuration, Version=1.0.1.28311, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\BSE.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Shell, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\BSE.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\BSE.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudioData.cs" />
+    <Compile Include="AudioDirectory.cs" />
+    <Compile Include="AudioMetaData.cs" />
+    <Compile Include="AudioMetaDataFile.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsDialog.Designer.cs">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\Bass24.cs" />
+    <Compile Include="Player\PlayerManager.cs" />
+    <Compile Include="ReadAudioDirectoriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadAudioDirectoriesForm.Designer.cs">
+      <DependentUpon>ReadAudioDirectoriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\PlayState.cs" />
+    <Compile Include="Player\ThumbState.cs" />
+    <Compile Include="Player\ThumbStateChangedEventArgs.cs" />
+    <Compile Include="ReadDirectories.cs" />
+    <Compile Include="ReadDirectoriesAndFiles.cs" />
+    <Compile Include="ReadDirectoriesEventArgs.cs" />
+    <Compile Include="ReadFiles.cs" />
+    <Compile Include="ReadFilesEventArgs.cs" />
+    <Compile Include="TagForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TagForm.Designer.cs">
+      <DependentUpon>TagForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WMFSDK\PictureType.cs" />
+    <Compile Include="WMFSDK\WMPicture.cs" />
+    <Compile Include="WriteTagEventArgs.cs" />
+    <Compile Include="Options\AudioImportConfigurationData.cs" />
+    <Compile Include="Options\AudioImportConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\AudioImportConfigurationControl.Designer.cs">
+      <DependentUpon>AudioImportConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\CheckFile.cs" />
+    <Compile Include="Player\ContextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player\ContextForm.Designer.cs">
+      <DependentUpon>ContextForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\PlayerEventArgs.cs" />
+    <Compile Include="Player\CPlayerManager.cs" />
+    <Compile Include="Player\PlayerManagerStatusChangedEventArgs.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Player\NoPlayerConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Player\NoPlayerConfigurationControl.Designer.cs">
+      <DependentUpon>NoPlayerConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\PlaylistSelectionChangeEventArgs.cs" />
+    <Compile Include="Player\ToolStripDropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Player\ToolStripDropDownButton.designer.cs">
+      <DependentUpon>ToolStripDropDownButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\Winamp.cs" />
+    <Compile Include="Player\IPlayer.cs" />
+    <Compile Include="Player\MediaPlayer.cs" />
+    <Compile Include="Player\MediaPlayerConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Player\MediaPlayerConfigurationControl.Designer.cs">
+      <DependentUpon>MediaPlayerConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\PlayerMode.cs" />
+    <Compile Include="Player\UsedPlayer.cs" />
+    <Compile Include="Player\PlayerConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Player\PlayerConfigurationControl.Designer.cs">
+      <DependentUpon>PlayerConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\UsedPlayerConfigurationData.cs" />
+    <Compile Include="Player\PlayerOptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player\PlayerOptionsDialog.Designer.cs">
+      <DependentUpon>PlayerOptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Player\ToolStripTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Player\WinampConfigurationData.cs" />
+    <Compile Include="Player\WinampConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Player\WinampConfigurationControl.Designer.cs">
+      <DependentUpon>WinampConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player\PlaylistView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Player\PlaylistView.Designer.cs">
+      <DependentUpon>PlaylistView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WinControls\ColumnHeader.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WinControls\ColumnHeaderCollection.cs" />
+    <Compile Include="WinControls\ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WMFSDK\BufferTypes.cs" />
+    <Compile Include="WMFSDK\MetaDataEditor.cs" />
+    <Compile Include="WMFSDK\CommonTypes.cs" />
+    <Compile Include="WMFSDK\WMFMediaData.cs" />
+    <Compile Include="WMFSDK\NSSBuffer.cs" />
+    <Compile Include="WMFSDK\ProfilesTypes.cs" />
+    <Compile Include="WMFSDK\ReaderTypes.cs" />
+    <Compile Include="WMFSDK\WMFFunctions.cs" />
+    <Compile Include="WMFSDK\WriterTypes.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadAudioDirectoriesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReadAudioDirectoriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSE.Platten.BO\BSE.Platten.BO.csproj">
+      <Project>{9A2EF2C2-186E-4487-AC7B-9DBC52F65970}</Project>
+      <Name>BSE.Platten.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSE.Platten.Common\BSE.Platten.Common.csproj">
+      <Project>{F9359F19-566A-4296-ABCC-6F327077E890}</Project>
+      <Name>BSE.Platten.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bse.ico" />
+    <EmbeddedResource Include="MainForm.en.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\AudioImportConfigurationControl.en.resx">
+      <DependentUpon>AudioImportConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TagForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TagForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\AudioImportConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AudioImportConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\ContextForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\MediaPlayerConfigurationControl.en.resx">
+      <DependentUpon>MediaPlayerConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\MediaPlayerConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MediaPlayerConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\NoPlayerConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NoPlayerConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\PlayerConfigurationControl.en.resx">
+      <DependentUpon>PlayerConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\PlayerConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlayerConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\PlayerOptionsDialog.en.resx">
+      <DependentUpon>PlayerOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\PlayerOptionsDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlayerOptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\PlaylistView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PlaylistView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\WinampConfigurationControl.en.resx">
+      <DependentUpon>WinampConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player\WinampConfigurationControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WinampConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.en.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FolderOpen256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\FolderFind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OptionsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FillDownHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FillLeftHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MovePrevious.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoveNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PauseHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slider.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoLtrHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

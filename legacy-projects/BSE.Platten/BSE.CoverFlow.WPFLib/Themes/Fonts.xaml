@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <FontFamily x:Key="HeaderFontFamily">Segoe WP, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="ControlTitleBigFontFamily">Segoe WP, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="ContentFontFamily">Segoe WP, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+    <FontFamily x:Key="ItemFontFamily">Segoe WP, Segoe UI, Lucida Sans Unicode, Verdana</FontFamily>
+
+    <sys:Double x:Key="HeaderFontSize">21.333</sys:Double>
+
+    <sys:Double x:Key="ControlTitleFontSize">16</sys:Double>
+    <sys:Double x:Key="ItemFontSize">11</sys:Double>
+    <sys:Double x:Key="HyperlinkFontSize">14</sys:Double>
+</ResourceDictionary>
