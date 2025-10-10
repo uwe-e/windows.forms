@@ -1,26 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Charts", "BSE.Charts\BSE.Charts.csproj", "{FF42EB69-7451-41D8-9AFB-6311BC68D3B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Charts.TestApp", "BSE.Charts.TestApp\BSE.Charts.TestApp.csproj", "{B76588BE-E3B6-41CC-BA6E-A5821651B084}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 3
-		SccProjectName0 = \u0022$/VS2005/BSE.Charts\u0022,\u0020MICAAAAA
-		SccLocalPath0 = .
-		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
-		CanCheckoutShared = false
-		SccProjectUniqueName1 = BSE.Charts\\BSE.Charts.csproj
-		SccLocalPath1 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection1 = BSE.Charts\\
-		SccProjectUniqueName2 = BSE.Charts.TestApp\\BSE.Charts.TestApp.csproj
-		SccLocalPath2 = .
-		CanCheckoutShared = false
-		SccProjectFilePathRelativizedFromConnection2 = BSE.Charts.TestApp\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -37,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {513FA827-D062-4233-89A2-07A13881D227}
 	EndGlobalSection
 EndGlobal

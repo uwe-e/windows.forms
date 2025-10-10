@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.RemovableDrives", "BSE.RemovableDrives\BSE.RemovableDrives.csproj", "{19917313-5A75-464D-AABF-0816CA65BA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.RemovableDrives.TestApp", "BSE.RemovableDrives.TestApp\BSE.RemovableDrives.TestApp.csproj", "{876D1DAB-FEF8-4505-B15C-E200A67AD435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Wpf.RemovableDrives", "BSE.Wpf.RemovableDrives\BSE.Wpf.RemovableDrives.csproj", "{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BSE.RemovableDrives\\BSE.RemovableDrives.csproj
+		SccProjectName1 = \u0022$/VS2005/BSE.RemovableDrives/BSE.RemovableDrives\u0022,\u0020DBEAAAAA
+		SccLocalPath1 = BSE.RemovableDrives
+		SccProjectUniqueName2 = BSE.RemovableDrives.TestApp\\BSE.RemovableDrives.TestApp.csproj
+		SccProjectName2 = \u0022$/VS2005/BSE.RemovableDrives/BSE.RemovableDrives.TestApp\u0022,\u0020SBEAAAAA
+		SccLocalPath2 = BSE.RemovableDrives.TestApp
+		SccProjectUniqueName3 = BSE.Wpf.RemovableDrives\\BSE.Wpf.RemovableDrives.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = BSE.Wpf.RemovableDrives\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{19917313-5A75-464D-AABF-0816CA65BA8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{876D1DAB-FEF8-4505-B15C-E200A67AD435}.Release|x86.ActiveCfg = Release|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2371AE3A-9BAE-4E5E-A10A-3D7232BC8FA8}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

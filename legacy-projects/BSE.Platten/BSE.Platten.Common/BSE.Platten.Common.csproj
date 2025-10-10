@@ -10,16 +10,20 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BSE.Platten.Common</RootNamespace>
     <AssemblyName>BSE.Platten.Common</AssemblyName>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -96,13 +100,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BSE.Configuration, Version=1.0.1.28311, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assemblies\BSE.Configuration.dll</HintPath>
+    <Reference Include="BSE.Configuration">
+      <HintPath>..\..\BSE.Configuration\BSE.Configuration\bin\Debug\BSE.Configuration.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assemblies\BSE.Windows.Forms.dll</HintPath>
+    <Reference Include="BSE.Windows.Forms">
+      <HintPath>..\..\BSE.Windows\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />

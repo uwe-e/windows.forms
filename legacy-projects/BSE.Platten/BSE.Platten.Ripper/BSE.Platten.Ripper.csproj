@@ -10,16 +10,20 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BSE.Platten.Ripper</RootNamespace>
     <AssemblyName>BSE.Platten.Ripper</AssemblyName>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -47,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -96,18 +100,17 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BSE.CDDrives, Version=1.0.5850.21007, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assemblies\BSE.CDDrives.dll</HintPath>
+    <Reference Include="BSE.CDDrives">
+      <HintPath>..\..\BSE.CDDrives\BSE.CDDrives\bin\Debug\BSE.CDDrives.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Configuration">
-      <HintPath>..\Assemblies\BSE.Configuration.dll</HintPath>
+      <HintPath>..\..\BSE.Configuration\BSE.Configuration\bin\Debug\BSE.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Shell">
-      <HintPath>..\Assemblies\BSE.Shell.dll</HintPath>
+      <HintPath>..\..\BSE.Shell\BSE.Shell\bin\Debug\BSE.Shell.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Windows.Forms">
-      <HintPath>..\Assemblies\BSE.Windows.Forms.dll</HintPath>
+      <HintPath>..\..\BSE.Windows\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

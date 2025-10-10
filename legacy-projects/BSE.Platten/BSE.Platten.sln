@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BSE.Platten.Help", "BSE.Platten.Help", "{0B468296-CE1C-4E0D-B0B5-ABC0EEBC5CC8}"
 	ProjectSection(SolutionItems) = preProject
 		BSE.CoverFlow.WPFLib\Properties\AssemblyInfo.cs = BSE.CoverFlow.WPFLib\Properties\AssemblyInfo.cs
@@ -32,73 +34,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Platten.Statistik", "BS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Platten.Admin.WinApp", "BSE.Platten.Admin.WinApp\BSE.Platten.Admin.WinApp.csproj", "{9B5212DC-47BB-4020-B083-2D12209CA374}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BSEadminSetup", "BSEadminSetup\BSEadminSetup.vdproj", "{D1C83F22-5CE6-444C-A64D-B6596BC6A1AF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Platten.Tunes", "BSE.Platten.Tunes\BSE.Platten.Tunes.csproj", "{E84C7C64-9053-49B9-9EDF-7119287724AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.CoverFlow.WPFLib", "BSE.CoverFlow.WPFLib\BSE.CoverFlow.WPFLib.csproj", "{9EDD9D96-5F1F-453F-A856-74ED18612D5E}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BSEtunes64Setup", "BSEtunes64Setup\BSEtunes64Setup.vdproj", "{924D6B2D-D595-4ADC-ACBE-FDD097809317}"
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "BSEtunesSetup", "BSEtunesSetup\BSEtunesSetup.isproj", "{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}"
-	ProjectSection(ProjectDependencies) = postProject
-		{153EDB15-FB38-4BAD-9E7D-2B6D4A9D4ABD} = {153EDB15-FB38-4BAD-9E7D-2B6D4A9D4ABD}
-		{F9359F19-566A-4296-ABCC-6F327077E890} = {F9359F19-566A-4296-ABCC-6F327077E890}
-		{73896F5A-9DE7-442D-9812-D9A74677391A} = {73896F5A-9DE7-442D-9812-D9A74677391A}
-		{E84C7C64-9053-49B9-9EDF-7119287724AA} = {E84C7C64-9053-49B9-9EDF-7119287724AA}
-		{6CF7D670-DE52-4A99-97A6-93951130439E} = {6CF7D670-DE52-4A99-97A6-93951130439E}
-		{9A2EF2C2-186E-4487-AC7B-9DBC52F65970} = {9A2EF2C2-186E-4487-AC7B-9DBC52F65970}
-		{C0054DDA-A712-495F-BCF6-B5EF6361B28D} = {C0054DDA-A712-495F-BCF6-B5EF6361B28D}
-		{67E1F2F7-7D12-4A13-BC7A-7D412E104420} = {67E1F2F7-7D12-4A13-BC7A-7D412E104420}
-	EndProjectSection
-EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 15
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BSE.CoverFlow.WPFLib\\BSE.CoverFlow.WPFLib.csproj
-		SccLocalPath1 = .
-		SccProjectFilePathRelativizedFromConnection1 = BSE.CoverFlow.WPFLib\\
-		SccProjectUniqueName2 = BSE.Platten.Admin.WinApp\\BSE.Platten.Admin.WinApp.csproj
-		SccLocalPath2 = .
-		SccProjectFilePathRelativizedFromConnection2 = BSE.Platten.Admin.WinApp\\
-		SccProjectUniqueName3 = BSE.Platten.Admin\\BSE.Platten.Admin.csproj
-		SccLocalPath3 = .
-		SccProjectFilePathRelativizedFromConnection3 = BSE.Platten.Admin\\
-		SccProjectUniqueName4 = BSE.Platten.Audio\\BSE.Platten.Audio.csproj
-		SccLocalPath4 = .
-		SccProjectFilePathRelativizedFromConnection4 = BSE.Platten.Audio\\
-		SccProjectUniqueName5 = BSE.Platten.BO\\BSE.Platten.BO.csproj
-		SccLocalPath5 = .
-		SccProjectFilePathRelativizedFromConnection5 = BSE.Platten.BO\\
-		SccProjectUniqueName6 = BSE.Platten.Common\\BSE.Platten.Common.csproj
-		SccLocalPath6 = .
-		SccProjectFilePathRelativizedFromConnection6 = BSE.Platten.Common\\
-		SccProjectUniqueName7 = BSE.Platten.Covers\\BSE.Platten.Covers.csproj
-		SccLocalPath7 = .
-		SccProjectFilePathRelativizedFromConnection7 = BSE.Platten.Covers\\
-		SccProjectUniqueName8 = BSE.Platten.FreeDb\\BSE.Platten.FreeDb.csproj
-		SccLocalPath8 = .
-		SccProjectFilePathRelativizedFromConnection8 = BSE.Platten.FreeDb\\
-		SccProjectUniqueName9 = BSE.Platten.Ripper\\BSE.Platten.Ripper.csproj
-		SccLocalPath9 = .
-		SccProjectFilePathRelativizedFromConnection9 = BSE.Platten.Ripper\\
-		SccProjectUniqueName10 = BSE.Platten.Statistik\\BSE.Platten.Statistik.csproj
-		SccLocalPath10 = .
-		SccProjectFilePathRelativizedFromConnection10 = BSE.Platten.Statistik\\
-		SccProjectUniqueName11 = BSE.Platten.Tunes\\BSE.Platten.Tunes.csproj
-		SccLocalPath11 = .
-		SccProjectFilePathRelativizedFromConnection11 = BSE.Platten.Tunes\\
-		SccProjectUniqueName12 = BSEadminSetup\\BSEadminSetup.vdproj
-		SccLocalPath12 = .
-		SccProjectFilePathRelativizedFromConnection12 = BSEadminSetup\\
-		SccProjectUniqueName13 = BSEtunes64Setup\\BSEtunes64Setup.vdproj
-		SccLocalPath13 = .
-		SccProjectFilePathRelativizedFromConnection13 = BSEtunes64Setup\\
-		SccProjectUniqueName14 = BSEtunesSetup\\BSEtunesSetup.isproj
-		SccLocalPath14 = .
-		SccProjectFilePathRelativizedFromConnection14 = BSEtunesSetup\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +86,7 @@ Global
 		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{4DE7859B-AA94-41BC-A516-6C2CA14F2806}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -181,16 +122,12 @@ Global
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5212DC-47BB-4020-B083-2D12209CA374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5212DC-47BB-4020-B083-2D12209CA374}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{D1C83F22-5CE6-444C-A64D-B6596BC6A1AF}.CD_ROM|Any CPU.ActiveCfg = Release
-		{D1C83F22-5CE6-444C-A64D-B6596BC6A1AF}.Debug|Any CPU.ActiveCfg = Debug
-		{D1C83F22-5CE6-444C-A64D-B6596BC6A1AF}.DVD-5|Any CPU.ActiveCfg = Debug
-		{D1C83F22-5CE6-444C-A64D-B6596BC6A1AF}.Release|Any CPU.ActiveCfg = Release
-		{D1C83F22-5CE6-444C-A64D-B6596BC6A1AF}.SingleImage|Any CPU.ActiveCfg = Release
 		{E84C7C64-9053-49B9-9EDF-7119287724AA}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{E84C7C64-9053-49B9-9EDF-7119287724AA}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{E84C7C64-9053-49B9-9EDF-7119287724AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -203,27 +140,11 @@ Global
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDD9D96-5F1F-453F-A856-74ED18612D5E}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{924D6B2D-D595-4ADC-ACBE-FDD097809317}.CD_ROM|Any CPU.ActiveCfg = Release
-		{924D6B2D-D595-4ADC-ACBE-FDD097809317}.Debug|Any CPU.ActiveCfg = Debug
-		{924D6B2D-D595-4ADC-ACBE-FDD097809317}.DVD-5|Any CPU.ActiveCfg = Debug
-		{924D6B2D-D595-4ADC-ACBE-FDD097809317}.Release|Any CPU.ActiveCfg = Release
-		{924D6B2D-D595-4ADC-ACBE-FDD097809317}.SingleImage|Any CPU.ActiveCfg = Release
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.Debug|Any CPU.ActiveCfg = DVD-5
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.Debug|Any CPU.Build.0 = DVD-5
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.DVD-5|Any CPU.Build.0 = DVD-5
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.Release|Any CPU.ActiveCfg = SingleImage
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.Release|Any CPU.Build.0 = SingleImage
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{2EBA8E96-CDC2-4736-96D2-C9CAE48EF8F2}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,5 +152,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{82D356E1-14B2-4999-9972-6A2E0B92BE6E} = {0B468296-CE1C-4E0D-B0B5-ABC0EEBC5CC8}
 		{E087CE06-2FE8-4D7A-9BD8-14562B30C6BB} = {82D356E1-14B2-4999-9972-6A2E0B92BE6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FF50743-27E7-422D-AF4E-0BD3F5124583}
 	EndGlobalSection
 EndGlobal

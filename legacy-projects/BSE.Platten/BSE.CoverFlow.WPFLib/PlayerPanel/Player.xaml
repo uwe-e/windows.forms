@@ -7,7 +7,7 @@
     xmlns:controls="clr-namespace:BSE.CoverFlow.WPFLib.Controls"
     xmlns:bsewpf="clr-namespace:BSE.Wpf.Windows.Controls;assembly=BSE.Wpf.Windows.Controls"
     xmlns:drives="clr-namespace:BSE.Wpf.RemovableDrives;assembly=BSE.Wpf.RemovableDrives"
-    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
     service:DialogService.IsRegisteredView="True"
     mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="60"
     IsEnabled="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type local:Player}},  Path=IsHostAvailable}">

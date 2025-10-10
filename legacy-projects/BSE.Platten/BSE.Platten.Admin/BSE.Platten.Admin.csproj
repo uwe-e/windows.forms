@@ -10,10 +10,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BSE.Platten.Admin</RootNamespace>
     <AssemblyName>BSE.Platten.Admin</AssemblyName>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <StartupObject>
     </StartupObject>
     <ApplicationIcon>Resources\BSEadmin.ico</ApplicationIcon>
@@ -22,7 +26,7 @@
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -98,19 +102,17 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BSE.Charts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.Charts\BSE.Charts\bin\Release\BSE.Charts.dll</HintPath>
+    <Reference Include="BSE.Charts">
+      <HintPath>..\..\BSE.Charts\BSE.Charts\bin\Debug\BSE.Charts.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.Configuration, Version=1.0.1.28311, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assemblies\BSE.Configuration.dll</HintPath>
+    <Reference Include="BSE.Configuration">
+      <HintPath>..\..\BSE.Configuration\BSE.Configuration\bin\Debug\BSE.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Shell">
-      <HintPath>..\Assemblies\BSE.Shell.dll</HintPath>
+      <HintPath>..\..\BSE.Shell\BSE.Shell\bin\Debug\BSE.Shell.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Windows.Forms">
-      <HintPath>..\Assemblies\BSE.Windows.Forms.dll</HintPath>
+      <HintPath>..\..\BSE.Windows\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />

@@ -6,7 +6,7 @@
              xmlns:controls="clr-namespace:BSE.CoverFlow.WPFLib.Controls"
              xmlns:imageFlow="clr-namespace:BSE.Wpf.Windows.Controls.ImageFlow;assembly=BSE.Wpf.Windows.Controls"
                               xmlns:widgets="clr-namespace:BSE.CoverFlow.WPFLib.Widgets"
-             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:my="clr-namespace:BSE.CoverFlow.WPFLib.ImageFlowPanel"
              mc:Ignorable="d" d:DesignHeight="400" d:DesignWidth="500" >
     <controls:NavigateableControl.Resources>

@@ -30,7 +30,7 @@ namespace BSE.Platten.Tunes
             this.m_elementHostWindowHeader = new ElementHost();
             this.m_elementHostWindowHeader.Child = this.m_tunesCaption;
             this.m_elementHostWindowHeader.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Caption.Controls.Add(this.m_elementHostWindowHeader);
+            //this.Caption.Controls.Add(this.m_elementHostWindowHeader);
         }
         #endregion
     }

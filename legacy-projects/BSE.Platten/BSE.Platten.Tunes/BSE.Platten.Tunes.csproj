@@ -10,17 +10,21 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BSE.Platten.Tunes</RootNamespace>
     <AssemblyName>BSEtunes</AssemblyName>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <ApplicationIcon>Resources\BSEtunes.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <StartupObject>
     </StartupObject>
     <TargetFrameworkProfile />
@@ -86,42 +90,38 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BSE.Charts, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.Charts\BSE.Charts\bin\Release\BSE.Charts.dll</HintPath>
+    <Reference Include="BSE.Charts">
+      <HintPath>..\..\BSE.Charts\BSE.Charts\bin\Debug\BSE.Charts.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.Configuration, Version=1.0.2292.30987, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.Configuration\BSE.Configuration\bin\Release\BSE.Configuration.dll</HintPath>
+    <Reference Include="BSE.Configuration">
+      <HintPath>..\..\BSE.Configuration\BSE.Configuration\bin\Debug\BSE.Configuration.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.RemovableDrives, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.RemovableDrives\BSE.RemovableDrives\bin\Release\BSE.RemovableDrives.dll</HintPath>
+    <Reference Include="BSE.RemovableDrives">
+      <HintPath>..\..\BSE.RemovableDrives\BSE.RemovableDrives\bin\Debug\BSE.RemovableDrives.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.Shell, Version=1.0.2939.31234, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.Shell\BSE.Shell\bin\Release\BSE.Shell.dll</HintPath>
+    <Reference Include="BSE.Shell">
+      <HintPath>..\..\BSE.Shell\BSE.Shell\bin\Debug\BSE.Shell.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.ThreadedShell, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.Shell\BSE.ThreadedShell\bin\Release\BSE.ThreadedShell.dll</HintPath>
+    <Reference Include="BSE.ThreadedShell">
+      <HintPath>..\..\BSE.Shell\BSE.ThreadedShell\bin\Debug\BSE.ThreadedShell.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.Windows.Forms, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.Windows\BSE.Windows.Forms\bin\Release\BSE.Windows.Forms.dll</HintPath>
+    <Reference Include="BSE.Windows.Forms">
+      <HintPath>..\..\BSE.Windows\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="BSE.Wpf.RemovableDrives, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BSE.RemovableDrives\BSE.Wpf.RemovableDrives\bin\Release\BSE.Wpf.RemovableDrives.dll</HintPath>
+    <Reference Include="BSE.Wpf.RemovableDrives">
+      <HintPath>..\..\BSE.RemovableDrives\BSE.Wpf.RemovableDrives\bin\Debug\BSE.Wpf.RemovableDrives.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Wpf.Windows.Controls, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\BSE.Wpf.Windows\BSE.Wpf.Windows.Controls\bin\Release\BSE.Wpf.Windows.Controls.dll</HintPath>
     </Reference>
     <Reference Include="GongSolutions.Wpf.DragDrop">
-      <HintPath>..\Assemblies\GongSolutions.Wpf.DragDrop.dll</HintPath>
+      <HintPath>..\..\gong-wpf-dragdrop\GongSolutions.Wpf.DragDrop.root\GongSolutions.Wpf.DragDrop\GongSolutions.Wpf.DragDrop\bin\Debug\GongSolutions.Wpf.DragDrop.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.135\lib\net462\Microsoft.Xaml.Behaviors.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -133,7 +133,6 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="WindowsBase" />
@@ -374,6 +373,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

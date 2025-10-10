@@ -1,0 +1,63 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:BSE.Wpf.Windows.Controls"
+    xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero">
+
+    <Style TargetType="{x:Type controls:DropDownButton}" BasedOn="{StaticResource {x:Type ToggleButton}}">
+        <!--<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>-->
+        <!--<Setter Property="Background" Value="{StaticResource ButtonNormalBackgroundFill}"/>-->
+        <!--Setter Property="BorderBrush" Value="{StaticResource ButtonBorder}"/>-->
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <!--<Setter Property="MinHeight" Value="22" />
+        <Setter Property="MinWidth" Value="80" />-->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type controls:DropDownButton}">
+                    <Microsoft_Windows_Themes:ButtonChrome x:Name="Chrome" SnapsToDevicePixels="True"
+                                                           BorderBrush="{TemplateBinding BorderBrush}"
+                                                           Background="{TemplateBinding Background}"
+                                                           RenderMouseOver="{TemplateBinding IsMouseOver}" RenderPressed="{TemplateBinding IsPressed}">
+                        <!--<Label Style="{StaticResource LabelStyle}">-->
+                        <!--<Label>-->
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <!--<Image x:Name="icon" Grid.Column="0" Margin="4,0,2,0" VerticalAlignment="Center" Width="16" Height="16" Source="{TemplateBinding Image}" />
+                                <Label Grid.Column="1" Content="{TemplateBinding Text}" Target="{TemplateBinding Target}" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0" Margin="0,0,3,0" Foreground="{TemplateBinding Foreground}"/>-->
+                                <ContentPresenter x:Name="ContentPresenter" Grid.Column="1"
+                                                  Content="{TemplateBinding Content}"
+                                                  ContentTemplate="{TemplateBinding ContentTemplate}"
+                                                  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                <Path Grid.Column="2"
+                                      Fill="{DynamicResource GlyphBrush}"
+                                      Data="M 0 0 L 4 4 L 8 0 Z"
+                                      Margin="10,0,0,0"
+                                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Grid>
+                        <!--</Label>-->
+                    </Microsoft_Windows_Themes:ButtonChrome>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Setter Property="RenderDefaulted" TargetName="Chrome" Value="True"/>
+                        </Trigger>
+                        <Trigger Property="ToggleButton.IsChecked" Value="True">
+                            <Setter Property="RenderPressed" TargetName="Chrome" Value="True"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

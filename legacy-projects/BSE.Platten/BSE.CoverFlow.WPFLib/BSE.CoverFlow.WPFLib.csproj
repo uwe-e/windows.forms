@@ -10,14 +10,18 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BSE.CoverFlow.WPFLib</RootNamespace>
     <AssemblyName>BSE.CoverFlow.WPFLib</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -85,19 +89,20 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BSE.Shell, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assemblies\BSE.Shell.dll</HintPath>
+    <Reference Include="BSE.Shell">
+      <HintPath>..\..\BSE.Shell\BSE.Shell\bin\Debug\BSE.Shell.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Wpf.RemovableDrives">
-      <HintPath>..\Assemblies\BSE.Wpf.RemovableDrives.dll</HintPath>
+      <HintPath>..\..\BSE.RemovableDrives\BSE.Wpf.RemovableDrives\bin\Debug\BSE.Wpf.RemovableDrives.dll</HintPath>
     </Reference>
     <Reference Include="BSE.Wpf.Windows.Controls">
-      <HintPath>..\Assemblies\BSE.Wpf.Windows.Controls.dll</HintPath>
+      <HintPath>..\..\BSE.Wpf.Windows\BSE.Wpf.Windows.Controls\bin\Debug\BSE.Wpf.Windows.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="GongSolutions.Wpf.DragDrop, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Assemblies\GongSolutions.Wpf.DragDrop.dll</HintPath>
+    <Reference Include="GongSolutions.Wpf.DragDrop">
+      <HintPath>..\..\gong-wpf-dragdrop\GongSolutions.Wpf.DragDrop.root\GongSolutions.Wpf.DragDrop\GongSolutions.Wpf.DragDrop\bin\Debug\GongSolutions.Wpf.DragDrop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xaml.Behaviors, Version=1.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Xaml.Behaviors.Wpf.1.1.135\lib\net462\Microsoft.Xaml.Behaviors.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -105,7 +110,6 @@
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -264,6 +268,7 @@
     <Compile Include="Widgets\NewAlbums.xaml.cs">
       <DependentUpon>NewAlbums.xaml</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

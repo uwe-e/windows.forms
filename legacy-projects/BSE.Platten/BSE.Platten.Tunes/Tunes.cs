@@ -90,7 +90,7 @@ namespace BSE.Platten.Tunes
             InitializeViewModels();
 
             this.BackColor = Color.FromArgb(17, 9, 15);
-            this.BorderColor = Color.FromArgb(184, 182, 183);
+            //this.BorderColor = Color.FromArgb(184, 182, 183);
 
             this.m_configuration.ApplicationSubDirectory = this.ConfigurationFolder;
             this.m_configuration.ConfigFileName = this.ConfigurationFileName;

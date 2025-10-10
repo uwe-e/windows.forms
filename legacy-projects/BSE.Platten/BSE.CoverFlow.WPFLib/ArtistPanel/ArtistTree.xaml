@@ -5,7 +5,7 @@
              xmlns:data="clr-namespace:BSE.CoverFlow.WPFLib.Data"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              xmlns:viewmodels="clr-namespace:BSE.CoverFlow.WPFLib.ViewModel"
-             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:p="clr-namespace:BSE.CoverFlow.WPFLib.Properties"
              mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="300" d:DesignWidth="300">

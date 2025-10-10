@@ -1,0 +1,284 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="ScrollBarButtonLeft" TargetType="{x:Type RepeatButton}">
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="Focusable" Value="false"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="MinHeight" Value="20"/>
+        <Setter Property="MaxWidth" Value="50"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Grid HorizontalAlignment="Left">
+                        <Grid Margin="0,0,-7,0">
+                            <Path Stretch="Fill" HorizontalAlignment="Left" Width="50" Data="M10,0.5 C10.16396,0.49999976 10.326949,0.50415337 10.488869,0.51236087 L10.5,0.51306617 10.5,0.5 23.724001,0.5 29.5,0.5 49.5,0.5 49.421665,0.5354141 C45.90242,2.2311701 43.473885,5.8319758 43.473885,9.9999999 43.473885,14.168024 45.90242,17.768829 49.421665,19.464586 L49.5,19.5 29.5,19.5 23.724001,19.5 10.5,19.5 10.5,19.486933 10.488869,19.487638 C10.326949,19.495846 10.16396,19.5 10,19.5 4.7532949,19.5 0.5,15.246705 0.5,9.9999999 0.5,4.7532948 4.7532949,0.49999976 10,0.5 z">
+                                <Path.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="0.527"/>
+                                        <GradientStop Color="#FF2F2F2F" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <Path Stretch="Fill" HorizontalAlignment="Right" Margin="5,0,0,0" VerticalAlignment="Top" Width="45" Height="10" Data="M5.25,0.5 C5.4139605,0.49999982 5.5769491,0.50415343 5.7388687,0.51236123 L5.75,0.51306653 5.75,0.5 18.974001,0.5 24.75,0.5 44.75,0.5 44.671665,0.5354141 C41.372372,2.1251855 39.031712,5.3893171 38.752018,9.2254696 L38.737019,9.5000001 5,9.5000001 C2.5147185,9.5000001 0.5,7.4852815 0.5,5.0000005 0.5,2.7477136 2.1546664,0.8818956 4.3146935,0.55184978 L4.4232826,0.53805166 4.7611313,0.51236123 C4.9230509,0.50415367 5.0860405,0.50000006 5.25,0.5 z">
+                                <Path.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF595959" Offset="0"/>
+                                        <GradientStop Color="#FF3D3D3D" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <Path x:Name="ButtonLeftMouseOver" Visibility="Hidden" Stretch="Fill" HorizontalAlignment="Left" Width="50" Data="M10,0.5 C10.16396,0.49999976 10.326949,0.50415337 10.488869,0.51236087 L10.5,0.51306617 10.5,0.5 23.724001,0.5 29.5,0.5 49.5,0.5 49.421665,0.5354141 C45.90242,2.2311701 43.473885,5.8319758 43.473885,9.9999999 43.473885,14.168024 45.90242,17.768829 49.421665,19.464586 L49.5,19.5 29.5,19.5 23.724001,19.5 10.5,19.5 10.5,19.486933 10.488869,19.487638 C10.326949,19.495846 10.16396,19.5 10,19.5 4.7532949,19.5 0.5,15.246705 0.5,9.9999999 0.5,4.7532948 4.7532949,0.49999976 10,0.5 z">
+                                <Path.Fill>
+                                    <RadialGradientBrush Center="0.5,0.984" GradientOrigin="0.5,0.984" RadiusY="0.817">
+                                        <GradientStop Color="#00000000" Offset="1"/>
+                                        <GradientStop Color="#FF7FDCF3"/>
+                                    </RadialGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <Image HorizontalAlignment="Center" Margin="0" VerticalAlignment="Bottom" Source="../Images/left.png" Stretch="Fill" Width="20"/>
+                            <Path Stretch="Fill" Stroke="#FF9A9A9A" HorizontalAlignment="Left" Width="50" Data="M10,0.5 C10.16396,0.49999976 10.326949,0.50415337 10.488869,0.51236087 L10.5,0.51306617 10.5,0.5 23.724001,0.5 29.5,0.5 49.5,0.5 49.421665,0.5354141 C45.90242,2.2311701 43.473885,5.8319758 43.473885,9.9999999 43.473885,14.168024 45.90242,17.768829 49.421665,19.464586 L49.5,19.5 29.5,19.5 23.724001,19.5 10.5,19.5 10.5,19.486933 10.488869,19.487638 C10.326949,19.495846 10.16396,19.5 10,19.5 4.7532949,19.5 0.5,15.246705 0.5,9.9999999 0.5,4.7532948 4.7532949,0.49999976 10,0.5 z" StrokeLineJoin="Bevel"/>
+                            <Path x:Name="ButtonLeftPressed" Visibility="Hidden" Stretch="Fill" StrokeLineJoin="Bevel" HorizontalAlignment="Left" Width="50" Data="M10,0.5 C10.16396,0.49999976 10.326949,0.50415337 10.488869,0.51236087 L10.5,0.51306617 10.5,0.5 23.724001,0.5 29.5,0.5 49.5,0.5 49.421665,0.5354141 C45.90242,2.2311701 43.473885,5.8319758 43.473885,9.9999999 43.473885,14.168024 45.90242,17.768829 49.421665,19.464586 L49.5,19.5 29.5,19.5 23.724001,19.5 10.5,19.5 10.5,19.486933 10.488869,19.487638 C10.326949,19.495846 10.16396,19.5 10,19.5 4.7532949,19.5 0.5,15.246705 0.5,9.9999999 0.5,4.7532948 4.7532949,0.49999976 10,0.5 z">
+                                <Path.Stroke>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="0"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Stroke>
+                            </Path>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="ButtonLeftPressed" Property="Visibility" Value="Visible" />
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Visibility" TargetName="ButtonLeftMouseOver" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="DarkSlateGray"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ScrollBarButtonRight" TargetType="{x:Type RepeatButton}">
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="Focusable" Value="false"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="MinHeight" Value="20"/>
+        <Setter Property="MaxWidth" Value="50"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Grid HorizontalAlignment="Right">
+                        <Grid Margin="-7,0,0,0">
+                            <Path Stretch="Fill" Data="M0.5,0.5 L8.625,0.5 15.149001,0.5 40,0.5 40.125,0.5 40.125,0.50158155 40.245201,0.50310248 C45.378582,0.63315779 49.5,4.8352746 49.5,9.9999999 49.5,15.164725 45.378582,19.366842 40.245201,19.496897 L40.125,19.498419 40.125,19.5 40,19.5 15.149001,19.5 8.625,19.5 0.50000072,19.5 0.5758509,19.464586 C4.0951986,17.768829 6.5238028,14.168024 6.5238023,9.9999999 6.5238028,5.8319758 4.0951986,2.2311701 0.5758509,0.5354141 z">
+                                <Path.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="0.527"/>
+                                        <GradientStop Color="#FF2F2F2F" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <Path x:Name="ButtonRightMouseOver" Visibility="Hidden" Stretch="Fill" Data="M0.5,0.5 L8.625,0.5 15.149001,0.5 40,0.5 40.125,0.5 40.125,0.50158155 40.245201,0.50310248 C45.378582,0.63315779 49.5,4.8352746 49.5,9.9999999 49.5,15.164725 45.378582,19.366842 40.245201,19.496897 L40.125,19.498419 40.125,19.5 40,19.5 15.149001,19.5 8.625,19.5 0.50000072,19.5 0.5758509,19.464586 C4.0951986,17.768829 6.5238028,14.168024 6.5238023,9.9999999 6.5238028,5.8319758 4.0951986,2.2311701 0.5758509,0.5354141 z">
+                                <Path.Fill>
+                                    <RadialGradientBrush Center="0.5,0.984" GradientOrigin="0.5,0.984" RadiusY="0.817">
+                                        <GradientStop Color="#00000000" Offset="1"/>
+                                        <GradientStop Color="#FF7FDCF3"/>
+                                    </RadialGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <Path Stretch="Fill" Margin="0,0,5,0" VerticalAlignment="Top" Height="10" Data="M0.5,0.5 L8.6250001,0.5 15.149001,0.5 39.816002,0.5 40,0.5 40.066002,0.5 40.066002,0.50725687 40.2761,0.52323318 C42.545254,0.75367796 44.316002,2.6700488 44.316002,4.9999999 44.316002,7.3299512 42.545254,9.2463216 40.2761,9.4767665 L40.066002,9.4927434 40.066002,9.4999999 39.816002,9.4999999 6.5106665,9.4999999 6.4956686,9.2254695 C6.2159669,5.3893169 3.8752395,2.1251854 0.57585111,0.53541386 z" Width="45">
+                                <Path.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF595959" Offset="0"/>
+                                        <GradientStop Color="#FF3D3D3D" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Fill>
+                            </Path>
+                            <Image HorizontalAlignment="Center" Margin="0" VerticalAlignment="Bottom" Source="../Images/right.png" Stretch="Fill" Width="20"/>
+                            <Path Stretch="Fill" Stroke="#FF9A9A9A" Data="M0.5,0.5 L8.625,0.5 15.149001,0.5 40,0.5 40.125,0.5 40.125,0.50158155 40.245201,0.50310248 C45.378582,0.63315779 49.5,4.8352746 49.5,9.9999999 49.5,15.164725 45.378582,19.366842 40.245201,19.496897 L40.125,19.498419 40.125,19.5 40,19.5 15.149001,19.5 8.625,19.5 0.50000072,19.5 0.5758509,19.464586 C4.0951986,17.768829 6.5238028,14.168024 6.5238023,9.9999999 6.5238028,5.8319758 4.0951986,2.2311701 0.5758509,0.5354141 z" StrokeLineJoin="Bevel"/>
+                            <Path x:Name="ButtonRightPressed" Visibility="Hidden" Stretch="Fill" Data="M0.5,0.5 L8.625,0.5 15.149001,0.5 40,0.5 40.125,0.5 40.125,0.50158155 40.245201,0.50310248 C45.378582,0.63315779 49.5,4.8352746 49.5,9.9999999 49.5,15.164725 45.378582,19.366842 40.245201,19.496897 L40.125,19.498419 40.125,19.5 40,19.5 15.149001,19.5 8.625,19.5 0.50000072,19.5 0.5758509,19.464586 C4.0951986,17.768829 6.5238028,14.168024 6.5238023,9.9999999 6.5238028,5.8319758 4.0951986,2.2311701 0.5758509,0.5354141 z" StrokeLineJoin="Bevel">
+                                <Path.Stroke>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="Black" Offset="0"/>
+                                        <GradientStop Color="White" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Path.Stroke>
+                            </Path>
+                        </Grid>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter Property="Visibility" TargetName="ButtonRightPressed" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Visibility" TargetName="ButtonRightMouseOver" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="DarkSlateGray"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ScrollBarPageButton" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border Background="Transparent" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ScrollBarThumb" TargetType="{x:Type Thumb}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Grid Width="50" Height="20">
+                        <Path Data="M10,0 L40,0 C45.522846,1.4901161E-07 50,4.4771525 50,10 50,15.522847 45.522846,20 40,20 L10,20 C4.4771523,20 0,15.522847 0,10 0,4.4771525 4.4771523,1.4901161E-07 10,0 z">
+                            <Path.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="0.527"/>
+                                    <GradientStop Color="#FF2F2F2F" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Path.Fill>
+                        </Path>
+                        <Path x:Name="ThumbMouseOver" Visibility="Hidden" Data="M10,0 L40,0 C45.522846,1.4901161E-07 50,4.4771525 50,10 50,15.522847 45.522846,20 40,20 L10,20 C4.4771523,20 0,15.522847 0,10 0,4.4771525 4.4771523,1.4901161E-07 10,0 z">
+                            <Path.Fill>
+                                <RadialGradientBrush Center="0.5,0.984" GradientOrigin="0.5,0.984" RadiusY="0.817">
+                                    <GradientStop Color="#00000000" Offset="1"/>
+                                    <GradientStop Color="#FF7FDCF3"/>
+                                </RadialGradientBrush>
+                            </Path.Fill>
+                        </Path>
+                        <Path Stretch="Fill" Margin="5,0" VerticalAlignment="Top" Height="10" Data="M5,0 L35,0 C37.761425,0 40,2.2385762 40,5 40,7.7614236 37.761425,10 35,10 L5,10 C2.2385762,10 0,7.7614236 0,5 0,2.2385764 2.2385762,2.2351742E-07 5,0 z">
+                            <Path.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF595959" Offset="0"/>
+                                    <GradientStop Color="#FF3D3D3D" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Path.Fill>
+                        </Path>
+                        <Path Stretch="Fill" Data="M10,0 L40,0 C45.522846,1.4901161E-07 50,4.4771525 50,10 50,15.522847 45.522846,20 40,20 L10,20 C4.4771523,20 0,15.522847 0,10 0,4.4771525 4.4771523,1.4901161E-07 10,0 z" Stroke="#FF9A9A9A"/>
+                        <Path x:Name="ThumbDragging" Visibility="Hidden" Stretch="Fill" Data="M10,0 L40,0 C45.522846,1.4901161E-07 50,4.4771525 50,10 50,15.522847 45.522846,20 40,20 L10,20 C4.4771523,20 0,15.522847 0,10 0,4.4771525 4.4771523,1.4901161E-07 10,0 z">
+                            <Path.Stroke>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="Black" Offset="0"/>
+                                    <GradientStop Color="White" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Path.Stroke>
+                        </Path>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsDragging" Value="True">
+                            <Setter Property="Visibility" TargetName="ThumbDragging" Value="Visible"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Visibility" TargetName="ThumbMouseOver" Value="Visible"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate x:Key="HorizontalScrollBar" TargetType="{x:Type ScrollBar}">
+        <Grid Height="20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition MaxWidth="10"/>
+                    <ColumnDefinition Width="0.00001*"/>
+                    <ColumnDefinition MaxWidth="10"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Rectangle Fill="#22FFFFFF" />
+                    <Path Stretch="Fill" Stroke="#FF9A9A9A" StrokeEndLineCap="Square" StrokeStartLineCap="Square" Margin="0" VerticalAlignment="Top" Height="1" Data="M0.5,0.5 L79.5,0.5"/>
+                    <Path Stretch="Fill" Stroke="#FF9A9A9A" StrokeEndLineCap="Square" StrokeStartLineCap="Square" Margin="0" VerticalAlignment="Bottom" Height="1" Data="M79.5,0.5 L0.5,0.5"/>
+                </Grid>
+                <Grid Grid.Column="2">
+                </Grid>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition MaxWidth="43"/>
+                    <ColumnDefinition Width="0.00001*" />
+                    <ColumnDefinition MaxWidth="43"/>
+                </Grid.ColumnDefinitions>
+
+                <RepeatButton Grid.Column="0"
+                    Style="{StaticResource ScrollBarButtonLeft}"
+                    Width="43"
+					Command="ScrollBar.LineLeftCommand"
+                    Content="M 4 0 L 4 8 L 0 4 Z" />
+
+                <Track x:Name="PART_Track"
+             Grid.Column="1"
+			 ViewportSize="NaN"
+             IsDirectionReversed="False">
+                    <Track.DecreaseRepeatButton>
+                        <RepeatButton Style="{StaticResource ScrollBarPageButton}"
+                        Command="ScrollBar.PageLeftCommand" />
+                    </Track.DecreaseRepeatButton>
+                    <Track.IncreaseRepeatButton>
+                        <RepeatButton Style="{StaticResource ScrollBarPageButton}"
+                        Command="ScrollBar.PageRightCommand" />
+                    </Track.IncreaseRepeatButton>
+                    <Track.Thumb>
+                        <Thumb Style="{StaticResource ScrollBarThumb}" Width="50"/>
+                    </Track.Thumb>
+                </Track>
+
+                <RepeatButton Grid.Column="3"
+                    Style="{StaticResource ScrollBarButtonRight}"
+                    Width="43"
+                    Command="ScrollBar.LineRightCommand"
+                    Content="M 0 0 L 4 4 L 0 8 Z" />
+            </Grid>
+        </Grid>
+    </ControlTemplate>
+
+    <Style x:Key="{x:Type ScrollBar}"
+         TargetType="{x:Type ScrollBar}">
+        <Setter Property="SnapsToDevicePixels"
+            Value="True" />
+        <Setter Property="OverridesDefaultStyle"
+            Value="true" />
+        <Style.Triggers>
+            <Trigger Property="Orientation"
+               Value="Horizontal">
+                <Setter Property="Width"
+                Value="Auto" />
+                <Setter Property="Height"
+                Value="18" />
+                <Setter Property="Template"
+                Value="{StaticResource HorizontalScrollBar}" />
+            </Trigger>
+            <Trigger Property="Orientation"
+               Value="Vertical">
+                <Setter Property="Width"
+                Value="18" />
+                <Setter Property="Height"
+                Value="Auto" />
+                <!--<Setter Property="Template"
+                Value="{StaticResource VerticalScrollBar}" />-->
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>
