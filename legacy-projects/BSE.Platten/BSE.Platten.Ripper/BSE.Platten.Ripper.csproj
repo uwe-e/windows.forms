@@ -277,6 +277,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Resources\OpenCD.png" />
   </ItemGroup>
   <ItemGroup>
