@@ -117,604 +117,145 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="m_btnGotoAddress.Text" xml:space="preserve">
+    <value>Wechseln zu</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_splImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 28</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="toolStripContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;m_splHomeDirectory.Name" xml:space="preserve">
-    <value>m_splHomeDirectory</value>
-  </data>
-  <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="m_mnuBearbeiten_ImportAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 22</value>
-  </data>
-  <data name="m_lblAddress.Text" xml:space="preserve">
-    <value>Adresse:</value>
-  </data>
-  <data name="m_clmnHome_FileFullName.Text" xml:space="preserve">
-    <value>Datei</value>
-  </data>
-  <data name="m_clmnHome_Title.Text" xml:space="preserve">
-    <value>Lied</value>
-  </data>
-  <data name="&gt;&gt;m_trvHomeDirectory.Name" xml:space="preserve">
-    <value>m_trvHomeDirectory</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei_Separator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>712, 474</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei_End.Name" xml:space="preserve">
-    <value>m_mnuDatei_End</value>
-  </data>
-  <data name="m_btnAllTracksOk.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_FileFullName.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_btnGotoAddress.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="m_lstvImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>524, 137</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_mnuBearbeiten_CopyAll.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F9</value>
-  </data>
-  <data name="m_ssMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;m_pnlImportDirectory.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="toolStripContainer1.Text" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="m_clmnAlbum.Text" xml:space="preserve">
-    <value>Album</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei_Separator.Name" xml:space="preserve">
-    <value>m_mnuDatei_Separator</value>
-  </data>
-  <data name="m_mnuBearbeiten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
-  </data>
-  <data name="&gt;&gt;m_mainMenu.Name" xml:space="preserve">
-    <value>m_mainMenu</value>
-  </data>
-  <data name="&gt;&gt;m_pnlAction.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_splListViews.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 169</value>
-  </data>
-  <data name="m_pnlHomeDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="m_btnBearbeiten_CopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;m_btnCancel.Name" xml:space="preserve">
-    <value>m_btnCancel</value>
-  </data>
-  <data name="&gt;&gt;m_splListViews.Parent" xml:space="preserve">
-    <value>toolStripContainer1.ContentPanel</value>
-  </data>
-  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_btnSelectedTracksOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 23</value>
-  </data>
-  <data name="m_mnuHelp_HelpContent.Text" xml:space="preserve">
-    <value>Inhalt</value>
-  </data>
-  <data name="m_clmnHome_Album.Width" type="System.Int32, mscorlib">
-    <value>160</value>
-  </data>
-  <data name="&gt;&gt;m_splImportDirectory.Parent" xml:space="preserve">
-    <value>m_pnlImportDirectory</value>
-  </data>
-  <data name="&gt;&gt;m_btnAllTracksOk.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_ssMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="&gt;&gt;m_settings.Type" xml:space="preserve">
-    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.18326, Culture=neutral, PublicKeyToken=null</value>
+  <data name="m_mnuDatei_OpenDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
   </data>
   <data name="m_btnSelectedTracksOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>439, 3</value>
   </data>
-  <data name="&gt;&gt;m_mainMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lblAddress.Name" xml:space="preserve">
-    <value>m_lblAddress</value>
+  <data name="m_clmnHome_FileFullName.Text" xml:space="preserve">
+    <value>Datei</value>
   </data>
   <data name="&gt;&gt;m_clmnHome_Genre.Name" xml:space="preserve">
     <value>m_clmnHome_Genre</value>
   </data>
-  <data name="m_btnAllTracksOk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 23</value>
-  </data>
-  <data name="&gt;&gt;m_settings.Name" xml:space="preserve">
-    <value>m_settings</value>
-  </data>
-  <data name="&gt;&gt;m_lstvHomeDirectory.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ListView, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_splListViews.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Year.Name" xml:space="preserve">
-    <value>m_clmnHome_Year</value>
-  </data>
-  <data name="m_clmnHome_TrackNumber.Text" xml:space="preserve">
-    <value>Track</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="m_tsMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="m_trvHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 28</value>
-  </data>
-  <data name="&gt;&gt;m_lstvHomeDirectory.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="m_btnAllTracksOk.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;m_lblStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_pnlAction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 30</value>
-  </data>
-  <data name="&gt;&gt;m_btnGotoAddress.Name" xml:space="preserve">
-    <value>m_btnGotoAddress</value>
-  </data>
-  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 450</value>
-  </data>
-  <data name="&gt;&gt;m_mnuExtras.Name" xml:space="preserve">
-    <value>m_mnuExtras</value>
-  </data>
-  <data name="&gt;&gt;m_mnuBearbeiten.Name" xml:space="preserve">
-    <value>m_mnuBearbeiten</value>
-  </data>
-  <data name="m_mnuBearbeiten_ImportAll.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_clmnHome_FileFullName.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="m_trvImportDirectory.ImageKey" xml:space="preserve">
-    <value>FolderOpen256.png</value>
-  </data>
-  <data name="&gt;&gt;m_clmnTrackNumber.Name" xml:space="preserve">
-    <value>m_clmnTrackNumber</value>
-  </data>
-  <data name="m_mnuDatei_Separator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 6</value>
-  </data>
-  <data name="m_trvImportDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="&gt;&gt;m_btnBearbeiten_ImportAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_btnBearbeiten_ImportAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;m_btnSelectedTracksOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 450</value>
-  </data>
-  <data name="m_btnAllTracksOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>260, 3</value>
-  </data>
-  <data name="m_tsMain.Text" xml:space="preserve">
-    <value>toolStrip1</value>
-  </data>
-  <data name="m_splListViews.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;m_splListViews.Name" xml:space="preserve">
-    <value>m_splListViews</value>
-  </data>
-  <data name="&gt;&gt;m_fldDlgOpenDirectory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="m_btnBearbeiten_CopyAll.ToolTipText" xml:space="preserve">
-    <value>Alle markierten Tracks ins Audio Homeverzeichnis kopieren</value>
-  </data>
-  <data name="m_lstvHomeDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Interpret.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_mnuBearbeiten_CopyAll.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_splImportDirectory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;m_btnCancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei_OpenDirectory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnBearbeiten_CopyAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_clmnFileFullName.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>BSE.Platten.Common.BaseForm, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_pnlAction.Name" xml:space="preserve">
-    <value>m_pnlAction</value>
-  </data>
-  <data name="m_mnuDatei.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 20</value>
-  </data>
-  <data name="&gt;&gt;m_lstvImportDirectory.Parent" xml:space="preserve">
-    <value>m_pnlImportDirectory</value>
-  </data>
-  <data name="m_clmnHome_Year.Text" xml:space="preserve">
-    <value>Erschienen</value>
-  </data>
-  <data name="m_btnSelectedTracksOK.Text" xml:space="preserve">
-    <value>Ausgewählte Dateien übernehmen</value>
-  </data>
-  <data name="m_trvImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 28</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_TrackNumber.Name" xml:space="preserve">
-    <value>m_clmnHome_TrackNumber</value>
-  </data>
-  <data name="&gt;&gt;m_btnOpenFolder.Name" xml:space="preserve">
-    <value>m_btnOpenFolder</value>
-  </data>
-  <data name="&gt;&gt;m_btnAllTracksOk.Name" xml:space="preserve">
-    <value>m_btnAllTracksOk</value>
-  </data>
-  <data name="m_pnlImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="&gt;&gt;m_ssMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_btnAllTracksOk.Parent" xml:space="preserve">
-    <value>m_pnlAction</value>
-  </data>
-  <data name="m_lblAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 22</value>
-  </data>
-  <data name="m_pnlImportDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_btnOpenFolder.ToolTipText" xml:space="preserve">
-    <value>Audioverzeichnis wählen</value>
-  </data>
-  <data name="&gt;&gt;m_cboAddress.Name" xml:space="preserve">
-    <value>m_cboAddress</value>
-  </data>
-  <data name="&gt;&gt;m_clmnYear.Name" xml:space="preserve">
-    <value>m_clmnYear</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_splImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>4, 137</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_pnlAction.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="m_cboAddress.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_splImportDirectory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;m_clmnFileFullName.Name" xml:space="preserve">
+    <value>m_clmnFileFullName</value>
+  </data>
+  <data name="m_clmnHome_Genre.Width" type="System.Int32, mscorlib">
+    <value>80</value>
   </data>
   <data name="m_splListViews.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_mnuDatei.Text" xml:space="preserve">
-    <value>&amp;Datei</value>
-  </data>
-  <data name="m_btnSelectedTracksOK.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_clmnHome_Genre.Text" xml:space="preserve">
-    <value>Genre</value>
-  </data>
-  <data name="m_splHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 28</value>
-  </data>
-  <data name="m_cboAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
-  </data>
-  <data name="&gt;&gt;m_mnuBearbeiten_CopyAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ContentPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_mnuHelp_HelpContent.Name" xml:space="preserve">
-    <value>m_mnuHelp_HelpContent</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Duration.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_lstvImportDirectory.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ListView, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_trvHomeDirectory.Parent" xml:space="preserve">
-    <value>m_pnlHomeDirectory</value>
-  </data>
-  <data name="m_btnSelectedTracksOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;m_pnlHomeDirectory.Name" xml:space="preserve">
-    <value>m_pnlHomeDirectory</value>
-  </data>
-  <data name="m_pnlAction.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="m_splHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>4, 169</value>
-  </data>
-  <data name="&gt;&gt;m_tsMain.Parent" xml:space="preserve">
-    <value>toolStripContainer1.TopToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;m_pnlHomeDirectory.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei_OpenDirectory.Name" xml:space="preserve">
-    <value>m_mnuDatei_OpenDirectory</value>
-  </data>
-  <data name="m_mnuBearbeiten.Text" xml:space="preserve">
-    <value>&amp;Bearbeiten</value>
-  </data>
-  <data name="&gt;&gt;m_mnuBearbeiten_CopyAll.Name" xml:space="preserve">
-    <value>m_mnuBearbeiten_CopyAll</value>
-  </data>
-  <data name="m_lstvImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 28</value>
-  </data>
-  <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>626, 3</value>
-  </data>
-  <data name="&gt;&gt;m_splHomeDirectory.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_clmnInterpret.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_clmnTrackNumber.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_btnGotoAddress.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="&gt;&gt;m_clmnAlbum.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
-    <value>ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;m_pnlImportDirectory.Parent" xml:space="preserve">
-    <value>toolStripContainer1.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.ContentPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_tsMain.Name" xml:space="preserve">
-    <value>m_tsMain</value>
-  </data>
-  <data name="m_clmnDuration.Text" xml:space="preserve">
-    <value>Dauer</value>
-  </data>
-  <data name="m_btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;ContentPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="m_btnBearbeiten_CopyAll.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="m_mnuExtras_Optionen.Text" xml:space="preserve">
-    <value>Optionen</value>
-  </data>
-  <data name="m_mnuDatei_End.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
-  </data>
-  <data name="m_pnlHomeDirectory.Text" xml:space="preserve">
-    <value>Audio Home- Verzeichnis:</value>
-  </data>
-  <data name="&gt;&gt;m_imgMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.Parent" xml:space="preserve">
-    <value>ContentPanel</value>
-  </data>
-  <data name="m_clmnHome_Interpret.Width" type="System.Int32, mscorlib">
+  <data name="m_clmnHome_Album.Width" type="System.Int32, mscorlib">
     <value>160</value>
-  </data>
-  <data name="&gt;&gt;m_trvHomeDirectory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_clmnGenre.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_FileFullName.Name" xml:space="preserve">
-    <value>m_clmnHome_FileFullName</value>
-  </data>
-  <data name="&gt;&gt;m_btnCancel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_pnlHomeDirectory.Parent" xml:space="preserve">
-    <value>toolStripContainer1.ContentPanel</value>
-  </data>
-  <data name="m_mnuBearbeiten_CopyAll.Text" xml:space="preserve">
-    <value>Alle markierten Tracks ins Audio Homeverzeichnis kopieren</value>
-  </data>
-  <data name="&gt;&gt;m_ssMain.Name" xml:space="preserve">
-    <value>m_ssMain</value>
-  </data>
-  <data name="m_clmnHome_Interpret.Text" xml:space="preserve">
-    <value>Interpret</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.Name" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="&gt;&gt;m_splImportDirectory.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="m_mainMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 24</value>
-  </data>
-  <data name="&gt;&gt;m_tsMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripContainer1.ContentPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="m_mnuHelp_HelpContent.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F1</value>
-  </data>
-  <data name="&gt;&gt;m_splImportDirectory.Type" xml:space="preserve">
-    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_mnuDatei_OpenDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>205, 22</value>
-  </data>
-  <data name="m_btnBearbeiten_ImportAll.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei.Name" xml:space="preserve">
-    <value>m_mnuDatei</value>
-  </data>
-  <data name="&gt;&gt;m_splListViews.Type" xml:space="preserve">
-    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_mainMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="m_trvImportDirectory.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;m_btnAllTracksOk.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;m_clmnHome_Album.Name" xml:space="preserve">
+    <value>m_clmnHome_Album</value>
   </data>
-  <data name="&gt;&gt;m_mnuDatei_End.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="m_btnSelectedTracksOK.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;m_ssMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_mainMenu.Name" xml:space="preserve">
+    <value>m_mainMenu</value>
   </data>
-  <data name="m_clmnInterpret.Text" xml:space="preserve">
-    <value>Interpret</value>
+  <data name="m_mnuExtras.Text" xml:space="preserve">
+    <value>E&amp;xtras</value>
   </data>
-  <data name="m_trvImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 137</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Name" xml:space="preserve">
-    <value>toolStripContainer1.ContentPanel</value>
-  </data>
-  <data name="&gt;&gt;m_mnuBearbeiten_ImportAll.Name" xml:space="preserve">
-    <value>m_mnuBearbeiten_ImportAll</value>
-  </data>
-  <data name="&gt;&gt;m_trvImportDirectory.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;m_cboAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_clmnHome_Title.Name" xml:space="preserve">
+    <value>m_clmnHome_Title</value>
   </data>
   <data name="&gt;&gt;m_btnSelectedTracksOK.Name" xml:space="preserve">
     <value>m_btnSelectedTracksOK</value>
   </data>
-  <data name="m_clmnTitle.Width" type="System.Int32, mscorlib">
-    <value>160</value>
+  <data name="&gt;&gt;m_btnOpenFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_splListViews.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 3</value>
+  <data name="&gt;&gt;m_btnOpenFolder.Name" xml:space="preserve">
+    <value>m_btnOpenFolder</value>
   </data>
-  <data name="&gt;&gt;m_clmnHome_Interpret.Name" xml:space="preserve">
-    <value>m_clmnHome_Interpret</value>
+  <data name="m_pnlAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 370</value>
   </data>
-  <data name="m_btnBearbeiten_ImportAll.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="m_btnOpenFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="&gt;&gt;m_tsMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="m_fldDlgOpenDirectory.Description" xml:space="preserve">
-    <value>Wählen Sie ein Audioverzeichnis</value>
-  </data>
-  <data name="&gt;&gt;m_trvImportDirectory.Name" xml:space="preserve">
-    <value>m_trvImportDirectory</value>
-  </data>
-  <data name="m_mnuDatei_End.Text" xml:space="preserve">
-    <value>Beenden</value>
-  </data>
-  <data name="m_tsMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="m_btnOpenFolder.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+  <data name="m_btnBearbeiten_CopyAll.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
-  <data name="m_mainMenu.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;toolStripContainer1.Parent" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="m_trvHomeDirectory.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_btnAllTracksOk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 3</value>
+  </data>
+  <data name="m_clmnFileFullName.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.15245, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_mnuBearbeiten_ImportAll.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F10</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="m_ssMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_lstvImportDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei.Name" xml:space="preserve">
+    <value>m_mnuDatei</value>
+  </data>
+  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="m_btnGotoAddress.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;m_btnGotoAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuDatei_End.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 22</value>
+  </data>
+  <data name="m_mnuHelp_HelpContent.Text" xml:space="preserve">
+    <value>Inhalt</value>
+  </data>
+  <data name="m_pnlImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;m_splImportDirectory.Parent" xml:space="preserve">
+    <value>m_pnlImportDirectory</value>
+  </data>
+  <data name="m_ssMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_lstvHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 169</value>
+  </data>
+  <data name="&gt;&gt;m_btnAllTracksOk.Name" xml:space="preserve">
+    <value>m_btnAllTracksOk</value>
+  </data>
+  <data name="&gt;&gt;m_lstvHomeDirectory.Name" xml:space="preserve">
+    <value>m_lstvHomeDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="m_trvHomeDirectory.ImageIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="m_imgMain.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -722,7 +263,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACK
-        CAAAAk1TRnQBSQFMAgEBAgEAAQQBAAEoAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CAAAAk1TRnQBSQFMAgEBAgEAAQQBAAE8AQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -761,431 +302,896 @@
         Af8BAAEHBAABwwH/AYEB/wQAAv8BwwH/BAAE/xoACw==
 </value>
   </data>
+  <data name="m_splListViews.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_btnOpenFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="m_pnlHomeDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_mainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_OpenDirectory.Name" xml:space="preserve">
+    <value>m_mnuDatei_OpenDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_splImportDirectory.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_lstvHomeDirectory.Parent" xml:space="preserve">
+    <value>m_pnlHomeDirectory</value>
+  </data>
+  <data name="m_trvImportDirectory.ImageKey" xml:space="preserve">
+    <value>FolderOpen256.png</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.Parent" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_btnBearbeiten_ImportAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_pnlAction.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;m_btnAllTracksOk.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_lstvHomeDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 22</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_splHomeDirectory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_Separator.Name" xml:space="preserve">
+    <value>m_mnuDatei_Separator</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_clmnHome_TrackNumber.Text" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="m_clmnHome_Title.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTitle.Name" xml:space="preserve">
+    <value>m_clmnTitle</value>
+  </data>
+  <data name="m_btnOpenFolder.ToolTipText" xml:space="preserve">
+    <value>Audioverzeichnis wählen</value>
+  </data>
+  <data name="m_clmnTitle.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="m_mnuBearbeiten_ImportAll.Text" xml:space="preserve">
+    <value>Alle markierten Tracks nach BSEadmin übernehmen</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp_HelpContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnSelectedTracksOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_trvImportDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_trvHomeDirectory.Parent" xml:space="preserve">
+    <value>m_pnlHomeDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp_HelpContent.Name" xml:space="preserve">
+    <value>m_mnuHelp_HelpContent</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>712, 474</value>
+  </data>
+  <data name="m_splHomeDirectory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_trvHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
+  </data>
+  <data name="m_splListViews.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 3</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_pnlHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 198</value>
+  </data>
+  <data name="m_lblAddress.Text" xml:space="preserve">
+    <value>Adresse:</value>
+  </data>
+  <data name="m_clmnHome_Interpret.Text" xml:space="preserve">
+    <value>Interpret</value>
+  </data>
+  <data name="toolStripContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="toolStripContainer1.ContentPanel.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_pnlImportDirectory.Parent" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_pnlHomeDirectory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_mnuDatei_Separator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 6</value>
+  </data>
+  <data name="&gt;&gt;m_clmnInterpret.Name" xml:space="preserve">
+    <value>m_clmnInterpret</value>
+  </data>
+  <data name="m_splHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 28</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_pnlImportDirectory.Name" xml:space="preserve">
+    <value>m_pnlImportDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_clmnDuration.Name" xml:space="preserve">
+    <value>m_clmnDuration</value>
+  </data>
+  <data name="m_lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="m_mnuHelp.Text" xml:space="preserve">
+    <value>&amp;Hilfe</value>
+  </data>
+  <data name="&gt;&gt;m_btnSelectedTracksOK.Parent" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Title.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_ImportAll.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten_ImportAll</value>
+  </data>
+  <data name="m_tsMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_mnuExtras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="&gt;&gt;m_lstvImportDirectory.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ListView, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnAlbum.Name" xml:space="preserve">
+    <value>m_clmnAlbum</value>
+  </data>
+  <data name="m_mnuBearbeiten_ImportAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 22</value>
+  </data>
+  <data name="m_btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;m_btnBearbeiten_CopyAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_splHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 169</value>
+  </data>
+  <data name="&gt;&gt;m_trvImportDirectory.Parent" xml:space="preserve">
+    <value>m_pnlImportDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_imgMain.Name" xml:space="preserve">
+    <value>m_imgMain</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.Name" xml:space="preserve">
+    <value>m_splListViews</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnGenre.Name" xml:space="preserve">
+    <value>m_clmnGenre</value>
+  </data>
+  <data name="m_btnSelectedTracksOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 23</value>
+  </data>
+  <data name="&gt;&gt;m_lblAddress.Name" xml:space="preserve">
+    <value>m_lblAddress</value>
+  </data>
+  <data name="&gt;&gt;m_clmnFileFullName.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_splImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>4, 137</value>
+  </data>
+  <data name="m_splListViews.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;m_Configuration.Name" xml:space="preserve">
+    <value>m_Configuration</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_mainMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_trvImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 137</value>
+  </data>
+  <data name="m_btnBearbeiten_ImportAll.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Album.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.Parent" xml:space="preserve">
+    <value>toolStripContainer1.TopToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_FileFullName.Name" xml:space="preserve">
+    <value>m_clmnHome_FileFullName</value>
+  </data>
+  <data name="m_clmnHome_Album.Text" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.Name" xml:space="preserve">
+    <value>m_btnCancel</value>
+  </data>
+  <data name="m_lstvImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 28</value>
+  </data>
+  <data name="&gt;&gt;m_lstvImportDirectory.Parent" xml:space="preserve">
+    <value>m_pnlImportDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.Parent" xml:space="preserve">
+    <value>toolStripContainer1.BottomToolStripPanel</value>
+  </data>
+  <data name="&gt;&gt;m_clmnInterpret.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="&gt;&gt;m_Configuration.Type" xml:space="preserve">
+    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.15245, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_cboAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 23</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 450</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.BottomToolStripPanel</value>
+  </data>
+  <data name="m_btnGotoAddress.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_mnuBearbeiten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
+  </data>
+  <data name="m_lblAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 22</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Year.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_pnlHomeDirectory.Text" xml:space="preserve">
+    <value>Audio Home- Verzeichnis:</value>
+  </data>
+  <data name="&gt;&gt;m_btnGotoAddress.Name" xml:space="preserve">
+    <value>m_btnGotoAddress</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTrackNumber.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_mainMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_TrackNumber.Name" xml:space="preserve">
+    <value>m_clmnHome_TrackNumber</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_clmnHome_Interpret.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;m_pnlImportDirectory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 3</value>
+  </data>
+  <data name="&gt;&gt;m_clmnTrackNumber.Name" xml:space="preserve">
+    <value>m_clmnTrackNumber</value>
+  </data>
+  <data name="m_pnlImportDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="m_btnAllTracksOk.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_fldDlgOpenDirectory.Name" xml:space="preserve">
+    <value>m_fldDlgOpenDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_clmnYear.Name" xml:space="preserve">
+    <value>m_clmnYear</value>
+  </data>
+  <data name="m_clmnInterpret.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.Name" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <data name="m_fldDlgOpenDirectory.Description" xml:space="preserve">
+    <value>Wählen Sie ein Audioverzeichnis</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_lblStatus.Name" xml:space="preserve">
+    <value>m_lblStatus</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_btnGotoAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="m_btnBearbeiten_CopyAll.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_cboAddress.Name" xml:space="preserve">
+    <value>m_cboAddress</value>
+  </data>
+  <data name="m_pnlHomeDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_btnAllTracksOk.Parent" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.Name" xml:space="preserve">
+    <value>ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_lblStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnSelectedTracksOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_pnlImportDirectory.Text" xml:space="preserve">
+    <value>Import- Verzeichnis:</value>
+  </data>
+  <data name="m_mnuDatei.Text" xml:space="preserve">
+    <value>&amp;Datei</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnCancel.Text" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="&gt;&gt;m_splHomeDirectory.Parent" xml:space="preserve">
+    <value>m_pnlHomeDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_splHomeDirectory.Name" xml:space="preserve">
+    <value>m_splHomeDirectory</value>
+  </data>
+  <data name="m_clmnGenre.Text" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="m_btnSelectedTracksOK.Text" xml:space="preserve">
+    <value>Ausgewählte Dateien übernehmen</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Duration.Name" xml:space="preserve">
+    <value>m_clmnHome_Duration</value>
+  </data>
+  <data name="m_mnuDatei.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="&gt;&gt;m_splListViews.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_clmnDuration.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;m_lstvImportDirectory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 166</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_CopyAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_clmnYear.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.Name" xml:space="preserve">
+    <value>m_tsMain</value>
+  </data>
+  <data name="m_clmnYear.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="m_splImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 28</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_tsMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_pnlHomeDirectory.Name" xml:space="preserve">
+    <value>m_pnlHomeDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_clmnAlbum.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Year.Name" xml:space="preserve">
+    <value>m_clmnHome_Year</value>
+  </data>
+  <data name="m_lstvHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 28</value>
+  </data>
+  <data name="m_mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 24</value>
+  </data>
+  <data name="m_clmnTitle.Text" xml:space="preserve">
+    <value>Lied</value>
+  </data>
+  <data name="m_btnBearbeiten_ImportAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
   <data name="m_tsMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_mnuDatei_End.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="&gt;&gt;m_mainMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_clmnHome_Title.Text" xml:space="preserve">
+    <value>Lied</value>
+  </data>
+  <data name="m_btnBearbeiten_ImportAll.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_btnSelectedTracksOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;m_btnAllTracksOk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="m_clmnHome_Year.Text" xml:space="preserve">
+    <value>Erschienen</value>
+  </data>
+  <data name="m_btnSelectedTracksOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_trvHomeDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="m_pnlHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 172</value>
+  </data>
+  <data name="m_btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_mnuDatei_End.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_tsMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 25</value>
+  </data>
+  <data name="&gt;&gt;m_clmnGenre.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_ssMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 22</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_End.Name" xml:space="preserve">
+    <value>m_mnuDatei_End</value>
+  </data>
+  <data name="m_mnuExtras_Optionen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 22</value>
+  </data>
+  <data name="m_trvImportDirectory.SelectedImageKey" xml:space="preserve">
+    <value>FolderOpen256.png</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras_Optionen.Name" xml:space="preserve">
+    <value>m_mnuExtras_Optionen</value>
+  </data>
+  <data name="&gt;&gt;ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlImportDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;m_clmnDuration.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Interpret.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_mnuDatei_OpenDirectory.Text" xml:space="preserve">
+    <value>&amp;Audioverzeichnis wählen</value>
+  </data>
+  <data name="&gt;&gt;m_pnlHomeDirectory.Parent" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="m_btnBearbeiten_CopyAll.ToolTipText" xml:space="preserve">
+    <value>Alle markierten Tracks ins Audio Homeverzeichnis kopieren</value>
+  </data>
+  <data name="m_trvHomeDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Interpret.Name" xml:space="preserve">
+    <value>m_clmnHome_Interpret</value>
+  </data>
+  <data name="m_mnuExtras_Optionen.Text" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="&gt;&gt;m_splImportDirectory.Name" xml:space="preserve">
+    <value>m_splImportDirectory</value>
+  </data>
+  <data name="m_tsMain.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="m_clmnFileFullName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="m_clmnHome_Genre.Text" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="m_btnAllTracksOk.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_lblAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_clmnHome_Duration.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;m_mnuHelp.Name" xml:space="preserve">
+    <value>m_mnuHelp</value>
+  </data>
+  <data name="&gt;&gt;m_lstvHomeDirectory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_mnuHelp_HelpContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="m_lstvImportDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_tsMain.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_cboAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripContainer1.Text" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;m_imgMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_mnuBearbeiten_CopyAll.Name" xml:space="preserve">
+    <value>m_mnuBearbeiten_CopyAll</value>
+  </data>
+  <data name="&gt;&gt;m_trvImportDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyAll.Text" xml:space="preserve">
+    <value>Alle markierten Tracks ins Audio Homeverzeichnis kopieren</value>
+  </data>
+  <data name="m_clmnHome_Duration.Text" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="&gt;&gt;m_lstvHomeDirectory.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ListView, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras.Name" xml:space="preserve">
+    <value>m_mnuExtras</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>BSEimporter</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_Separator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_ssMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="m_clmnAlbum.Text" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Parent" xml:space="preserve">
+    <value>toolStripContainer1</value>
+  </data>
+  <data name="&gt;&gt;m_pnlHomeDirectory.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_splHomeDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_clmnHome_FileFullName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="m_btnAllTracksOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_FileFullName.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.RightToolStripPanel</value>
+  </data>
+  <data name="m_clmnAlbum.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 450</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;m_splImportDirectory.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Name" xml:space="preserve">
     <value>toolStripContainer1.TopToolStripPanel</value>
   </data>
-  <data name="m_btnAllTracksOk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+  <data name="&gt;&gt;m_btnBearbeiten_ImportAll.Name" xml:space="preserve">
+    <value>m_btnBearbeiten_ImportAll</value>
   </data>
-  <data name="&gt;&gt;m_mnuExtras.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_pnlImportDirectory.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="toolStripContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="m_mnuHelp_HelpContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 22</value>
-  </data>
-  <data name="&gt;&gt;m_mnuDatei.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_btnGotoAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_clmnHome_Genre.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="m_pnlHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 172</value>
-  </data>
-  <data name="m_btnGotoAddress.Text" xml:space="preserve">
-    <value>Wechseln zu</value>
-  </data>
-  <data name="m_clmnHome_Duration.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="m_clmnYear.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="&gt;&gt;m_clmnTitle.Name" xml:space="preserve">
-    <value>m_clmnTitle</value>
-  </data>
-  <data name="m_trvHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 169</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_TrackNumber.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_btnGotoAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 22</value>
-  </data>
-  <data name="m_splHomeDirectory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;m_clmnAlbum.Name" xml:space="preserve">
-    <value>m_clmnAlbum</value>
-  </data>
-  <data name="m_btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;m_clmnInterpret.Name" xml:space="preserve">
-    <value>m_clmnInterpret</value>
-  </data>
-  <data name="&gt;&gt;m_clmnYear.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_mnuExtras_Optionen.Name" xml:space="preserve">
-    <value>m_mnuExtras_Optionen</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Duration.Name" xml:space="preserve">
-    <value>m_clmnHome_Duration</value>
-  </data>
-  <data name="&gt;&gt;m_btnSelectedTracksOK.Parent" xml:space="preserve">
-    <value>m_pnlAction</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="&gt;&gt;m_pnlHomeDirectory.Type" xml:space="preserve">
-    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Name" xml:space="preserve">
+    <value>toolStripContainer1.LeftToolStripPanel</value>
   </data>
   <data name="&gt;&gt;m_btnBearbeiten_CopyAll.Name" xml:space="preserve">
     <value>m_btnBearbeiten_CopyAll</value>
   </data>
-  <data name="&gt;&gt;m_clmnHome_Genre.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_trvHomeDirectory.ImageIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="m_trvImportDirectory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 28</value>
   </data>
-  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="m_tsMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
   </data>
-  <data name="m_lstvHomeDirectory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 28</value>
-  </data>
-  <data name="&gt;&gt;m_clmnFileFullName.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="&gt;&gt;m_lstvHomeDirectory.Parent" xml:space="preserve">
-    <value>m_pnlHomeDirectory</value>
-  </data>
-  <data name="m_btnSelectedTracksOK.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_lstvHomeDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="m_clmnInterpret.Width" type="System.Int32, mscorlib">
-    <value>160</value>
-  </data>
-  <data name="m_mnuExtras.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_splImportDirectory.Name" xml:space="preserve">
-    <value>m_splImportDirectory</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.ContentPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="m_btnSelectedTracksOK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;m_Configuration.Type" xml:space="preserve">
-    <value>BSE.Configuration.Configuration, BSE.Configuration, Version=1.0.1.18326, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_btnSelectedTracksOK.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;m_trvImportDirectory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lstvHomeDirectory.Name" xml:space="preserve">
-    <value>m_lstvHomeDirectory</value>
-  </data>
-  <data name="&gt;&gt;m_btnCancel.Parent" xml:space="preserve">
-    <value>m_pnlAction</value>
-  </data>
-  <data name="m_clmnTitle.Text" xml:space="preserve">
-    <value>Lied</value>
-  </data>
-  <data name="&gt;&gt;m_btnOpenFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_mainMenu.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;m_fldDlgOpenDirectory.Name" xml:space="preserve">
-    <value>m_fldDlgOpenDirectory</value>
-  </data>
-  <data name="&gt;&gt;m_Configuration.Name" xml:space="preserve">
-    <value>m_Configuration</value>
-  </data>
-  <data name="m_lstvHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>524, 169</value>
-  </data>
-  <data name="m_mnuBearbeiten_CopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_ssMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 22</value>
-  </data>
-  <data name="m_pnlImportDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="m_mnuBearbeiten_ImportAll.Text" xml:space="preserve">
-    <value>Alle markierten Tracks nach BSEadmin übernehmen</value>
-  </data>
-  <data name="m_trvHomeDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.BottomToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer1.BottomToolStripPanel</value>
-  </data>
-  <data name="m_pnlImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 166</value>
-  </data>
-  <data name="m_mnuDatei_OpenDirectory.Text" xml:space="preserve">
-    <value>&amp;Audioverzeichnis wählen</value>
-  </data>
-  <data name="m_clmnAlbum.Width" type="System.Int32, mscorlib">
-    <value>160</value>
-  </data>
-  <data name="m_splHomeDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="m_clmnFileFullName.Text" xml:space="preserve">
-    <value>Datei</value>
-  </data>
-  <data name="m_tsMain.AutoSize" type="System.Boolean, mscorlib">
+  <data name="m_mnuBearbeiten_ImportAll.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="&gt;&gt;m_mnuBearbeiten_ImportAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_mnuHelp.Text" xml:space="preserve">
-    <value>&amp;Hilfe</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.TopToolStripPanel.Parent" xml:space="preserve">
-    <value>toolStripContainer1</value>
-  </data>
-  <data name="&gt;&gt;m_pnlAction.Parent" xml:space="preserve">
-    <value>toolStripContainer1.ContentPanel</value>
-  </data>
-  <data name="m_btnBearbeiten_CopyAll.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;m_clmnDuration.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_pnlImportDirectory.Type" xml:space="preserve">
-    <value>BSE.Windows.Forms.Panel, BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_clmnHome_Album.Text" xml:space="preserve">
-    <value>Album</value>
-  </data>
-  <data name="m_trvHomeDirectory.SelectedImageIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_mnuBearbeiten.Type" xml:space="preserve">
+  <data name="&gt;&gt;m_mnuDatei_End.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_btnCancel.Text" xml:space="preserve">
-    <value>Abbrechen</value>
+  <data name="&gt;&gt;toolStripContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_lblAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
-  <data name="m_btnAllTracksOk.Text" xml:space="preserve">
-    <value>Alle Dateien übernehmen</value>
+  <data name="&gt;&gt;m_trvImportDirectory.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="m_clmnHome_Title.Width" type="System.Int32, mscorlib">
-    <value>160</value>
+  <data name="toolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="m_mnuDatei_End.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F4</value>
+  <data name="m_btnBearbeiten_CopyAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
   </data>
-  <data name="&gt;&gt;m_mnuHelp.Name" xml:space="preserve">
-    <value>m_mnuHelp</value>
+  <data name="m_mnuHelp_HelpContent.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F1</value>
   </data>
-  <data name="&gt;&gt;m_splHomeDirectory.Type" xml:space="preserve">
-    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_clmnHome_Duration.Text" xml:space="preserve">
-    <value>Dauer</value>
-  </data>
-  <data name="m_splListViews.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;m_mainMenu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;m_clmnTitle.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;m_clmnGenre.Name" xml:space="preserve">
-    <value>m_clmnGenre</value>
-  </data>
-  <data name="&gt;&gt;m_pnlAction.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_mnuHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 403</value>
-  </data>
-  <data name="m_clmnGenre.Text" xml:space="preserve">
-    <value>Genre</value>
-  </data>
-  <data name="m_pnlHomeDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="m_mnuExtras.Text" xml:space="preserve">
-    <value>E&amp;xtras</value>
-  </data>
-  <data name="m_tsMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 25</value>
-  </data>
-  <data name="&gt;&gt;m_trvImportDirectory.Parent" xml:space="preserve">
-    <value>m_pnlImportDirectory</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Title.Type" xml:space="preserve">
-    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_clmnDuration.Width" type="System.Int32, mscorlib">
-    <value>80</value>
+  <data name="&gt;&gt;m_btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_clmnGenre.Width" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
-  <data name="m_lstvImportDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;m_cboAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_trvImportDirectory.SelectedImageKey" xml:space="preserve">
-    <value>FolderOpen256.png</value>
+  <data name="m_btnAllTracksOk.Text" xml:space="preserve">
+    <value>Alle Dateien übernehmen</value>
   </data>
-  <data name="m_btnBearbeiten_ImportAll.ToolTipText" xml:space="preserve">
-    <value>Alle markierten Tracks nach BSEadmin übernehmen</value>
+  <data name="m_btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;m_clmnHome_Year.Type" xml:space="preserve">
+  <data name="&gt;&gt;m_clmnHome_TrackNumber.Type" xml:space="preserve">
     <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;m_btnBearbeiten_ImportAll.Name" xml:space="preserve">
-    <value>m_btnBearbeiten_ImportAll</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>BSEimporter</value>
-  </data>
-  <data name="m_splImportDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="m_pnlImportDirectory.Text" xml:space="preserve">
-    <value>Import- Verzeichnis:</value>
-  </data>
-  <data name="&gt;&gt;m_mnuHelp_HelpContent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_lstvImportDirectory.Name" xml:space="preserve">
-    <value>m_lstvImportDirectory</value>
-  </data>
-  <data name="m_pnlAction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 370</value>
-  </data>
-  <data name="&gt;&gt;m_mnuExtras_Optionen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_ssMain.Parent" xml:space="preserve">
-    <value>toolStripContainer1.BottomToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;m_imgMain.Name" xml:space="preserve">
-    <value>m_imgMain</value>
-  </data>
-  <data name="m_clmnTrackNumber.Text" xml:space="preserve">
-    <value>Track</value>
-  </data>
-  <data name="m_mnuExtras_Optionen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 22</value>
-  </data>
-  <data name="&gt;&gt;m_splHomeDirectory.Parent" xml:space="preserve">
-    <value>m_pnlHomeDirectory</value>
-  </data>
-  <data name="m_ssMain.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_mainMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="m_trvHomeDirectory.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_lblStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Album.Type" xml:space="preserve">
+  <data name="&gt;&gt;m_clmnHome_Genre.Type" xml:space="preserve">
     <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;m_lblStatus.Name" xml:space="preserve">
-    <value>m_lblStatus</value>
+  <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 403</value>
   </data>
-  <data name="&gt;&gt;toolStripContainer1.RightToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer1.RightToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;m_lstvImportDirectory.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_pnlImportDirectory.Name" xml:space="preserve">
-    <value>m_pnlImportDirectory</value>
-  </data>
-  <data name="&gt;&gt;m_clmnHome_Title.Name" xml:space="preserve">
-    <value>m_clmnHome_Title</value>
-  </data>
-  <data name="m_lstvImportDirectory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;m_trvHomeDirectory.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_pnlHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>706, 198</value>
-  </data>
-  <data name="m_clmnHome_Year.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.LeftToolStripPanel.Name" xml:space="preserve">
-    <value>toolStripContainer1.LeftToolStripPanel</value>
-  </data>
-  <data name="&gt;&gt;m_clmnFileFullName.Name" xml:space="preserve">
-    <value>m_clmnFileFullName</value>
-  </data>
-  <data name="m_mnuBearbeiten_ImportAll.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>F10</value>
-  </data>
-  <data name="&gt;&gt;toolStripContainer1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="m_btnAllTracksOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 23</value>
   </data>
   <data name="m_clmnYear.Text" xml:space="preserve">
     <value>Erschienen</value>
   </data>
-  <data name="&gt;&gt;m_clmnDuration.Name" xml:space="preserve">
-    <value>m_clmnDuration</value>
+  <data name="&gt;&gt;m_lstvImportDirectory.Name" xml:space="preserve">
+    <value>m_lstvImportDirectory</value>
   </data>
-  <data name="&gt;&gt;m_clmnHome_Album.Name" xml:space="preserve">
-    <value>m_clmnHome_Album</value>
+  <data name="&gt;&gt;toolStripContainer1.Name" xml:space="preserve">
+    <value>toolStripContainer1</value>
   </data>
-  <metadata name="m_ssMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>0, 0</value>
+  <data name="&gt;&gt;m_clmnTitle.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_trvHomeDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnBearbeiten_ImportAll.ToolTipText" xml:space="preserve">
+    <value>Alle markierten Tracks nach BSEadmin übernehmen</value>
+  </data>
+  <data name="&gt;&gt;m_ssMain.Name" xml:space="preserve">
+    <value>m_ssMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.BaseForm, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_splHomeDirectory.Type" xml:space="preserve">
+    <value>BSE.Windows.Forms.Splitter, BSE.Windows.Forms, Version=1.0.1.33, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_clmnTrackNumber.Text" xml:space="preserve">
+    <value>Track</value>
+  </data>
+  <data name="m_mnuBearbeiten.Text" xml:space="preserve">
+    <value>&amp;Bearbeiten</value>
+  </data>
+  <data name="&gt;&gt;m_trvHomeDirectory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_fldDlgOpenDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_clmnHome_Year.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyAll.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="m_lstvHomeDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_trvImportDirectory.Name" xml:space="preserve">
+    <value>m_trvImportDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_mnuExtras_Optionen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_btnOpenFolder.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="m_splImportDirectory.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_trvHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 169</value>
+  </data>
+  <data name="&gt;&gt;m_settings.Name" xml:space="preserve">
+    <value>m_settings</value>
+  </data>
+  <data name="&gt;&gt;m_btnSelectedTracksOK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_pnlAction.Parent" xml:space="preserve">
+    <value>toolStripContainer1.ContentPanel</value>
+  </data>
+  <data name="&gt;&gt;m_clmnHome_Duration.Type" xml:space="preserve">
+    <value>BSE.Platten.Audio.WinControls.ColumnHeader, BSE.Platten.Audio, Version=1.0.0.31, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStripContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_pnlAction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 30</value>
+  </data>
+  <data name="m_clmnDuration.Text" xml:space="preserve">
+    <value>Dauer</value>
+  </data>
+  <data name="m_splListViews.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 169</value>
+  </data>
+  <data name="&gt;&gt;m_mnuDatei_OpenDirectory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_clmnInterpret.Text" xml:space="preserve">
+    <value>Interpret</value>
+  </data>
+  <data name="m_mnuBearbeiten_CopyAll.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>F9</value>
+  </data>
+  <data name="m_lstvImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>524, 137</value>
+  </data>
+  <data name="&gt;&gt;m_trvHomeDirectory.Name" xml:space="preserve">
+    <value>m_trvHomeDirectory</value>
+  </data>
+  <data name="&gt;&gt;m_btnCancel.Parent" xml:space="preserve">
+    <value>m_pnlAction</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="m_settings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>747, 17</value>
+  </metadata>
+  <metadata name="m_imgMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>638, 17</value>
   </metadata>
   <metadata name="m_Configuration.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>504, 17</value>
@@ -1196,17 +1202,11 @@
   <metadata name="m_tsMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
-  <metadata name="m_mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="m_ssMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
-  <metadata name="m_imgMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>638, 17</value>
-  </metadata>
-  <metadata name="m_settings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>747, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
+  <metadata name="m_mainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
   </metadata>
   <metadata name="m_fldDlgOpenDirectory.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>336, 17</value>

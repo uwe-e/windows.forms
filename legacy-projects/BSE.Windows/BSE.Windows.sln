@@ -6,19 +6,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSE.Windows.Test", "BSE.Windows.Test\BSE.Windows.Test.csproj", "{F4CEBB31-4865-4477-8D6B-6368B084F972}"
 EndProject
 Global
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 3
-		SccProjectName0 = \u0022$/VS2005/BSE.Windows\u0022,\u0020GLEAAAAA
-		SccLocalPath0 = .
-		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
-		CanCheckoutShared = false
-		SccProjectUniqueName1 = BSE.Windows.Forms\\BSE.Windows.Forms.csproj
-		SccLocalPath1 = .
-		SccProjectFilePathRelativizedFromConnection1 = BSE.Windows.Forms\\
-		SccProjectUniqueName2 = BSE.Windows.Test\\BSE.Windows.Test.csproj
-		SccLocalPath2 = .
-		SccProjectFilePathRelativizedFromConnection2 = BSE.Windows.Test\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

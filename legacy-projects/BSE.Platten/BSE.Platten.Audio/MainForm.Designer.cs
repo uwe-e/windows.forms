@@ -291,6 +291,7 @@ namespace BSE.Platten.Audio
             // 
             resources.ApplyResources(this.m_tsMain, "m_tsMain");
             this.m_tsMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.m_tsMain.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.m_tsMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.m_lblAddress,
             this.m_cboAddress,
@@ -304,6 +305,7 @@ namespace BSE.Platten.Audio
             // m_lblAddress
             // 
             resources.ApplyResources(this.m_lblAddress, "m_lblAddress");
+            this.m_lblAddress.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.m_lblAddress.Name = "m_lblAddress";
             // 
             // m_cboAddress
@@ -451,6 +453,7 @@ namespace BSE.Platten.Audio
             this.m_clmnHome_Year});
             this.m_lstvHomeDirectory.DragDropOnlyAsEvent = true;
             this.m_lstvHomeDirectory.FitLargestItem = true;
+            this.m_lstvHomeDirectory.HideSelection = false;
             this.m_lstvHomeDirectory.Name = "m_lstvHomeDirectory";
             this.m_lstvHomeDirectory.UseCompatibleStateImageBehavior = false;
             this.m_lstvHomeDirectory.View = System.Windows.Forms.View.Details;
@@ -549,6 +552,7 @@ namespace BSE.Platten.Audio
             this.m_clmnYear});
             this.m_lstvImportDirectory.DragDropEffects = System.Windows.Forms.DragDropEffects.Copy;
             this.m_lstvImportDirectory.FitLargestItem = true;
+            this.m_lstvImportDirectory.HideSelection = false;
             this.m_lstvImportDirectory.Name = "m_lstvImportDirectory";
             this.m_lstvImportDirectory.UseCompatibleStateImageBehavior = false;
             this.m_lstvImportDirectory.View = System.Windows.Forms.View.Details;

@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_ssMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>874, 22</value>
+    <value>1332, 22</value>
   </data>
   <data name="m_clmnHome_FileFullName.Text" xml:space="preserve">
     <value>File</value>
@@ -140,17 +140,17 @@
     <value>Publishing Year</value>
   </data>
   <data name="m_lstvHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>686, 543</value>
+    <value>1144, 1036</value>
   </data>
   <data name="m_splHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>4, 543</value>
+    <value>4, 1036</value>
   </data>
   <data name="m_imgMain.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACK
-        CAAAAk1TRnQBSQFMAgEBAgEAAUwBAAFMAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CAAAAk1TRnQBSQFMAgEBAgEAAXQBAAF0AQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
@@ -190,19 +190,19 @@
 </value>
   </data>
   <data name="m_trvHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 543</value>
+    <value>176, 1036</value>
   </data>
   <data name="m_pnlHomeDirectory.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>27, 27</value>
   </data>
   <data name="m_pnlHomeDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 572</value>
+    <value>1326, 1065</value>
   </data>
   <data name="m_pnlHomeDirectory.Text" xml:space="preserve">
     <value>Audio Directory</value>
   </data>
   <data name="m_splListViews.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 3</value>
+    <value>1326, 3</value>
   </data>
   <data name="m_clmnFileFullName.Text" xml:space="preserve">
     <value>File</value>
@@ -223,13 +223,13 @@
     <value>Publishing Year</value>
   </data>
   <data name="m_lstvImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>686, 137</value>
+    <value>1144, 137</value>
   </data>
   <data name="m_pnlImportDirectory.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>27, 27</value>
   </data>
   <data name="m_pnlImportDirectory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 166</value>
+    <value>1326, 166</value>
   </data>
   <data name="m_pnlImportDirectory.Text" xml:space="preserve">
     <value>Import Directory</value>
@@ -239,58 +239,82 @@
     <value>NoControl</value>
   </data>
   <data name="m_btnAllTracksOk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 3</value>
+    <value>880, 12</value>
+  </data>
+  <data name="m_btnAllTracksOk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 39</value>
   </data>
   <data name="m_btnAllTracksOk.Text" xml:space="preserve">
     <value>Take All Files</value>
   </data>
   <data name="m_btnCancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>788, 3</value>
+    <value>1246, 12</value>
+  </data>
+  <data name="m_btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 39</value>
   </data>
   <data name="m_btnCancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="m_btnSelectedTracksOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>601, 3</value>
+    <value>1059, 12</value>
+  </data>
+  <data name="m_btnSelectedTracksOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 39</value>
   </data>
   <data name="m_btnSelectedTracksOK.Text" xml:space="preserve">
     <value>Take Selected Files</value>
   </data>
   <data name="m_pnlAction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 744</value>
+    <value>3, 1237</value>
   </data>
   <data name="m_pnlAction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>868, 30</value>
+    <value>1326, 55</value>
   </data>
   <data name="toolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>874, 777</value>
+    <value>1332, 1295</value>
   </data>
   <data name="toolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>874, 824</value>
+    <value>1332, 1348</value>
   </data>
   <data name="m_lblAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 22</value>
+    <value>45, 28</value>
   </data>
   <data name="m_lblAddress.Text" xml:space="preserve">
     <value>Adress:</value>
   </data>
+  <data name="m_btnGotoAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
   <data name="m_btnGotoAddress.Text" xml:space="preserve">
     <value>Change To</value>
+  </data>
+  <data name="m_btnOpenFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
   </data>
   <data name="m_btnOpenFolder.ToolTipText" xml:space="preserve">
     <value>Select Import Directory</value>
   </data>
+  <data name="m_btnBearbeiten_CopyAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
+  </data>
   <data name="m_btnBearbeiten_CopyAll.ToolTipText" xml:space="preserve">
     <value>Copy All Selected Tracks To Audio Directory</value>
+  </data>
+  <data name="m_btnBearbeiten_ImportAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 28</value>
   </data>
   <data name="m_btnBearbeiten_ImportAll.ToolTipText" xml:space="preserve">
     <value>Take Selected Tracks To BSEadmin</value>
   </data>
   <data name="m_tsMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>874, 25</value>
+    <value>1332, 31</value>
+  </data>
+  <data name="ContentPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 8, 6, 8</value>
   </data>
   <data name="ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>874, 824</value>
+    <value>1332, 1348</value>
   </data>
   <data name="m_mnuDatei_OpenDirectory.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -314,13 +338,13 @@
     <value>&amp;File</value>
   </data>
   <data name="m_mnuBearbeiten_CopyAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 22</value>
+    <value>323, 22</value>
   </data>
   <data name="m_mnuBearbeiten_CopyAll.Text" xml:space="preserve">
     <value>Copy All Selected Tracks To Audio Directory</value>
   </data>
   <data name="m_mnuBearbeiten_ImportAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>325, 22</value>
+    <value>323, 22</value>
   </data>
   <data name="m_mnuBearbeiten_ImportAll.Text" xml:space="preserve">
     <value>Take Selected Tracks To BSEadmin</value>
@@ -337,19 +361,19 @@
   <data name="m_mnuExtras_Optionen.Text" xml:space="preserve">
     <value>Options</value>
   </data>
-  <data name="m_mainMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 37</value>
-  </data>
   <data name="m_mainMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>874, 24</value>
+    <value>1332, 24</value>
   </data>
   <data name="m_fldDlgOpenDirectory.Description" xml:space="preserve">
     <value>Select a directory</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>888, 892</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1332, 1372</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 8, 6, 8</value>
   </data>
 </root>
