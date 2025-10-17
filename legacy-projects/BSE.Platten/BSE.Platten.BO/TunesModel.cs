@@ -1363,9 +1363,11 @@ track.FileName = GetString(mySqlDataReader, "liedpfad", true, track.FileName);
 
                         filterSettings.FilterId = GetInt32(mySqlDataReader,"filterid",false,filterSettings.FilterId);
                         int iIndexUsedFilterMode = mySqlDataReader.GetOrdinal("mode");
+                        //filterSettings.UsedFilterMode = (FilterSettings.FilterMode)Enum.Parse(
+                        //    typeof(FilterSettings.FilterMode),
+                        //    mySqlDataReader.GetString(iIndexUsedFilterMode));
                         filterSettings.UsedFilterMode = (FilterSettings.FilterMode)Enum.Parse(
-                            typeof(FilterSettings.FilterMode),
-                            mySqlDataReader.GetString(iIndexUsedFilterMode));
+                            typeof(FilterSettings.FilterMode), iIndexUsedFilterMode.ToString());
                         filterSettings.Value = GetString(mySqlDataReader, "value", true, filterSettings.Value);
                         filterSettings.IsUsed = GetBoolean(mySqlDataReader, "isused", true, filterSettings.IsUsed);
                         filterSettings.Benutzer = GetString(mySqlDataReader, "benutzer", false, filterSettings.Benutzer);
