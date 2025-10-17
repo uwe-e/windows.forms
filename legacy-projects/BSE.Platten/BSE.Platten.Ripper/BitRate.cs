@@ -11,7 +11,7 @@ namespace BSE.Platten.Ripper
         /// <summary>
         /// Gets or sets the Bitrate
         /// </summary>
-        public uint Bitrate
+        public int Bitrate
         {
             get;
             set;

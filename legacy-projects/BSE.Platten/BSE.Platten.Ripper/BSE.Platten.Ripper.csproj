@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -129,7 +129,7 @@
     <Compile Include="Lame\HeaderVersion.cs" />
     <Compile Include="Lame\LameQualityPreset.cs" />
     <Compile Include="Lame\Mp3.cs" />
-    <Compile Include="Lame\MpegMode.cs" />
+    <Compile Include="Lame\MPEGMode.cs" />
     <Compile Include="Lame\VbrMethod.cs" />
     <Compile Include="AudioWriter\WaveFormats.cs" />
     <Compile Include="MP3ConfigurationData.cs" />
@@ -216,6 +216,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ConfigAudioFormat.en.resx">
+      <DependentUpon>ConfigAudioFormat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConfigAudioFormat.resx">
       <SubType>Designer</SubType>
       <DependentUpon>ConfigAudioFormat.cs</DependentUpon>

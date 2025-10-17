@@ -15,9 +15,9 @@ namespace BSE.Platten.Ripper
     {
         #region FieldsPrivate
 
-        private uint m_iBitRateMpeg1 = 192;
+        private int m_iBitRateMpeg1 = 192;
         private bool m_bOriginalBit = true;
-        private MpegMode m_eMpegMode = MpegMode.Stereo;
+        private MPEGMode m_eMpegMode = MPEGMode.Stereo;
 
         #endregion
 
@@ -25,7 +25,7 @@ namespace BSE.Platten.Ripper
         /// <summary>
         /// Gets or sets the BitrateMpeg1.
         /// </summary>
-        public uint BitrateMpeg1
+        public int BitrateMpeg1
         {
             get { return this.m_iBitRateMpeg1; }
             set { this.m_iBitRateMpeg1 = value; }
@@ -66,7 +66,7 @@ namespace BSE.Platten.Ripper
         /// <summary>
         /// Gets or sets the MpegMode.
         /// </summary>
-        public MpegMode MpegMode
+        public MPEGMode MpegMode
         {
             get { return this.m_eMpegMode; }
             set { this.m_eMpegMode = value; }

@@ -25,14 +25,4 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 2
-		SccProjectName0 = \u0022$/VS2005/BSE.CDDrives\u0022,\u0020WKEAAAAA
-		SccLocalPath0 = .
-		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
-		CanCheckoutShared = false
-		SccProjectUniqueName1 = BSE.CDDrives\\BSE.CDDrives.csproj
-		SccLocalPath1 = .
-		SccProjectFilePathRelativizedFromConnection1 = BSE.CDDrives\\
-	EndGlobalSection
 EndGlobal

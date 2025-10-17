@@ -69,8 +69,6 @@ namespace BSE.Platten.Ripper
             this.m_mnuBearbeiten_CopyTracks = new System.Windows.Forms.ToolStripMenuItem();
             this.m_mnuExtras = new System.Windows.Forms.ToolStripMenuItem();
             this.m_mnuExtras_Optionen = new System.Windows.Forms.ToolStripMenuItem();
-            this.m_mnuHelp = new System.Windows.Forms.ToolStripMenuItem();
-            this.m_mnuHelp_HelpContent = new System.Windows.Forms.ToolStripMenuItem();
             this.m_configuration = new BSE.Configuration.Configuration();
             this.m_settings = new BSE.Configuration.Configuration();
             this.ContentPanel.SuspendLayout();
@@ -188,6 +186,7 @@ namespace BSE.Platten.Ripper
             this.m_clmnDuration});
             this.m_lstvCopied.DragDropOnlyAsEvent = true;
             this.m_lstvCopied.FitLargestItem = true;
+            this.m_lstvCopied.HideSelection = false;
             this.m_lstvCopied.Name = "m_lstvCopied";
             this.m_lstvCopied.UseCompatibleStateImageBehavior = false;
             this.m_lstvCopied.View = System.Windows.Forms.View.Details;
@@ -262,6 +261,7 @@ namespace BSE.Platten.Ripper
             this.m_lstvcolumnOutName});
             this.m_lstvMain.DragDropEffects = System.Windows.Forms.DragDropEffects.Copy;
             this.m_lstvMain.FitLargestItem = true;
+            this.m_lstvMain.HideSelection = false;
             this.m_lstvMain.Name = "m_lstvMain";
             this.m_lstvMain.UseCompatibleStateImageBehavior = false;
             this.m_lstvMain.View = System.Windows.Forms.View.Details;
@@ -374,8 +374,7 @@ namespace BSE.Platten.Ripper
             this.m_mainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.m_mnuDatei,
             this.m_mnuBearbeiten,
-            this.m_mnuExtras,
-            this.m_mnuHelp});
+            this.m_mnuExtras});
             this.m_mainMenu.Name = "m_mainMenu";
             // 
             // m_mnuDatei
@@ -431,19 +430,6 @@ namespace BSE.Platten.Ripper
             this.m_mnuExtras_Optionen.Image = global::BSE.Platten.Ripper.Properties.Resources.gearwheel;
             this.m_mnuExtras_Optionen.Name = "m_mnuExtras_Optionen";
             this.m_mnuExtras_Optionen.Click += new System.EventHandler(this.m_mnuExtras_Optionen_Click);
-            // 
-            // m_mnuHelp
-            // 
-            resources.ApplyResources(this.m_mnuHelp, "m_mnuHelp");
-            this.m_mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.m_mnuHelp_HelpContent});
-            this.m_mnuHelp.Name = "m_mnuHelp";
-            // 
-            // m_mnuHelp_HelpContent
-            // 
-            resources.ApplyResources(this.m_mnuHelp_HelpContent, "m_mnuHelp_HelpContent");
-            this.m_mnuHelp_HelpContent.Name = "m_mnuHelp_HelpContent";
-            this.m_mnuHelp_HelpContent.Click += new System.EventHandler(this.MnuHelpShowHelpClick);
             // 
             // m_configuration
             // 
@@ -503,8 +489,6 @@ namespace BSE.Platten.Ripper
         private System.Windows.Forms.ToolStripMenuItem m_mnuBearbeiten_CopyTracks;
         private System.Windows.Forms.ToolStripMenuItem m_mnuExtras;
         private System.Windows.Forms.ToolStripMenuItem m_mnuExtras_Optionen;
-        private System.Windows.Forms.ToolStripMenuItem m_mnuHelp;
-        private System.Windows.Forms.ToolStripMenuItem m_mnuHelp_HelpContent;
         private System.Windows.Forms.ToolStripButton m_btnBearbeiten_OpenDrive;
         private System.Windows.Forms.ToolStripComboBox m_cboCDDrives;
         private System.Windows.Forms.ToolStripButton m_btnBrowseFreeDb;

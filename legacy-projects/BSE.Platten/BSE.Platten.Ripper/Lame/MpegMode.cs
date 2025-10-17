@@ -25,17 +25,13 @@
 //  product. An independent license for such use is required. 
 //  For details, please visit http://www.mp3licensing.com.
 //
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace BSE.Platten.Ripper.Lame
 {
     /// <summary>
     /// Enumeration of the MPEG modes
     /// </summary>
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Design", "CA1028:EnumStorageShouldBeInt32")]
-    public enum MpegMode : uint
+    public enum MPEGMode : uint
     {
         /// <summary>
         /// MpegMode Stereo
@@ -44,7 +40,7 @@ namespace BSE.Platten.Ripper.Lame
         /// <summary>
         /// MpegMode JointStereo
         /// </summary>
-        JointStereo,
+        JointStereo = 1,
         /// <summary>
         /// MpegMode DualChannel
         /// </summary>
@@ -53,11 +49,11 @@ namespace BSE.Platten.Ripper.Lame
         /// <summary>
         /// MpegMode Mono
         /// </summary>
-        Mono,
+        Mono = 3,
         /// <summary>
         /// MpegMode NotSet
         /// </summary>
-        NotSet,
+        NotSet = 4,
         /// <summary>
         /// MpegMode MaxIndicator
         /// </summary>

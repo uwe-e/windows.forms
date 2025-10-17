@@ -112,39 +112,12 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="m_btnAboutLame.Text" xml:space="preserve">
-    <value>About Lame</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_chkPrivate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 17</value>
-  </data>
-  <data name="m_chkPrivate.Text" xml:space="preserve">
-    <value>Set Privat Bit to MP3 file</value>
-  </data>
-  <data name="m_chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 17</value>
-  </data>
-  <data name="m_chkOrigin.Text" xml:space="preserve">
-    <value>Set Original Bit to MP3 file</value>
-  </data>
-  <data name="m_chkCRC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 17</value>
-  </data>
-  <data name="m_chkCRC.Text" xml:space="preserve">
-    <value>Write CRC checksum to MP3 file</value>
-  </data>
-  <data name="m_chkCopyRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 17</value>
-  </data>
-  <data name="m_chkCopyRight.Text" xml:space="preserve">
-    <value>Set Copyright Bit to MP3 file</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="m_rdo2ChannelStereo.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 17</value>
   </data>

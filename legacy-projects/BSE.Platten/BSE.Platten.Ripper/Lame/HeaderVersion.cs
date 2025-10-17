@@ -87,15 +87,15 @@ namespace BSE.Platten.Ripper.Lame
         /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1709:IdentifiersShouldBeCasedCorrectly")]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1704:IdentifiersShouldBeSpelledCorrectly")]
-        public uint ReSamplerate
+        public int ReSamplerate
         {
             get;
             set;
         }
         /// <summary>
-        /// Gets or sets the <see cref="MpegMode"/> mode
+        /// Gets or sets the <see cref="MPEGMode"/> mode
         /// </summary>
-        public MpegMode Mode
+        public MPEGMode Mode
         {
             get;
             set;
@@ -103,7 +103,7 @@ namespace BSE.Platten.Ripper.Lame
         /// <summary>
         /// Gets or sets the VBR min bitrate.
         /// </summary>
-        public uint Bitrate
+        public int Bitrate
         {
             get;
             set;
@@ -111,7 +111,7 @@ namespace BSE.Platten.Ripper.Lame
         /// <summary>
         /// Gets or sets the VBR max bitrate.
         /// </summary>
-        public uint MaxBitrate
+        public int MaxBitrate
         {
             get;
             set;
@@ -276,7 +276,7 @@ namespace BSE.Platten.Ripper.Lame
         /// <param name="format">The <see cref="WaveFormat"/> object.</param>
         /// <param name="mpegBitrate">The mpegBitrate value.</param>
         [SecurityPermission(SecurityAction.LinkDemand, Flags = SecurityPermissionFlag.UnmanagedCode)]
-        public LHV1(WaveFormat format, uint mpegBitrate) : this()
+        public LHV1(WaveFormat format, int mpegBitrate) : this()
         {
             if (format == null)
             {
@@ -497,17 +497,17 @@ namespace BSE.Platten.Ripper.Lame
             switch (format.Channels)
             {
                 case 1:
-                    this.Mode = MpegMode.Mono;
+                    this.Mode = MPEGMode.Mono;
                     break;
                 case 2:
-                    this.Mode = MpegMode.Stereo;
+                    this.Mode = MPEGMode.Stereo;
                     break;
                 default:
                     throw new ArgumentOutOfRangeException("format", "Invalid number of channels");
             }
         }
         [SuppressMessage("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
-        private static void CheckMpegVersion(uint mpegBitrate, uint mpegversion)
+        private static void CheckMpegVersion(int mpegBitrate, uint mpegversion)
         {
             switch (mpegBitrate)
             {

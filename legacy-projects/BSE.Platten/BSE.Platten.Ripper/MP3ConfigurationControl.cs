@@ -101,18 +101,21 @@ namespace BSE.Platten.Ripper
                 this.m_cboBitRate.ValueMember = "Bitrate";
                 this.m_cboBitRate.DisplayMember = "Description";
                 this.m_cboBitRate.SelectedValue = configurationObject.BitrateMpeg1;
-                if (configurationObject.MpegMode == MpegMode.JointStereo)
+                if (configurationObject.MpegMode == MPEGMode.JointStereo)
                 {
                     this.m_rdoJointStereo.Checked = true;
                 }
-                if (configurationObject.MpegMode == MpegMode.Stereo)
+                if (configurationObject.MpegMode == MPEGMode.Stereo)
                 {
                     this.m_rdo2ChannelStereo.Checked = true;
                 }
-                this.m_chkCopyRight.Checked = configurationObject.CopyrightBit;
-                this.m_chkCRC.Checked = configurationObject.CRCChecksum;
-                this.m_chkOrigin.Checked = configurationObject.OriginalBit;
-                this.m_chkPrivate.Checked = configurationObject.PrivateBit;
+                /*
+                 * not longer in use
+                 */
+                //this.m_chkCopyRight.Checked = configurationObject.CopyrightBit;
+                //this.m_chkCRC.Checked = configurationObject.CRCChecksum;
+                //this.m_chkOrigin.Checked = configurationObject.OriginalBit;
+                //this.m_chkPrivate.Checked = configurationObject.PrivateBit;
             }
         }
 
@@ -121,16 +124,19 @@ namespace BSE.Platten.Ripper
             this.m_configuration = configuration;
 
             MP3ConfigurationData configurationObject = new MP3ConfigurationData();
-            configurationObject.BitrateMpeg1 = uint.Parse(this.m_cboBitRate.SelectedValue.ToString(),CultureInfo.InvariantCulture);
-            configurationObject.MpegMode = MpegMode.Stereo;
+            configurationObject.BitrateMpeg1 = int.Parse(this.m_cboBitRate.SelectedValue.ToString(),CultureInfo.InvariantCulture);
+            configurationObject.MpegMode = MPEGMode.Stereo;
             if (this.m_rdoJointStereo.Checked == true)
             {
-                configurationObject.MpegMode = MpegMode.JointStereo;
+                configurationObject.MpegMode = MPEGMode.JointStereo;
             }
-            configurationObject.CopyrightBit = this.m_chkCopyRight.Checked;
-            configurationObject.CRCChecksum = this.m_chkCRC.Checked;
-            configurationObject.OriginalBit = this.m_chkOrigin.Checked;
-            configurationObject.PrivateBit = this.m_chkPrivate.Checked;
+            /*
+             * not longer in use
+            */
+            //configurationObject.CopyrightBit = this.m_chkCopyRight.Checked;
+            //configurationObject.CRCChecksum = this.m_chkCRC.Checked;
+            //configurationObject.OriginalBit = this.m_chkOrigin.Checked;
+            //configurationObject.PrivateBit = this.m_chkPrivate.Checked;
 
             configuration.SetValue(
                 BaseConfigurationControl.OptionsConfiguration,

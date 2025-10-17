@@ -112,340 +112,289 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="m_grpParameter.Text" xml:space="preserve">
-    <value>Parameter</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="m_grpParameter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 103</value>
-  </data>
-  <data name="m_btnAboutLame.Text" xml:space="preserve">
-    <value>Über Lame</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_lblBitRate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;m_chkOrigin.Parent" xml:space="preserve">
-    <value>m_grpParameter</value>
-  </data>
-  <data name="m_lblBitRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 13</value>
-  </data>
-  <data name="&gt;&gt;m_rdo2ChannelStereo.Parent" xml:space="preserve">
-    <value>m_grpStereoMode</value>
-  </data>
-  <data name="m_rdo2ChannelStereo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 17</value>
-  </data>
-  <data name="m_grpAboutLame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 234</value>
-  </data>
-  <data name="m_grpParameter.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="m_grpAboutLame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 57</value>
-  </data>
-  <data name="m_grpStereoMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 47</value>
-  </data>
-  <data name="m_rdo2ChannelStereo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;m_lblBitRate.Name" xml:space="preserve">
-    <value>m_lblBitRate</value>
-  </data>
-  <data name="m_grpStereoMode.Text" xml:space="preserve">
-    <value>Stereo Modus</value>
-  </data>
-  <data name="&gt;&gt;m_btnAboutLame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="m_grpAudioFormat.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="&gt;&gt;m_grpStereoMode.Parent" xml:space="preserve">
-    <value>m_grpAudioFormat</value>
-  </data>
-  <data name="m_grpParameter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 125</value>
-  </data>
-  <data name="&gt;&gt;m_chkOrigin.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_chkCopyRight.Name" xml:space="preserve">
-    <value>m_chkCopyRight</value>
-  </data>
-  <data name="&gt;&gt;m_rdoJointStereo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_chkCopyRight.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_btnAboutLame.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_chkCopyRight.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="m_grpAboutLame.Text" xml:space="preserve">
-    <value>Lame</value>
-  </data>
-  <data name="m_chkCRC.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="m_grpStereoMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 50</value>
-  </data>
-  <data name="m_rdoJointStereo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;m_grpAudioFormat.Name" xml:space="preserve">
     <value>m_grpAudioFormat</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="m_chkPrivate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 17</value>
-  </data>
-  <data name="m_rdoJointStereo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;m_chkCRC.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_rdoJointStereo.Text" xml:space="preserve">
-    <value>Joint Stereo</value>
-  </data>
-  <data name="m_rdoJointStereo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
-  </data>
-  <data name="&gt;&gt;m_grpAboutLame.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_grpAudioFormat.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="m_grpAudioFormat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;m_grpStereoMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_chkCRC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 44</value>
-  </data>
-  <data name="m_btnAboutLame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;m_cboBitRate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_rdo2ChannelStereo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_cboBitRate.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_lblBitRate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_lblBitRate.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_chkPrivate.Text" xml:space="preserve">
-    <value>Privat Bit in MP3 Datei setzen</value>
-  </data>
-  <data name="m_chkCopyRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 17</value>
-  </data>
-  <data name="&gt;&gt;m_rdo2ChannelStereo.Name" xml:space="preserve">
-    <value>m_rdo2ChannelStereo</value>
-  </data>
-  <data name="m_lblBitRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 21</value>
-  </data>
-  <data name="&gt;&gt;m_rdoJointStereo.Parent" xml:space="preserve">
-    <value>m_grpStereoMode</value>
-  </data>
-  <data name="&gt;&gt;m_grpAboutLame.Name" xml:space="preserve">
-    <value>m_grpAboutLame</value>
-  </data>
-  <data name="&gt;&gt;m_grpAudioFormat.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="m_cboBitRate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>58, 18</value>
-  </data>
-  <data name="&gt;&gt;m_chkCRC.Name" xml:space="preserve">
-    <value>m_chkCRC</value>
-  </data>
-  <data name="&gt;&gt;m_chkCopyRight.Parent" xml:space="preserve">
-    <value>m_grpParameter</value>
-  </data>
-  <data name="&gt;&gt;m_chkOrigin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_rdo2ChannelStereo.Text" xml:space="preserve">
-    <value>2 Kanal Stereo</value>
-  </data>
-  <data name="&gt;&gt;m_chkPrivate.Name" xml:space="preserve">
-    <value>m_chkPrivate</value>
-  </data>
-  <data name="m_chkPrivate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;m_chkCRC.Parent" xml:space="preserve">
-    <value>m_grpParameter</value>
-  </data>
-  <data name="m_chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 68</value>
-  </data>
-  <data name="&gt;&gt;m_cboBitRate.Parent" xml:space="preserve">
-    <value>m_grpAudioFormat</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="m_grpStereoMode.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;m_grpParameter.Parent" xml:space="preserve">
-    <value>m_grpAudioFormat</value>
-  </data>
-  <data name="&gt;&gt;m_grpAboutLame.Parent" xml:space="preserve">
-    <value>m_grpAudioFormat</value>
-  </data>
-  <data name="m_rdo2ChannelStereo.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_chkPrivate.Parent" xml:space="preserve">
-    <value>m_grpParameter</value>
-  </data>
-  <data name="&gt;&gt;m_lblBitRate.Parent" xml:space="preserve">
-    <value>m_grpAudioFormat</value>
-  </data>
-  <data name="&gt;&gt;m_btnAboutLame.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;m_cboBitRate.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="m_btnAboutLame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="m_chkCRC.Text" xml:space="preserve">
-    <value>CRC Prüfsummen in MP3 Datei schreiben</value>
-  </data>
-  <data name="&gt;&gt;m_grpAudioFormat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;m_chkOrigin.Name" xml:space="preserve">
-    <value>m_chkOrigin</value>
-  </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 294</value>
-  </data>
-  <data name="m_cboBitRate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="m_grpAudioFormat.Text" xml:space="preserve">
-    <value>MP3 Konfiguration</value>
-  </data>
-  <data name="m_grpAboutLame.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>BSE.Platten.Common.BaseConfigurationControl, BSE.Platten.Common, Version=1.0.0.14, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="m_chkPrivate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 91</value>
-  </data>
-  <data name="&gt;&gt;m_chkCopyRight.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MP3ConfigurationControl</value>
-  </data>
-  <data name="&gt;&gt;m_grpStereoMode.Name" xml:space="preserve">
-    <value>m_grpStereoMode</value>
-  </data>
-  <data name="m_chkCopyRight.Text" xml:space="preserve">
-    <value>Copyright Bit in MP3 Datei setzen</value>
-  </data>
-  <data name="&gt;&gt;m_grpParameter.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="m_grpStereoMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;m_btnAboutLame.Name" xml:space="preserve">
-    <value>m_btnAboutLame</value>
-  </data>
-  <data name="m_grpAudioFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;m_lblBitRate.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;m_chkCRC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="m_chkCopyRight.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_chkOrigin.Text" xml:space="preserve">
-    <value>Original Bit in MP3 Datei setzen</value>
-  </data>
-  <data name="&gt;&gt;m_rdoJointStereo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;m_grpStereoMode.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="m_lblBitRate.Text" xml:space="preserve">
-    <value>Bit rate:</value>
-  </data>
-  <data name="m_grpAudioFormat.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="m_grpAudioFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>328, 294</value>
-  </data>
-  <data name="&gt;&gt;m_btnAboutLame.Parent" xml:space="preserve">
-    <value>m_grpAboutLame</value>
-  </data>
-  <data name="m_chkOrigin.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;m_grpParameter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="m_chkPrivate.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;m_chkPrivate.ZOrder" xml:space="preserve">
+  <data name="m_lblBitRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;m_grpParameter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BSE.Platten.Common.BaseConfigurationControl, BSE.Platten.Common, Version=1.0.0.16, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="m_grpAboutLame.Text" xml:space="preserve">
+    <value>Lame</value>
+  </data>
+  <data name="m_chkCopyRight.Text" xml:space="preserve">
+    <value>Copyright Bit in MP3 Datei setzen</value>
+  </data>
+  <data name="&gt;&gt;m_chkOrigin.Parent" xml:space="preserve">
+    <value>m_grpParameter</value>
+  </data>
+  <data name="&gt;&gt;m_chkCRC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_grpAboutLame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_chkCRC.Text" xml:space="preserve">
+    <value>CRC Prüfsummen in MP3 Datei schreiben</value>
+  </data>
+  <data name="&gt;&gt;m_grpAudioFormat.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="m_rdoJointStereo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_cboBitRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
   </data>
-  <data name="&gt;&gt;m_cboBitRate.Name" xml:space="preserve">
-    <value>m_cboBitRate</value>
+  <data name="&gt;&gt;m_grpStereoMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_chkCopyRight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 20</value>
+  <data name="&gt;&gt;m_cboBitRate.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="m_chkOrigin.AutoSize" type="System.Boolean, mscorlib">
+  <data name="m_grpStereoMode.Text" xml:space="preserve">
+    <value>Stereo Modus</value>
+  </data>
+  <data name="m_grpParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 125</value>
+  </data>
+  <data name="&gt;&gt;m_rdoJointStereo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_grpAudioFormat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;m_grpAudioFormat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="m_lblBitRate.Text" xml:space="preserve">
+    <value>Bit rate:</value>
+  </data>
+  <data name="m_chkPrivate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_grpAudioFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnAboutLame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="&gt;&gt;m_cboBitRate.Parent" xml:space="preserve">
+    <value>m_grpAudioFormat</value>
+  </data>
+  <data name="m_chkCopyRight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_btnAboutLame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;m_rdoJointStereo.Name" xml:space="preserve">
+    <value>m_rdoJointStereo</value>
+  </data>
+  <data name="m_rdoJointStereo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;m_grpParameter.Name" xml:space="preserve">
     <value>m_grpParameter</value>
+  </data>
+  <data name="m_rdoJointStereo.Text" xml:space="preserve">
+    <value>Joint Stereo</value>
+  </data>
+  <data name="&gt;&gt;m_chkPrivate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_grpParameter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;m_rdoJointStereo.Parent" xml:space="preserve">
+    <value>m_grpStereoMode</value>
+  </data>
+  <data name="&gt;&gt;m_chkOrigin.Name" xml:space="preserve">
+    <value>m_chkOrigin</value>
+  </data>
+  <data name="&gt;&gt;m_cboBitRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_rdo2ChannelStereo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_rdo2ChannelStereo.Text" xml:space="preserve">
+    <value>2 Kanal Stereo</value>
+  </data>
+  <data name="&gt;&gt;m_chkCRC.Parent" xml:space="preserve">
+    <value>m_grpParameter</value>
+  </data>
+  <data name="m_chkCopyRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 17</value>
+  </data>
+  <data name="&gt;&gt;m_chkOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_grpParameter.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="m_chkCRC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 17</value>
+  </data>
+  <data name="m_grpAboutLame.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_grpAboutLame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_grpStereoMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="m_grpAudioFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 294</value>
+  </data>
+  <data name="&gt;&gt;m_btnAboutLame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_rdo2ChannelStereo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_rdoJointStereo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="m_rdoJointStereo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="m_chkCRC.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_rdo2ChannelStereo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_chkCRC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 44</value>
+  </data>
+  <data name="&gt;&gt;m_grpParameter.Parent" xml:space="preserve">
+    <value>m_grpAudioFormat</value>
+  </data>
+  <data name="m_btnAboutLame.Text" xml:space="preserve">
+    <value>Über Lame</value>
+  </data>
+  <data name="m_chkCopyRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="&gt;&gt;m_chkCRC.Name" xml:space="preserve">
+    <value>m_chkCRC</value>
+  </data>
+  <data name="&gt;&gt;m_lblBitRate.Name" xml:space="preserve">
+    <value>m_lblBitRate</value>
+  </data>
+  <data name="m_grpAboutLame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 234</value>
+  </data>
+  <data name="m_grpAudioFormat.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="&gt;&gt;m_chkCopyRight.Name" xml:space="preserve">
+    <value>m_chkCopyRight</value>
+  </data>
+  <data name="m_grpStereoMode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;m_grpParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_btnAboutLame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_rdo2ChannelStereo.Name" xml:space="preserve">
+    <value>m_rdo2ChannelStereo</value>
+  </data>
+  <data name="m_chkCRC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;m_grpAudioFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="m_chkOrigin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;m_btnAboutLame.Name" xml:space="preserve">
+    <value>m_btnAboutLame</value>
+  </data>
+  <data name="m_rdo2ChannelStereo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="m_rdoJointStereo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_chkPrivate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 91</value>
+  </data>
+  <data name="&gt;&gt;m_chkCRC.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_grpStereoMode.Parent" xml:space="preserve">
+    <value>m_grpAudioFormat</value>
+  </data>
+  <data name="&gt;&gt;m_chkOrigin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_chkCopyRight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_btnAboutLame.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_grpStereoMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 50</value>
+  </data>
+  <data name="m_grpAboutLame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 57</value>
+  </data>
+  <data name="m_chkPrivate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 17</value>
+  </data>
+  <data name="m_cboBitRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 18</value>
+  </data>
+  <data name="m_cboBitRate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MP3ConfigurationControl</value>
+  </data>
+  <data name="&gt;&gt;m_grpAboutLame.Name" xml:space="preserve">
+    <value>m_grpAboutLame</value>
+  </data>
+  <data name="m_lblBitRate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_chkPrivate.Name" xml:space="preserve">
+    <value>m_chkPrivate</value>
+  </data>
+  <data name="m_lblBitRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 21</value>
+  </data>
+  <data name="m_grpParameter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;m_chkCopyRight.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="m_grpAboutLame.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -453,34 +402,85 @@
   <data name="m_rdo2ChannelStereo.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 20</value>
   </data>
-  <data name="m_chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 17</value>
+  <data name="&gt;&gt;m_rdo2ChannelStereo.Parent" xml:space="preserve">
+    <value>m_grpStereoMode</value>
   </data>
-  <data name="m_chkCRC.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="m_chkOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 68</value>
+  </data>
+  <data name="m_chkOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;m_rdo2ChannelStereo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;m_grpAboutLame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;m_rdoJointStereo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_grpParameter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <data name="&gt;&gt;m_grpAboutLame.Parent" xml:space="preserve">
+    <value>m_grpAudioFormat</value>
+  </data>
+  <data name="&gt;&gt;m_chkCopyRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_lblBitRate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_chkOrigin.Text" xml:space="preserve">
+    <value>Original Bit in MP3 Datei setzen</value>
+  </data>
+  <data name="&gt;&gt;m_chkCopyRight.Parent" xml:space="preserve">
+    <value>m_grpParameter</value>
   </data>
   <data name="&gt;&gt;m_chkPrivate.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="m_chkCRC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 17</value>
+  <data name="&gt;&gt;m_lblBitRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;m_rdoJointStereo.Name" xml:space="preserve">
-    <value>m_rdoJointStereo</value>
+  <data name="&gt;&gt;m_cboBitRate.Name" xml:space="preserve">
+    <value>m_cboBitRate</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="&gt;&gt;m_lblBitRate.Parent" xml:space="preserve">
+    <value>m_grpAudioFormat</value>
+  </data>
+  <data name="m_grpParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="m_chkOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 17</value>
+  </data>
+  <data name="&gt;&gt;m_chkPrivate.Parent" xml:space="preserve">
+    <value>m_grpParameter</value>
+  </data>
+  <data name="&gt;&gt;m_grpStereoMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_btnAboutLame.Parent" xml:space="preserve">
+    <value>m_grpAboutLame</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 294</value>
+  </data>
+  <data name="&gt;&gt;m_grpStereoMode.Name" xml:space="preserve">
+    <value>m_grpStereoMode</value>
+  </data>
+  <data name="m_grpAudioFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_grpAudioFormat.Text" xml:space="preserve">
+    <value>MP3 Konfiguration</value>
+  </data>
+  <data name="m_chkPrivate.Text" xml:space="preserve">
+    <value>Privat Bit in MP3 Datei setzen</value>
+  </data>
+  <data name="m_lblBitRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>English</value>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
   </metadata>
 </root>

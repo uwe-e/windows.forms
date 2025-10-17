@@ -24,29 +24,32 @@ namespace BSE.Platten.Ripper
         public LameAboutForm()
         {
             InitializeComponent();
-            BeVersion beVersion = new BeVersion();
-            try
-            {
-                LameEncDll.NativeMethods.beVersion(beVersion);
-                this.m_lblDllVersion.Text = string.Format(CultureInfo.InvariantCulture, "{0} {1}.{2}",
-                    this.m_lblDllVersion.Text,
-                    beVersion.byDLLMajorVersion,
-                    beVersion.byDLLMinorVersion);
-                this.m_lblEncodingEngineVersion.Text = string.Format(CultureInfo.InvariantCulture, "{0} {1}.{2}",
-                    this.m_lblEncodingEngineVersion.Text,
-                    beVersion.byMajorVersion,
-                    beVersion.byMinorVersion);
-                DateTime date = new DateTime(beVersion.wYear, beVersion.byMonth, beVersion.byDay);
-                this.m_lblReleaseDate.Text = string.Format(CultureInfo.InvariantCulture,"{0} {1}",
-                    this.m_lblReleaseDate.Text,
-                    date.ToShortDateString());
-                this.m_lnkLameHomepage.Text = beVersion.zHomepage;
-                this.m_lnkLameHomepage.Links[0].LinkData = this.m_lnkLameHomepage.Text;
-            }
-            catch (Exception exception)
-            {
-                GlobalizedMessageBox.Show(this,exception.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            /*
+             * not in use since we changed the lame encoder; 
+             */
+            //BeVersion beVersion = new BeVersion();
+            //try
+            //{
+            //    LameEncDll.NativeMethods.beVersion(beVersion);
+            //    this.m_lblDllVersion.Text = string.Format(CultureInfo.InvariantCulture, "{0} {1}.{ 2}",
+            //        this.m_lblDllVersion.Text,
+            //        beVersion.byDLLMajorVersion,
+            //        beVersion.byDLLMinorVersion);
+            //    this.m_lblEncodingEngineVersion.Text = string.Format(CultureInfo.InvariantCulture, "{0} {1}.{2}",
+            //        this.m_lblEncodingEngineVersion.Text,
+            //        beVersion.byMajorVersion,
+            //        beVersion.byMinorVersion);
+            //    DateTime date = new DateTime(beVersion.wYear, beVersion.byMonth, beVersion.byDay);
+            //    this.m_lblReleaseDate.Text = string.Format(CultureInfo.InvariantCulture,"{0} {1}",
+            //        this.m_lblReleaseDate.Text,
+            //        date.ToShortDateString());
+            //    this.m_lnkLameHomepage.Text = beVersion.zHomepage;
+            //    this.m_lnkLameHomepage.Links[0].LinkData = this.m_lnkLameHomepage.Text;
+            //}
+            //catch (Exception exception)
+            //{
+            //    GlobalizedMessageBox.Show(this,exception.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
         }
         #endregion
 
