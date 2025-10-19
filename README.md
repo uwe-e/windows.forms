@@ -6,5 +6,5 @@ Firstly, the repository was migrated from vss to git, and the .NET version was u
 ### BSEadmin with the ripper
 ![BSEadmin](docs/images/bseadmin.png/)
 
-### BSEtuns Wpf player
+### BSEtunes Wpf player
 ![BSEtunes](docs/images/BSEtunes-for-windows.png/)
